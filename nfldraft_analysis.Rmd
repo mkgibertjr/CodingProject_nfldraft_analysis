@@ -13,6 +13,8 @@ For this first programming assignment I wrote three functions that are meant to 
 
 ```{r parameters}
 
+outputdir <- "Outputs"
+
 ```
 
 ## Install required programs
@@ -69,7 +71,9 @@ all_content <- readLines("draftvaluechart.csv")
 skip_lines <- all_content[-1]
 valuechart <- read.csv(textConnection(skip_lines), header = TRUE, stringsAsFactors = FALSE)
 valuechart <- valuechart %>% select(Pick,"ExAV" = AV)
+```
 
+```{r master, message = FALSE}
 i = 1
 
 mastertable <- data.frame()
@@ -84,36 +88,55 @@ for(i in 1:length(filenames)){
 }
 
 mastertable <- mastertable %>% left_join(valuechart,by="Pick") 
+mastertable[is.na(mastertable)] <- 0
 mastertable <- mastertable %>% mutate(dif = DrAV - ExAV, hit = ifelse(dif>=0,1,0))
 mastertable <- mastertable %>% group_by(Tm,year) %>% mutate(class.dif = sum(dif,na.rm=TRUE)) 
 
 mastertable$Tm <- ifelse(mastertable$Tm == "STL","LAR",ifelse(mastertable$Tm == "SDG","LAC",mastertable$Tm))
 
-teams <- unique(mastertable$Tm)
 
+
+teams <- unique(mastertable$Tm)
+```
+
+```{r summary}
 summarytable <- mastertable %>%
   group_by(Tm) %>%
-  summarise(hits = sum(hit,na.rm=TRUE),picks = length(hit),hit.percentage = hits/picks,totalvalue = sum(dif,na.rm=TRUE),best.pick=Player[[max(dif)]])
+  summarise(hits = sum(hit,na.rm=TRUE),picks = length(hit),hit.percentage = hits/picks,totalvalue = sum(dif,na.rm=TRUE))
+```
+
+```{r bestvalueplayers}
 
 bestvalueplayers <- mastertable %>% 
              group_by(Tm) %>%
              filter(dif == max(dif,na.rm=TRUE)) %>%
              select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
 
+```
+
+```{r bestplayers}
+
 bestplayers <- mastertable %>% 
              group_by(Tm) %>%
              filter(DrAV == max(DrAV,na.rm=TRUE)) %>%
              select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
 
-worstvalueplayers <- mastertable %>% 
+```
+
+```{r biggestbusts}
+
+biggestbusts <- mastertable %>% 
              group_by(Tm) %>%
              filter(year <= 2016) %>%
              filter(dif == min(dif,na.rm=TRUE)) %>%
              select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
+
+```
+
+```{r eaglesplayers}
 
 eaglesplayers <- mastertable %>% 
              filter(Tm == "PHI") %>%
              select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
 
 ```
-
