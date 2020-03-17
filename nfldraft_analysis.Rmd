@@ -139,4 +139,22 @@ eaglesplayers <- mastertable %>%
              filter(Tm == "PHI") %>%
              select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
 
+seahawksplayers <- mastertable %>% 
+             filter(Tm == "SEA") %>%
+             select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
+
+```
+
+```{r}
+
+pickEX <- mastertable %>% group_by(Rnd,Pick) %>%
+  summarize(ExDrAv = median(DrAV,na.rm=TRUE), npicks = length(DrAV))
+
+```
+
+```{r}
+
+bestpositions <- mastertable %>% group_by(Pos) %>%
+  summarize(medianExAV = median(ExAV,na.rm=TRUE), medianDrAV = median(DrAV,na.rm=TRUE), medianDiff = median(dif,na.rm=TRUE),nplayers = length(dif))
+
 ```
