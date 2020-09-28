@@ -67,7 +67,7 @@ if(!dir.exists("draftdata")){unzip("draftdata.zip")}
 
 filenames <- list.files("./draftdata")
 
-all_content <- readLines("draftvaluechart.csv")
+all_content <- readLines("./draftvaluechart.csv")
 skip_lines <- all_content[-1]
 valuechart <- read.csv(textConnection(skip_lines), header = TRUE, stringsAsFactors = FALSE)
 valuechart <- valuechart %>% select(Pick,"ExAV" = AV)
