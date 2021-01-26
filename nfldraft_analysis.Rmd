@@ -23,6 +23,26 @@ tinytex::install_tinytex()
 ## Introduction
 Examining the draft success of NFL teams using Pro Football Reference's Approximate Value statistic. 
 
+https://journals.sagepub.com/doi/full/10.1177/0569434518812678
+
+https://fisherpub.sjfc.edu/cgi/viewcontent.cgi?article=1064&context=sport_undergrad
+
+https://repository.upenn.edu/cgi/viewcontent.cgi?article=1552&context=statistics_papers
+
+https://www.forbes.com/sites/prishe/2015/05/22/tracking-nfl-draft-efficiency-how-contingent-is-success-to-draft-position/?sh=5edcca0f7495
+
+https://www.pff.com/news/nfl-investigating-the-individual-draft-success-of-every-nfl-team
+
+https://digitalcommons.bryant.edu/cgi/viewcontent.cgi?article=1012&context=honors_economics
+
+https://creativematter.skidmore.edu/cgi/viewcontent.cgi?article=1040&context=econ_studt_schol
+
+https://www.providencejournal.com/article/20130924/sports/309249910
+
+http://www.footballperspective.com/draft-value-chart/
+
+http://www.footballperspective.com/creating-a-draft-value-chart-part-ii/
+
 ## Set parameters
 
 This initial section is used to set the dependent variables that are used for this analysis. 
@@ -41,6 +61,13 @@ The following variables can be set:
 
 outputdir <- "Outputs"
 
+currentyear <- 2021
+
+#years <- c(2010,2011)
+years <- c(2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020)
+
+deletespec <- TRUE
+
 ```
 
 ## Setup
@@ -56,14 +83,14 @@ library(htm2txt)
 if (!require("stringr")) install.packages("stringr")
 library("stringr")
 
+if (!require("stringi")) install.packages("stringi")
+library("stringi")
+
 if (!require("splitstackshape")) install.packages("splitstackshape")
 library("splitstackshape")
 
 if (!require("tidyverse")) install.packages("tidyverse")
 library("tidyverse")
-
-if (!require("modelr")) install.packages("modelr")
-library("modelr")
 
 if (!require("ggplot2")) install.packages("ggplot2")
 library("ggplot2")
@@ -77,8 +104,6 @@ library("ggrepel")
 if (!require("ggfortify")) install.packages("ggfortify")
 library("ggfortify")
 
-
-
 ```
 
 ## Setup
@@ -86,19 +111,20 @@ library("ggfortify")
 Create output directory.
 
 ```{r outputs}
+
 if(!dir.exists(outputdir)){
   dir.create(outputdir)
 }
+
 ```
 
 ## Setup
 
 Create output directory.
 
-```{r textscrape, message = FALSE, warning = FALSE}
-currentyear <- 2020
+## Create mastertable
 
-years <- c(2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020)
+```{r textscrape, message = FALSE, warning = FALSE}
 
 mastertable <- data.frame()
 
@@ -106,180 +132,291 @@ i <- 1
 
 for(i in 1:length(years)){
 print(paste("Adding data for ",years[i]," Draft to master table...",sep=""))
-  
-  
+
 url <- paste("https://www.pro-football-reference.com/years/",years[i],"/draft.htm#drafts",sep="")
 
-download.file(url, "./nfldraft.csv", method="curl")
+download.file(url, "nfldraft.csv", method="curl")
 
-text <- gettxt(url)
+draftdata <- as.data.frame(readLines("nfldraft.csv"))
 
-write.csv(text, "./nfldraft.csv")
+#draftdata$Rnd <- sapply(draftdata$`readLines("nfldraft.csv")`,function(x) str_extract(x,'(?<=STRING1).*(?=STRING2)')[1])
 
-text <- as.data.frame(readLines("nfldraft.csv"))
+draftdata$Rnd <- sapply(draftdata$`readLines("nfldraft.csv")`,function(x) str_extract(x,'(?<=data-stat="draft_round" >).*(?=</th><td class=)')[1])
 
-draftdata <- data.frame()
+draftdata$Pick <- sapply(draftdata$`readLines("nfldraft.csv")`,function(x) stri_extract_first_regex(str_extract(x,'(?<=5" >).*(?=</td><td class=)'),"[0-9]+")[1])
 
-h <- 1
+draftdata$Tm <- sapply(draftdata$`readLines("nfldraft.csv")`,function(x) substr(str_extract(x,'(?<=">).*(?=</a></td><td class="left ")'),1,3)[1])
+mastertable$Tm <- ifelse(mastertable$Tm == "STL","LAR",ifelse(mastertable$Tm == "SDG","LAC",ifelse(mastertable$Tm == "OAK","LVR",as.character(mastertable$Tm))))
 
-for(h in 1:length(text$`readLines("nfldraft.txt")`)){
-  #print(h)
-results<-ifelse(
-  is.na(
-    unlist(
-      str_match(
-        text$`readLines("nfldraft.txt")`[h], 
-        "[[:digit:]] [[:digit:]] (.*)"))
-                ),
-  NA,
-  as.character(text$`readLines("nfldraft.txt")`[h]
-              )
-                )
+draftdata$Player <- sapply(draftdata$`readLines("nfldraft.csv")`,function(x) str_extract(str_extract(x,'(?<=.htm">).*(?=</a>)'), "[^<]+")[1])
 
-results <- results[1]
+draftdata$Player2 <- sapply(draftdata$`readLines("nfldraft.csv")`,function(x) (str_extract(str_extract(x,'(?<=\"player\" csk=\").*(?=\" >)'), '[^"]+')[1]))
 
-draftdata <- rbind(draftdata,results)
+draftdata <- draftdata %>% 
+    separate(Player2, c("First", "Last"), remove = F)
+
+draftdata$Player <- ifelse(is.na(draftdata$Player),paste(draftdata$First,draftdata$Last,sep=" "),draftdata$Player)
+
+draftdata$Pos <- sapply(draftdata$`readLines("nfldraft.csv")`,function(x) str_remove_all(str_extract(x,'(?<=data-stat=\"pos\" csk=\").*(?=---)'),"-")[1])
+
+draftdata$year <- years[i]
+
+draftdata$CarAV <- sapply(draftdata$`readLines("nfldraft.csv")`,function(x) substr(str_extract(x,'(?<=data-stat=\"career_av\" >).*(?=</td><td class=)'),1,3)[1])
+                        
+draftdata$CarAV <- as.numeric(gsub("([0-9]+).*$", "\\1", draftdata$CarAV))
+
+draftdata$CarAV[is.na(draftdata$CarAV)] <- 0
+
+draftdata$DrAV <- sapply(draftdata$`readLines("nfldraft.csv")`,function(x) substr(str_extract(x,'(?<=data-stat=\"draft_av\" >).*(?=</td><td class=)'),1,3)[1])
+                        
+draftdata$DrAV <- as.numeric(gsub("([0-9]+).*$", "\\1", draftdata$DrAV))
+
+draftdata$DrAV[is.na(draftdata$DrAV)] <- 0
+
+draftdata_complete <- as.data.frame(draftdata[complete.cases(draftdata),-1])
+
+draftdata_complete <- draftdata_complete %>%
+  select(-First,-Last,-Player2)
+
+mastertable <- rbind(mastertable,draftdata_complete)
 
 }
 
-string_deleter <- c("Jr.|Sr.|III|II|IV|V")
-
-results <- stringr::str_remove(draftdata,string_deleter)
-
-draftdata_complete <- as.data.frame(draftdata[complete.cases(draftdata),])
-
-
-df <- cSplit(draftdata_complete, 1, sep=" ", type.convert=FALSE)
-
-df <- df[,1:13]
-
-colnames(df) <- c("Rnd","Pick","Tm","First","Last","Pos","Age","year","AP1","PB","St","CarAV","DrAV")
-
-df <- df %>%
-  mutate(Player = paste(First,Last)) %>%
-  select(Rnd,Pick,Tm,Player,Pos,Age,year,CarAV,DrAV)
-
-df$year <- as.character(years[i])
-
-df$DrAV <- ifelse(!is.na(as.numeric(df$DrAV)),as.numeric(df$DrAV),0)
-
-df$CarAV <- ifelse(!is.na(as.numeric(df$CarAV)),as.numeric(df$CarAV),0)
-
-
-mastertable <- rbind(mastertable,df)
-}
+mastertable <- mastertable %>%
+  mutate(Pick =ifelse(
+    (Rnd == 1 & Pick == 1),1,ifelse(
+    (Rnd == 2 & Pick == 1),64,ifelse(
+    (Rnd == 3 & Pick == 1),96,ifelse(
+    (Rnd == 4 & Pick == 1),128,ifelse(
+    (Rnd == 5 & Pick == 1),160,ifelse(
+    (Rnd == 6 & Pick == 1),196,ifelse(
+    (Rnd == 7 & Pick == 1),228,Pick
+  ))))))))
 
 write.csv(mastertable,"mastertable.csv")
 
 ```
 
-## Extract data
+## Create recordtable
 
-```{r getdata, message = FALSE, eval = FALSE}
-if(!dir.exists("draftdata")){unzip("draftdata.zip")}
+```{r recordtable}
 
-filenames <- list.files("./draftdata")
+recordtable <- data.frame()
 
-all_content <- readLines("./draftvaluechart.csv")
-skip_lines <- all_content[-1]
-valuechart <- read.csv(textConnection(skip_lines), header = TRUE, stringsAsFactors = FALSE)
-valuechart <- valuechart %>% select(Pick,"ExAV" = AV)
+j <- 2
 
-i = 1
+for(j in 1:length(years)){
+print(paste("Adding data for ",years[j]," to record table...",sep=""))
 
-for(i in 1:length(filenames)){
-  all_content = readLines(paste("./draftdata/",filenames[i],sep=""))
-  draftyear <- substr(filenames[i], 1, 4)
-  skip_lines = all_content[-1]
-  x <- read.csv(textConnection(skip_lines), header = TRUE, stringsAsFactors = FALSE)
-  x <- x %>% mutate(year = draftyear)
-  mastertable <- rbind(mastertable,x)
+  
+recordurl <- paste("https://www.pro-football-reference.com/years/",years[j],"/",sep="")
+  
+download.file(recordurl, "nfcrecord.csv", method="curl")
+
+nfctext <- as.data.frame(readLines("nfcrecord.csv"))
+colnames(nfctext) <- "Text"
+
+##recorddate scraper
+
+recorddata <- data.frame()
+  
+nfctext$Tm <- sapply(nfctext$Text,function(x) substr(str_extract(x,'(?<=<a href="/teams/).*(?=/)'),1,3)[1])
+
+nfctext$Tm <- ifelse((nfctext$Tm == "nyj"),"NYJ",ifelse(
+    (nfctext$Tm == "mia"),"MIA",ifelse(
+    (nfctext$Tm == "nwe"),"NWE",ifelse(
+    (nfctext$Tm == "buf"),"BUF",ifelse(
+    (nfctext$Tm == "pit"),"PIT",ifelse(
+    (nfctext$Tm == "rav"),"BAL",ifelse(
+    (nfctext$Tm == "cle"),"CLE",ifelse(
+    (nfctext$Tm == "cin"),"CIN",ifelse(
+    (nfctext$Tm == "clt"),"IND",ifelse(
+    (nfctext$Tm == "jax"),"JAX",ifelse(
+    (nfctext$Tm == "htx"),"HOU",ifelse(
+    (nfctext$Tm == "oti"),"TEN",ifelse(
+    (nfctext$Tm == "kan"),"KAN",ifelse(
+    (nfctext$Tm == "sdg"),"LAC",ifelse(
+    (nfctext$Tm == "rai"),"LVR",ifelse(
+    (nfctext$Tm == "den"),"DEN",ifelse(
+    (nfctext$Tm == "phi"),"PHI",ifelse(
+    (nfctext$Tm == "nyg"),"NYG",ifelse(
+    (nfctext$Tm == "dal"),"DAL",ifelse(
+    (nfctext$Tm == "was"),"WAS",ifelse(
+    (nfctext$Tm == "chi"),"CHI",ifelse(
+    (nfctext$Tm == "gnb"),"GNB",ifelse(
+    (nfctext$Tm == "det"),"DET",ifelse(
+    (nfctext$Tm == "min"),"MIN",ifelse(
+    (nfctext$Tm == "atl"),"ATL",ifelse(
+    (nfctext$Tm == "nor"),"NOR",ifelse(
+    (nfctext$Tm == "tam"),"TAM",ifelse(
+    (nfctext$Tm == "car"),"CAR",ifelse(
+    (nfctext$Tm == "sea"),"SEA",ifelse(
+    (nfctext$Tm == "ram"),"LAR",ifelse(
+    (nfctext$Tm == "sfo"),"SFO",ifelse(
+    (nfctext$Tm == "crd"),"ARI",ifelse("ERROR")
+    ))))))))))))))))))))))))))))))))
+
+nfctext$year <- years[j]
+  
+nfctext$Wins <- sapply(nfctext$Text,function(x) substr(str_extract(x,'(?<= data-stat="wins" >).*(?=</td><td class="right " )'),1,2)[1])
+nfctext$Wins <- as.numeric(gsub("([0-9]+).*$", "\\1", nfctext$Wins))
+
+nfctext$Losses <- sapply(nfctext$Text,function(x) substr(str_extract(x,'(?<= data-stat="losses" >).*(?=</td><td class="right)'),1,2)[1])
+nfctext$Losses <- as.numeric(gsub("([0-9]+).*$", "\\1", nfctext$Losses))
+
+nfctext$Ties <- sapply(nfctext$Text,function(x) substr(str_extract(x,'(?<=data-stat="ties" >).*(?=</td><td class="right)'),1,2)[1])
+nfctext$Ties <- as.numeric(gsub("([0-9]+).*$", "\\1", nfctext$Ties))
+
+nfctext$PointDif <- sapply(nfctext$Text,function(x) substr(str_extract(x,'(?<=data-stat="points_diff" >).*(?=</td><td class="right)'),1,3)[1])
+nfctext$PointDif <- as.numeric(gsub("([0-9]+).*$", "\\1", nfctext$PointDif))
+
+nfctext$SRS <- sapply(nfctext$Text,function(x) substr(str_extract(x,'(?<=data-stat="srs_total" >).*(?=</td><td class)'),1,3)[1])
+nfctext$SRS <- as.numeric(gsub("([0-9]+).*$", "\\1", nfctext$SRS))
+
+recorddata_complete <- as.data.frame(nfctext[complete.cases(nfctext),-1])
+
+recorddata_complete <- recorddata_complete %>%
+  mutate_all(~replace(., ( is.na(.) | . == ""), 0)) 
+
+recordtable <- rbind(recordtable,recorddata_complete)
+
+recordtable <- unique(recordtable)
+
+}
+
+recordtable <- recordtable %>%
+  select(-year)
+
+#recordtable$Wins <- as.numeric(recordtable$Wins)
+#recordtable$PointDif <- as.numeric(recordtable$PointDif)
+#recordtable$SRS <- as.numeric(recordtable$SRS)
+write.csv(recordtable,"recordtable.csv")
+recordtable <- read.csv("recordtable.csv",header=TRUE,row.names = 1)
+recordtable_sum <- recordtable %>% 
+  unique() %>%
+  group_by(Tm) %>%
+  summarise(TotalWins=sum(Wins,na.rm = TRUE),TotalNetSRS=sum(SRS)/length(years),TotalNetPointDif=sum(PointDif)/length(years))
+
+write.csv(recordtable_sum,"recordtable.csv")
+
+```
+
+# Create some functions
+
+```{r functions}
+
+NFL_calcdif <- function(mastertable, valuechart,recordtable){
+#mastertable <- mt_perm #read.csv("mastertable.csv", header = TRUE)
+#recordtable <- read.csv("recordtable.csv",header = TRUE)
+#valuechart <- valuechart
+mastertable <- mastertable %>% left_join(valuechart,by="Pick")
+mastertable <- mastertable %>% left_join(recordtable,by="Tm")
+
+mastertable <- mastertable %>% 
+  mutate(year_dif = currentyear - year) %>%
+  mutate(ExAV.adj = ifelse(year_dif >= 4,ExAV,ExAV/(4-year_dif))) %>%
+  mutate(dif = DrAV - ExAV.adj, 
+         hit = ifelse(dif>=0,1,0),
+         gotaway.dif = CarAV - DrAV,
+         gotaway = ifelse(DrAV<gotaway.dif,1,0)) 
+mastertable <- mastertable %>% group_by(Tm,year) %>% mutate(class.dif = sum(dif,na.rm=TRUE)) 
+#mt_calc <- mastertable
+mastertable
+}
+
+NFL_summarize_Tm <- function(mastertable = mastertable,valuechart = valuechart) {
+  #mastertable <- mt_calc
+  #mastertable[is.na(mastertable)] <- 0
+  mastertable_sum <- mastertable %>%
+  group_by(Tm) %>%
+  mutate(picks = n(),Netvalue = sum(dif,na.rm=TRUE),TotalNetAVLost = sum(gotaway.dif,na.rm=TRUE),PickEfficiency = (Netvalue-TotalNetAVLost)/picks) %>%
+  select(Tm,TotalWins,TotalNetSRS,TotalNetPointDif,picks,Netvalue,TotalNetAVLost,PickEfficiency) %>%
+  #summarise(hits = sum(hit,na.rm=TRUE),picks = length(hit),hit.percentage = hits/picks,totalvalue = sum(dif,na.rm=TRUE)) %>%
+  ungroup() %>%
+  unique()
+}
+
+NFL_permute <- function(mastertable = mastertable,valuechart = valuechart,recordtable = recordtable,nperms = nperms,seed_number = 20210120){
+
+#mastertable <- read.csv("mastertable.csv", header = TRUE)
+#valuechart <- valuechart
+#nperms <- 100
+#seed_number <- 20210120
+
+set.seed(seed_number)
+  
+mt_sum <- data.frame()
+
+mt_calc <- NFL_calcdif(mastertable,valuechart,recordtable)
+
+realvalue <- NFL_summarize_Tm(mt_calc)
+colnames(realvalue) <- c("Tm","TotalWins","TotalNetSRS","TotalNetPointDif","picks","RealNetValue","RealTotalNetAVLost","RealPickEfficiency")
+  
+real_picks <- mastertable %>%
+  select(Tm,Rnd,Pick,year)
+
+i <- 1
+
+#for(i in 1:10){
+for(i in 1:nperms){
+ 
+print(i)
+perms <- mastertable %>%
+  group_by(Rnd,year) %>%
+  sample_frac(1) %>% 
+  ungroup() %>%
+  group_by(year) %>%
+  mutate(pick = row_number()) %>%
+  select(-Pick) %>%
+  mutate("Pick" = pick) %>%
+  select(-pick,-X)
+
+mt_perm <- real_picks %>% 
+  left_join(perms, by = c("Pick","year")) %>%
+  select(-Tm.y,"Tm"=Tm.x)
+
+mt_bind <- NFL_calcdif(mt_perm,valuechart,recordtable)
+mt_bind <- NFL_summarize_Tm(mt_bind)
+mt_sum <- rbind(mt_sum,mt_bind)
+}
+
+mt_final <- mt_sum %>%
+  left_join(realvalue,by="Tm") %>%
+  mutate(p.dif = as.numeric(RealPickEfficiency) - as.numeric(PickEfficiency)) %>%
+  mutate(p.cases = ifelse(p.dif<0,1,0)) %>%
+  group_by(Tm) %>%
+  mutate("TotalNetDrAV" = round(RealNetValue),p = sum(p.cases)/nperms) %>%
+  #mutate(padj = p.adjust(p,method="fdr")) %>%
+  ungroup() %>%
+  select(Tm,"TotalWins"=TotalWins.y,"NetPointDif"=TotalNetPointDif.y,"NetSRS"=TotalNetSRS.y,"picks"=picks.y,TotalNetDrAV,"TotalNetAVLost" = RealTotalNetAVLost,"PickEfficiency"=RealPickEfficiency,p) %>%
+  unique() 
+
 }
 
 ```
-
-# Generate master table
-
-```{r master, message = FALSE}
-
-all_content <- readLines("./draftvaluechart.csv")
-skip_lines <- all_content[-1]
-valuechart <- read.csv(textConnection(skip_lines), header = TRUE, stringsAsFactors = FALSE)
-valuechart <- valuechart %>% select(Pick,"ExAV" = AV)
-
-
-mastertable <- read.csv("mastertable.csv", header = TRUE)
-
-mastertable <- mastertable %>% left_join(valuechart,by="Pick") 
-mastertable[is.na(mastertable)] <- 0
-mastertable <- mastertable %>% 
-  mutate(year_dif = currentyear - year) %>%
-  mutate(ExAV.adj = ifelse(year_dif >= 5,ExAV,ExAV/(5-year_dif))) %>%
-  mutate(dif = DrAV - ExAV.adj, 
-         hit = ifelse(dif>=0,1,0),
-         gotaway.dif =  - DrAV,
-         gotaway = ifelse(DrAV<gotaway.dif,1,0)) 
-mastertable <- mastertable %>% group_by(Tm,year) %>% mutate(class.dif = sum(dif,na.rm=TRUE)) 
-
-mastertable$Tm <- ifelse(mastertable$Tm == "STL","LAR",ifelse(mastertable$Tm == "SDG","LAC",ifelse(mastertable$Tm == "OAK","LVR",as.character(mastertable$Tm))))
-
-
-
-teams <- unique(mastertable$Tm)
-
-```
-
 
 ```{r summary}
 
-nperms <- 10000
+all_content <- readLines("./draftvaluechart.csv")
+skip_lines <- all_content[-1]
+valuechart <- read.csv(textConnection(skip_lines), header = TRUE, stringsAsFactors = FALSE)
+valuechart <- valuechart %>% select(Pick,"ExAV" = AV)
 
-set.seed(20210120)
+mastertable <- read.csv("mastertable.csv", header = TRUE)
 
-grouped_mastertable <- mastertable %>%
-  group_by(Rnd,year)
+recordtable <- read.csv("recordtable.csv",header = TRUE)
 
-perms <- permute(grouped_mastertable,n=nperms,Player)
+teams <- unique(mastertable$Tm)
 
-x <- mastertable %>%
-  select("Tm.X" = Tm ,"Rnd.X" = Rnd,"Pick.X" = Pick,"Year.X" = year) 
+summarytable <- NFL_summarize_Tm(mt_calc)
 
-summarize_NFL <- function(x,mastertable) {
-#tester <- Teams %>%
-  x %>%
-  inner_join(mastertable, by = c("Rnd.X" = "Rnd","Pick.X"="Pick","Year.X"="year")) %>%
-  group_by(Tm) %>%
-  summarise(hits = sum(hit,na.rm=TRUE),picks = length(hit),hit.percentage = hits/picks,totalvalue = sum(dif,na.rm=TRUE)) %>%
-  ungroup() 
-}
-
-summarytable <- summarize_NFL(x,mastertable)
-
-totalvalue_perm <- perms$perm %>%
-  map(~as.tibble(.)) %>%
-  map(~summarize_NFL(x = x,mastertable = .))
-
-combined <- totalvalue_perm %>% 
-  bind_rows() %>%
-  group_by(Tm) %>%
-  summarize(nulldist=list(c(totalvalue))) %>%
-  ungroup()
-
-combined_NFL <- combined %>%
-  inner_join(summarytable,by = "Tm")
-
-combined_NFL <- combined_NFL %>%
-  rowwise() %>%
-  mutate(p = sum(totalvalue < as.vector(nulldist))/ nperms) %>%
-  ungroup() %>%
-  mutate(padj = p.adjust(p,method="fdr"))
-
+summarytable <- NFL_permute(mastertable,valuechart,recordtable = recordtable,nperms = 10000)
 
 ```
 
 ```{r bestvalueplayers}
 
-bestvalueplayers <- mastertable %>% 
+bestvalueplayers <- mt_calc %>% 
              group_by(Tm) %>%
              filter(dif == max(dif,na.rm=TRUE)) %>%
              select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
@@ -288,7 +425,7 @@ bestvalueplayers <- mastertable %>%
 
 ```{r bestplayers}
 
-bestplayers <- mastertable %>% 
+bestplayers <- mt_calc %>% 
              group_by(Tm) %>%
              filter(DrAV == max(DrAV,na.rm=TRUE)) %>%
              select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
@@ -297,7 +434,7 @@ bestplayers <- mastertable %>%
 
 ```{r biggestbusts}
 
-biggestbusts <- mastertable %>% 
+biggestbusts <- mt_calc %>% 
              group_by(Tm) %>%
              filter(year <= 2016) %>%
              filter(dif == min(dif,na.rm=TRUE)) %>%
@@ -307,11 +444,11 @@ biggestbusts <- mastertable %>%
 
 ```{r eaglesplayers}
 
-eaglesplayers <- mastertable %>% 
+eaglesplayers <- mt_calc %>% 
              filter(Tm == "PHI") %>%
              select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
 
-seahawksplayers <- mastertable %>% 
+seahawksplayers <- mt_calc %>% 
              filter(Tm == "SEA") %>%
              select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
 
@@ -319,58 +456,67 @@ seahawksplayers <- mastertable %>%
 
 ```{r}
 
-pickEX <- mastertable %>% group_by(Rnd,Pick) %>%
-  summarize(ExDrAv = median(DrAV,na.rm=TRUE), npicks = length(DrAV))
+TheOneThatGotAway <- mt_calc %>% 
+  group_by(Tm) %>%
+  mutate(TotalNetAVLost = sum(gotaway.dif)) %>%
+  filter(gotaway.dif == max(gotaway.dif)) %>%
+  select(Tm,Player,Pos,year,CarAV,DrAV,"NetAVLost" = gotaway.dif,TotalNetAVLost)
 
 ```
 
 ```{r}
 
-bestpositions <- mastertable %>% group_by(Pos) %>%
+bestpositions <- mt_calc %>% group_by(Pos) %>%
   summarize(medianExAV = median(ExAV,na.rm=TRUE), medianDrAV = median(DrAV,na.rm=TRUE), medianDiff = median(dif,na.rm=TRUE),nplayers = length(dif))
 
 ```
 
 ```{r safestposition}
 
-safestpicksRnd1 <- mastertable %>% 
+safestpicksRnd1 <- mt_calc %>% 
              filter(Rnd == 1) %>%
              group_by(Pos) %>%
   summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
 
-safestpicksRnd2 <- mastertable %>% 
+safestpicksRnd2 <- mt_calc %>% 
              filter(Rnd == 2) %>%
              group_by(Pos) %>%
   summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
 
-safestpicksRnd3 <- mastertable %>% 
+safestpicksRnd3 <- mt_calc %>% 
              filter(Rnd == 3) %>%
              group_by(Pos) %>%
   summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
 
-safestpicksRnd4 <- mastertable %>% 
+safestpicksRnd4 <- mt_calc %>% 
              filter(Rnd == 4) %>%
              group_by(Pos) %>%
   summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
 
-safestpicksRnd5 <- mastertable %>% 
+safestpicksRnd5 <- mt_calc %>% 
              filter(Rnd == 5) %>%
              group_by(Pos) %>%
   summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
 
-safestpicksRnd6 <- mastertable %>% 
+safestpicksRnd6 <- mt_calc %>% 
              filter(Rnd == 6) %>%
              group_by(Pos) %>%
   summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
 
-safestpicksRnd7 <- mastertable %>% 
+safestpicksRnd7 <- mt_calc %>% 
              filter(Rnd == 7) %>%
              group_by(Pos) %>%
   summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
 
-safestpicksall <- mastertable %>% 
+safestpicksall <- mt_calc %>% 
              group_by(Pos) %>%
   summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
+
+```
+
+```{r}
+
+if(deletespec == TRUE){unlink(c("nfldraft.csv","nfcrecord.csv","mastertable.csv","recordtable.csv"),recursive = TRUE)}
 
 ```
 
