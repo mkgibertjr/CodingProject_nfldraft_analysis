@@ -23,6 +23,8 @@ tinytex::install_tinytex()
 ## Introduction
 Examining the draft success of NFL teams using Pro Football Reference's Approximate Value statistic. 
 
+Moved to Google Drive.
+
 https://journals.sagepub.com/doi/full/10.1177/0569434518812678
 
 https://fisherpub.sjfc.edu/cgi/viewcontent.cgi?article=1064&context=sport_undergrad
