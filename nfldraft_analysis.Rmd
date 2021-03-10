@@ -68,7 +68,7 @@ currentyear <- 2021
 #years <- c(2010,2011)
 years <- c(2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020)
 
-deletespec <- TRUE
+deletespec <- FALSE
 
 ```
 
@@ -96,6 +96,9 @@ library("tidyverse")
 
 if (!require("ggplot2")) install.packages("ggplot2")
 library("ggplot2")
+
+if (!require("ggimage")) install.packages("ggimage")
+library("ggimage")
 
 if (!require("ggforce")) install.packages("ggforce")
 library("ggforce")
@@ -328,20 +331,23 @@ mastertable
 
 NFL_summarize_Tm <- function(mastertable = mastertable,valuechart = valuechart) {
   #mastertable <- mt_calc
-  #mastertable[is.na(mastertable)] <- 0
+  mastertable[is.na(mastertable)] <- 0
   mastertable_sum <- mastertable %>%
   group_by(Tm) %>%
   mutate(picks = n(),Netvalue = sum(dif,na.rm=TRUE),TotalNetAVLost = sum(gotaway.dif,na.rm=TRUE),PickEfficiency = (Netvalue-TotalNetAVLost)/picks) %>%
   select(Tm,TotalWins,TotalNetSRS,TotalNetPointDif,picks,Netvalue,TotalNetAVLost,PickEfficiency) %>%
   #summarise(hits = sum(hit,na.rm=TRUE),picks = length(hit),hit.percentage = hits/picks,totalvalue = sum(dif,na.rm=TRUE)) %>%
+  mutate(image = paste(Tm,".png",sep="")) %>%
   ungroup() %>%
   unique()
+  
 }
 
 NFL_permute <- function(mastertable = mastertable,valuechart = valuechart,recordtable = recordtable,nperms = nperms,seed_number = 20210120){
 
 #mastertable <- read.csv("mastertable.csv", header = TRUE)
 #valuechart <- valuechart
+#recordtable <- recordtable
 #nperms <- 100
 #seed_number <- 20210120
 
@@ -352,7 +358,7 @@ mt_sum <- data.frame()
 mt_calc <- NFL_calcdif(mastertable,valuechart,recordtable)
 
 realvalue <- NFL_summarize_Tm(mt_calc)
-colnames(realvalue) <- c("Tm","TotalWins","TotalNetSRS","TotalNetPointDif","picks","RealNetValue","RealTotalNetAVLost","RealPickEfficiency")
+colnames(realvalue) <- c("Tm","TotalWins","TotalNetSRS","TotalNetPointDif","picks","RealNetValue","RealTotalNetAVLost","RealPickEfficiency","image")
   
 real_picks <- mastertable %>%
   select(Tm,Rnd,Pick,year)
@@ -390,7 +396,7 @@ mt_final <- mt_sum %>%
   mutate("TotalNetDrAV" = round(RealNetValue),p = sum(p.cases)/nperms) %>%
   #mutate(padj = p.adjust(p,method="fdr")) %>%
   ungroup() %>%
-  select(Tm,"TotalWins"=TotalWins.y,"NetPointDif"=TotalNetPointDif.y,"NetSRS"=TotalNetSRS.y,"picks"=picks.y,TotalNetDrAV,"TotalNetAVLost" = RealTotalNetAVLost,"PickEfficiency"=RealPickEfficiency,p) %>%
+  select(Tm,"TotalWins"=TotalWins.y,"NetPointDif"=TotalNetPointDif.y,"NetSRS"=TotalNetSRS.y,"picks"=picks.y,TotalNetDrAV,"TotalNetAVLost" = RealTotalNetAVLost,"PickEfficiency"=RealPickEfficiency,p,"image"=image.x) %>%
   unique() 
 
 }
@@ -398,6 +404,8 @@ mt_final <- mt_sum %>%
 ```
 
 ```{r summary}
+
+teamcolors <- read.csv("teamcolors.csv",header=TRUE)
 
 all_content <- readLines("./draftvaluechart.csv")
 skip_lines <- all_content[-1]
@@ -408,20 +416,94 @@ mastertable <- read.csv("mastertable.csv", header = TRUE)
 
 recordtable <- read.csv("recordtable.csv",header = TRUE)
 
+mt_calc <- NFL_calcdif(mastertable,valuechart,recordtable)
+
 teams <- unique(mastertable$Tm)
 
-summarytable <- NFL_summarize_Tm(mt_calc)
+#summarytable <- NFL_summarize_Tm(mt_calc)
 
 summarytable <- NFL_permute(mastertable,valuechart,recordtable = recordtable,nperms = 10000)
 
+summarytable <- summarytable %>%
+  mutate(image = paste("Images/",Tm,".png",sep="")) %>%
+  left_join(teamcolors,by="Tm")
+
 ```
+
+```{r summaryfigures}
+
+### Volcano plot
+
+volcanoplot <- function (summarytable,
+                         title = "Pick Efficiency is positively correlated with winning", 
+                         output = "nfl_volcanoplot.png",
+                         height = 5, 
+                         width = 5, 
+                         dpi = 300){
+
+  ## plot
+p <- ggplot(summarytable,aes(x=PickEfficiency, y=TotalWins)) + annotate(geom="text",x=3, y=10, label=paste("r = ",round(cor(summarytable$PickEfficiency,summarytable$TotalWins,method="spearman"),3),sep=""), color="black") + 
+  geom_vline(xintercept=mean(summarytable$PickEfficiency), size=0.75, linetype="dashed", color="black") +
+  geom_hline(yintercept=mean(summarytable$TotalWins), size=0.75, linetype="dashed", color="black") +
+geom_image(aes(image=image), size=.075) + ggtitle(title) + xlab("Pick Efficiency") + ylab("Total Wins") + theme(plot.title = element_text(size = rel(0.9), hjust = 0.5, face="bold",margin = margin(t = 10, r = 5, b = 10, l = 10)),
+              axis.title = element_text(size = rel(0.9), face="bold",margin = margin(t = 10, r = 5, b = 10, l = 10)),
+panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+panel.background = element_blank(), axis.line = element_line(colour = "black"))  
+ggsave(output, width = width, height = height, dpi = dpi) 
+}
+
+volcanoplot(summarytable)
+
+volcanoplot2 <- function (summarytable,
+                         title = "Total Net Draft Approximate Value is positively correlated with winning", 
+                         output = "nfl_volcanoplot2.png",
+                         height = 5, 
+                         width = 5, 
+                         dpi = 300){
+
+  ## plot
+p <- ggplot(summarytable,aes(x=TotalNetDrAV, y=TotalWins)) + annotate(geom="text",x=500, y=15, label=paste("r = ",round(cor(summarytable$TotalNetDrAV,summarytable$TotalWins,method="spearman"),3),sep=""), color="black") + 
+  geom_vline(xintercept=mean(summarytable$TotalNetDrAV), size=0.75, linetype="dashed", color="black") +
+  geom_hline(yintercept=mean(summarytable$TotalWins), size=0.75, linetype="dashed", color="black") +
+geom_image(aes(image=image), size=.075) + ggtitle(title) + xlab("Total Net DrAV") + ylab("Total Wins") + theme(plot.title = element_text(size = rel(0.9), hjust = 0.5, face="bold",margin = margin(t = 10, r = 5, b = 10, l = 10)),
+              axis.title = element_text(size = rel(0.9), face="bold",margin = margin(t = 10, r = 5, b = 10, l = 10)),
+panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+panel.background = element_blank(), axis.line = element_line(colour = "black"))  
+ggsave(output, width = width, height = height, dpi = dpi) 
+}
+
+volcanoplot2(summarytable)
+
+volcanoplot3 <- function (summarytable,
+                         title = "Lost Approximate Value is poorly negatively correlated with winning", 
+                         output = "nfl_volcanoplot3.png",
+                         height = 5, 
+                         width = 5, 
+                         dpi = 300){
+
+  ## plot
+p <- ggplot(summarytable,aes(x=-TotalNetAVLost, y=TotalWins)) + annotate(geom="text",x=-50, y=15, label=paste("r = ",-round(cor(summarytable$TotalNetAVLost,summarytable$TotalWins,method="spearman"),3),sep=""), color="black") + 
+  geom_vline(xintercept=-mean(summarytable$TotalNetAVLost), size=0.75, linetype="dashed", color="black") +
+  geom_hline(yintercept=mean(summarytable$TotalWins), size=0.75, linetype="dashed", color="black") +
+geom_image(aes(image=image), size=.075) + ggtitle(title) + xlab("Lost AV") + ylab("Total Wins") + theme(plot.title = element_text(size = rel(0.9), hjust = 0.5, face="bold",margin = margin(t = 10, r = 5, b = 10, l = 10)),
+              axis.title = element_text(size = rel(0.9), face="bold",margin = margin(t = 10, r = 5, b = 10, l = 10)),
+panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+panel.background = element_blank(), axis.line = element_line(colour = "black")) 
+ggsave(output, width = width, height = height, dpi = dpi) 
+}
+
+volcanoplot3(summarytable)
+
+```
+
 
 ```{r bestvalueplayers}
 
 bestvalueplayers <- mt_calc %>% 
              group_by(Tm) %>%
              filter(dif == max(dif,na.rm=TRUE)) %>%
-             select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
+             select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif) %>%
+             mutate(image = paste(Tm,".png",sep=""))
 
 ```
 
@@ -430,7 +512,29 @@ bestvalueplayers <- mt_calc %>%
 bestplayers <- mt_calc %>% 
              group_by(Tm) %>%
              filter(DrAV == max(DrAV,na.rm=TRUE)) %>%
-             select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
+             filter(Rnd == max(Rnd,na.rm=TRUE)) %>%
+             select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif) %>%
+             mutate(image = paste(Tm,".png",sep="")) %>%
+             left_join(teamcolors,by="Tm")
+
+MyColour <- as.character(bestplayers$Code)
+names(MyColour) <- as.character(bestplayers$Tm)
+
+TextColour <- as.character(bestplayers$Text)
+names(TextColour) <- as.character(bestplayers$Tm)
+
+p <- ggplot(bestplayers,aes(x=reorder(Tm,DrAV), y=DrAV,fill=reorder(Tm,DrAV)))  +
+geom_bar(stat="identity",width=0.9,position = position_dodge(width=5))  + scale_fill_manual(values = MyColour) + ggtitle("Best players drafted by each team") +
+xlab("Team") + ylab("Approximate Value for Drafting Team (DrAV)") + labs(fill = "Team") + theme(plot.title = element_text(size = rel(0.9), hjust = 0.5, face="bold",margin = margin(t = 10, r = 5, b = 10, l = 10)),
+              axis.title = element_text(size = rel(0.9), face="bold",margin = margin(t = 10, r = 5, b = 10, l = 10)),
+              axis.text.x = element_text(angle = 90, vjust=0.5, hjust=1),
+panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_text(aes(label=Player,vjust=0.3),
+    position=position_stack(vjust=0.5), color=TextColour,angle = 90,size=rel(3))
+
+ggsave("bestplayers.png",p, width = 10, height = 5, dpi = 300) 
+
+p
 
 ```
 
@@ -440,19 +544,72 @@ biggestbusts <- mt_calc %>%
              group_by(Tm) %>%
              filter(year <= 2016) %>%
              filter(dif == min(dif,na.rm=TRUE)) %>%
-             select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
+             select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif) %>%
+             mutate(image = paste(Tm,".png",sep="")) %>%
+             left_join(teamcolors,by="Tm")
+
+MyColour <- as.character(biggestbusts$Code)
+names(MyColour) <- as.character(biggestbusts$Tm)
+
+TextColour <- as.character(biggestbusts$Text)
+names(TextColour) <- as.character(biggestbusts$Tm)
+
+p <- ggplot(biggestbusts,aes(x=reorder(Tm,dif), y=dif,fill=reorder(Tm,dif)))  +
+geom_bar(stat="identity",width=0.9,position = position_dodge(width=5))  + scale_fill_manual(values = MyColour) + ggtitle("Biggest Bust drafted by each team") +
+xlab("Team") + ylab("DrAV Minus Expected Approximate Value (ExAV)") + labs(fill = "Team") + theme(plot.title = element_text(size = rel(0.9), hjust = 0.5, face="bold",margin = margin(t = 10, r = 5, b = 10, l = 10)),
+              axis.title = element_text(size = rel(0.9), face="bold",margin = margin(t = 10, r = 5, b = 10, l = 10)),
+              axis.text.x = element_text(angle = 90, vjust=0.5, hjust=1),
+panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_text(aes(label=Player,vjust=0.3),
+    position=position_stack(vjust=0.5), color=TextColour,angle = 90,size=rel(3))
+
+ggsave("biggestbusts.png",p, width = 10, height = 5, dpi = 300) 
+
+p
 
 ```
 
 ```{r eaglesplayers}
 
-eaglesplayers <- mt_calc %>% 
-             filter(Tm == "PHI") %>%
-             select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
+if (!file.exists("TeamResults")){
+    dir.create("TeamResults")
+}else{}
 
-seahawksplayers <- mt_calc %>% 
-             filter(Tm == "SEA") %>%
-             select(year,Rnd,Pick,Tm,Player,Pos,ExAV,DrAV,dif)
+i = 1
+
+for(i in 1:length(recordtable$Tm)){
+  
+Team <- as.character(recordtable$Tm[i])
+
+teamplayers <- mt_calc %>% 
+             filter(Tm == Team) %>%
+             write_csv(paste("TeamResults/",Team,"draftresults.csv",sep="_")) %>%
+             left_join(teamcolors,by="Tm")
+
+teamplayers[is.na(teamplayers)] <- 0
+  teamplayers_sum <- teamplayers %>%
+  select(Tm,year,class.dif,Code,Text) %>%
+  unique()
+  
+MyColour <- as.character(teamplayers_sum$Code[1])
+names(MyColour) <- as.character(teamplayers_sum$Tm[1])
+
+TextColour <- as.character(teamplayers_sum$Text[1])
+names(TextColour) <- as.character(teamplayers_sum$Tm[1])
+
+p <- ggplot(teamplayers_sum,aes(x=as.character(year), y=class.dif,fill=Tm))  +
+geom_bar(stat="identity",width=0.9,position = position_dodge(width=5))  + scale_fill_manual(values = MyColour) + ggtitle(paste(Team," Draft Performance by Net DrAV",sep="")) +
+xlab("Year") + ylab("Approximate Value for Drafting Team (DrAV)") + labs(fill = "Team") + theme(plot.title = element_text(size = rel(0.9), hjust = 0.5, face="bold",margin = margin(t = 10, r = 5, b = 10, l = 10)),
+              legend.title = element_blank(),
+              legend.position = "none",
+              axis.title = element_text(size = rel(0.9), face="bold",margin = margin(t = 10, r = 5, b = 10, l = 10)),
+              axis.text.x = element_text(angle = 90, vjust=0.5, hjust=1),
+panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+panel.background = element_blank(), axis.line = element_line(colour = "black")) 
+
+ggsave(paste("TeamResults/",Team,"_draftresults.png",sep=""),p, width = 5, height = 5, dpi = 300) 
+
+}
 
 ```
 
@@ -462,14 +619,36 @@ TheOneThatGotAway <- mt_calc %>%
   group_by(Tm) %>%
   mutate(TotalNetAVLost = sum(gotaway.dif)) %>%
   filter(gotaway.dif == max(gotaway.dif)) %>%
-  select(Tm,Player,Pos,year,CarAV,DrAV,"NetAVLost" = gotaway.dif,TotalNetAVLost)
+  select(Tm,Player,Pos,year,CarAV,DrAV,"NetAVLost" = gotaway.dif,TotalNetAVLost) %>%
+  mutate(image = paste(Tm,".png",sep="")) %>%
+  left_join(teamcolors,by="Tm")
+
+MyColour <- as.character(TheOneThatGotAway$Code)
+names(MyColour) <- as.character(TheOneThatGotAway$Tm)
+
+TextColour <- as.character(TheOneThatGotAway$Text)
+names(TextColour) <- as.character(TheOneThatGotAway$Tm)
+
+p <- ggplot(TheOneThatGotAway,aes(x=reorder(Tm,NetAVLost), y=NetAVLost,fill=reorder(Tm,NetAVLost)))  +
+geom_bar(stat="identity",width=0.9,position = position_dodge(width=5))  + scale_fill_manual(values = MyColour) + ggtitle("The One That Got Away") +
+xlab("Team") + ylab("Net AV Lost to Other Team(s)") + labs(fill = "Team") + theme(plot.title = element_text(size = rel(0.9), hjust = 0.5, face="bold",margin = margin(t = 10, r = 5, b = 10, l = 10)),
+              axis.title = element_text(size = rel(0.9), face="bold",margin = margin(t = 10, r = 5, b = 10, l = 10)),
+              axis.text.x = element_text(angle = 90, vjust=0.5, hjust=1),
+panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+panel.background = element_blank(), axis.line = element_line(colour = "black")) + geom_text(aes(label=Player,vjust=0.3),
+    position=position_stack(vjust=0.5), color=TextColour,angle = 90,size=rel(3))
+
+ggsave("TheOneThatGotAway.png",p, width = 10, height = 5, dpi = 300) 
+
+p
 
 ```
 
 ```{r}
 
 bestpositions <- mt_calc %>% group_by(Pos) %>%
-  summarize(medianExAV = median(ExAV,na.rm=TRUE), medianDrAV = median(DrAV,na.rm=TRUE), medianDiff = median(dif,na.rm=TRUE),nplayers = length(dif))
+             summarize(medianExAV = median(ExAV,na.rm=TRUE), medianDrAV = median(DrAV,na.rm=TRUE), medianDiff = median(dif,na.rm=TRUE),nplayers = length(dif)) %>%
+             mutate(image = paste(Tm,".png",sep=""))
 
 ```
 
@@ -478,41 +657,49 @@ bestpositions <- mt_calc %>% group_by(Pos) %>%
 safestpicksRnd1 <- mt_calc %>% 
              filter(Rnd == 1) %>%
              group_by(Pos) %>%
-  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
+  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n()) %>%
+             arrange(desc(averagevalue))
 
 safestpicksRnd2 <- mt_calc %>% 
              filter(Rnd == 2) %>%
              group_by(Pos) %>%
-  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
+  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n()) %>%
+             arrange(desc(averagevalue))
 
 safestpicksRnd3 <- mt_calc %>% 
              filter(Rnd == 3) %>%
              group_by(Pos) %>%
-  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
+  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n()) %>%
+             arrange(desc(averagevalue))
 
 safestpicksRnd4 <- mt_calc %>% 
              filter(Rnd == 4) %>%
              group_by(Pos) %>%
-  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
+  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n()) %>%
+             arrange(desc(averagevalue))
 
 safestpicksRnd5 <- mt_calc %>% 
              filter(Rnd == 5) %>%
              group_by(Pos) %>%
-  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
+  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n()) %>%
+             arrange(desc(averagevalue))
 
 safestpicksRnd6 <- mt_calc %>% 
              filter(Rnd == 6) %>%
              group_by(Pos) %>%
-  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
+  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n()) %>%
+             arrange(desc(averagevalue))
 
 safestpicksRnd7 <- mt_calc %>% 
              filter(Rnd == 7) %>%
              group_by(Pos) %>%
-  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
+  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n()) %>%
+             arrange(desc(averagevalue))
 
 safestpicksall <- mt_calc %>% 
              group_by(Pos) %>%
-  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n())
+  summarise(totalvalue = sum(dif,na.rm=TRUE), npicks = n(), averagevalue = sum(dif,na.rm=TRUE)/n()) %>%
+             arrange(desc(averagevalue))
 
 ```
 
