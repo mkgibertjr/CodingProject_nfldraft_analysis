@@ -19,11 +19,23 @@ tinytex::install_tinytex()
 }
 ```
 
+## Next Steps
+
+Group by Position
+Sum AV / Sum Players = AV/Player
+Median = ExpAV
+Does a surplus or deficit of AV at any positional group correlate with winning?
+How much is typically spent at each position?  How much of the salary cap over the course of the decade goes to each group?
+Who is a bargain?  Who is being overpaid? (Quantiles?)
 
 ## Introduction
 Examining the draft success of NFL teams using Pro Football Reference's Approximate Value statistic. 
 
 Moved to Google Drive.
+
+https://www.rdocumentation.org/packages/nflscrapR/versions/1.4.0
+
+https://www.r-bloggers.com/2017/10/nfl-series/ 
 
 https://journals.sagepub.com/doi/full/10.1177/0569434518812678
 
@@ -45,42 +57,43 @@ http://www.footballperspective.com/draft-value-chart/
 
 http://www.footballperspective.com/creating-a-draft-value-chart-part-ii/
 
+https://stmorse.github.io/PFR-scrape.html
+
 ## Set parameters
 
 This initial section is used to set the dependent variables that are used for this analysis. 
 
 THIS IS THE ONLY SECTION THAT SHOULD BE MODIFIED BY END USERS. 
 
-The following variables can be set:
-
-* outputdir is a character variable containing the "output directory", or the location where all output files will go. This can be any characters enclosed in quotations marks (ex. "Outputs"). Set to "Outputs" to use the default outputs folder
-* ago1, ago2, and ago3 are logical variable that should only be set to TRUE or FALSE. This determines which of the PAR-CLiP data files for each argonaute protein will be used. Set each to TRUE to include all PAR-CLiP data. 
-* tcga.fdr is a numerical variable that is used as a p-value cutoff for the fold change (as determined via DESeq2). A typical value is 0.05 or 0.01. This means that only fold changes with an multiple hypothesis adjusted p-value that is less that or equal to this variable will be included in the analysis.  Set to 1 to include all genes.
-* cox.cutoff, like tcga.fdr, is a numerical variable that is used as a cutoff for the cox survival coefficient.  Any values that are >= the cutoff will be included in the analysis.  The default is a cox coefficient of 0.3. A number closer to zero is considered more weakly correlated and a number closer to 1 is considered more strongly correlated.
-* deleteoutputs is a logical vector that should only be set to TURE or FALSE.  When set to true, the output directory will be repopulated after every program run.  If set to false, the program will only run if the output directory does not already exist in the working directory, to prevent the data from being overwritten.
-
-```{r parameters}
-
-outputdir <- "Outputs"
-
-currentyear <- 2021
-
-#years <- c(2010,2011)
-years <- c(2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020)
-
-deletespec <- FALSE
-
-```
-
 ## Setup
 
 This initializes all programs that will be used for the analysis.  This program will also auto-install any required packages that are not already installed. Lastly, this section outlines the parameters for knitr files. Most of the analysis is performed using the Tidyverse family of packages.  More information can be found at [tidyverse.org/packages](tidyverse.org/packages).  The readxl and xlsx packages are used for reading and writing .xlsx Excel workbooks, respectively.  
 
+The following variables can be set:
+
 ```{r setup, message = FALSE, warning = FALSE}
+
+outputdir <- "Outputs"
+
+startyear <- 2010
+endyear <- 2021
+
+currentyear <- 2022
+
+#years <- c(2010,2011)
+#years <- c(2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020)
+
+deletespec <- FALSE
+
+###### SETUP ######
+
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 
 if (!require("htm2txt")) install.packages("htm2txt")
 library(htm2txt)
+
+if (!require("XML")) install.packages("XML")
+library(XML)
 
 if (!require("stringr")) install.packages("stringr")
 library("stringr")
@@ -93,6 +106,9 @@ library("splitstackshape")
 
 if (!require("tidyverse")) install.packages("tidyverse")
 library("tidyverse")
+
+if (!require("fuzzyjoin")) install.packages("fuzzyjoin")
+library("fuzzyjoin")
 
 if (!require("ggplot2")) install.packages("ggplot2")
 library("ggplot2")
@@ -109,6 +125,12 @@ library("ggrepel")
 if (!require("ggfortify")) install.packages("ggfortify")
 library("ggfortify")
 
+if (!require("htmltab")) install.packages("htmltab")
+library("htmltab")
+
+if (!require("rvest")) install.packages("rvest")
+library("rvest")
+
 ```
 
 ## Setup
@@ -123,15 +145,184 @@ if(!dir.exists(outputdir)){
 
 ```
 
-## Setup
+## PFR Scrape Function
 
 Create output directory.
 
-## Create mastertable
+```{r scrapeData_roster}
 
-```{r textscrape, message = FALSE, warning = FALSE}
+scrapeData_roster <- function(urlprefix, urlend, startyr, endyr) {
+  teamlookups <- read.csv("teamlookups.csv",header = TRUE)
+  positionlookups <- read.csv("positionlookups.csv",header = TRUE)
+  master <- data.frame()
+  
+  teams <- c("nyj","mia","nwe","buf","pit","rav","cle","cin","clt","jax","htx","oti","kan","sdg","rai","den","phi","nyg","dal","was","chi","gnb","det","min","atl","nor","tam","car","sea","ram","sfo","crd")
+  
+  i <- 1
+  
+  for (i in 1:length(teams)) {
+  
+  team <- as.character(teams[i])  
+  
+  cat(team)
+    
+  h <- 1
+  
+  years <- seq(startyear,endyear)
+  
+  for (h in 1:length(years)) {
+    cat('Loading Year', as.character(years[h]), '\n')
+    urlprefix <- 'https://www.pro-football-reference.com/teams/'
+    urlend <- '_roster.htm#roster'
+    URL <- paste(urlprefix,team,"/",as.character(years[h]), urlend, sep = "")
+    table <- read_html(URL) %>%
+      html_node(xpath = '//*[@id="all_roster"]/comment()') %>%
+      html_text() %>%
+      read_html() %>%
+      html_node('table') %>%
+      html_table()
+    table$Year <- as.character(years[h])
+    table$Tm <- team
+    table <- table %>%
+      filter(!is.na(`No.`)) %>%
+      dplyr::select(Year,Tm,Player,No.,Pos,Age,G,GS,Ht,Wt,`College/Univ`,BirthDate,"YearsPro" = Yrs,AV)
+    master <- rbind(table, master)
+  }}
+
+  master <- master %>%
+      filter(Pos != "") %>%
+      left_join(teamlookups,by="Tm") %>%
+      dplyr::select(-Tm,-Nickname) %>%
+      dplyr::rename("Tm"=Team) %>%
+      left_join(positionlookups,by="Pos") %>%
+      mutate(Pos = NewPos) %>%
+    dplyr::select(-NewPos)
+  
+  return(master)
+}
+```
+
+```{r scrapeData_draft}
+
+scrapeData_draft = function(urlprefix, urlend, startyr, endyr) {
+   positionlookups <- read.csv("positionlookups.csv",header = TRUE)
+  
+  master <- data.frame()
+    
+  h <- 1
+  
+  years <- seq(startyear,endyear)
+  
+  for (h in 1:length(years)) {
+    cat('Loading Year', as.character(years[h]), '\n')
+    urlprefix <- 'https://www.pro-football-reference.com/years/'
+    urlend <- '/draft.htm'
+    URL <- paste(urlprefix,as.character(years[h]), urlend, sep = "")
+    table <- read_html(URL) %>%
+      html_node('table') %>%
+      html_table()
+    words <- c("Misc","Approx Val")
+    pat <- str_c(words, collapse="|")
+    savecolnames <- as.data.frame(str_remove(colnames(table),pat))
+    savecolnames <- cbind(savecolnames,t(table[1,]))
+    colnames(savecolnames) <- c("col1","col2")
+    newcolnames <- savecolnames %>%  
+    mutate(col3 = paste(col1,col2,sep = ""))
+    colnames(table) <- newcolnames$col3
+    table <- table[which(table$Rnd != 'Rnd'),]
+    table$Year <- as.character(years[h])
+    table[is.na(table)] <- 0
+    table <- table %>%
+      dplyr::select(Year,Rnd,Pick,Tm,Player,Pos,Age,wAV,DrAV,`College/Univ`)
+    master <- rbind(table, master)
+  }
+   master <- master %>%
+      filter(Pos != "") %>%
+      left_join(positionlookups,by="Pos") %>%
+      mutate(Pos = NewPos) %>%
+    dplyr::select(-NewPos)
+  return(master)
+}
+
+```
+
+
+```{r scrapeData_records}
+
+scrapeData_records = function(urlprefix,startyr, endyr) {
+  teamlookups <- read.csv("teamlookups.csv",header = TRUE)
+ 
+  master <- data.frame()
+    
+  h <- 1
+  
+  years <- seq(startyear,endyear)
+  
+  for (h in 1:length(unique(years))) {
+    cat('Loading Year', as.character(unique(years[h])), '\n')
+    #urlprefix <- 'https://www.pro-football-reference.com/years/'
+    URL <- paste(urlprefix,as.character(years[h]),"/", sep = "")
+    nfc_table <- read_html(URL) %>%
+      html_node(xpath = '//*[@id="NFC"]') %>%
+      html_table() %>%
+      filter(!str_detect(Tm,"NFC"))
+    afc_table <- read_html(URL) %>%
+      html_node(xpath = '//*[@id="AFC"]') %>%
+      html_table() %>%
+      filter(!str_detect(Tm,"AFC"))
+    table <- rbind(nfc_table,afc_table)
+    table$Year <- as.character(years[h])
+    
+    
+    
+    table <- table %>%
+      dplyr::rename(Name=Tm) 
+    
+    table$Name <- as.character(table$Name)
+    teamlookups$Nickname <- as.character(teamlookups$Nickname)
+    
+    table <- fuzzyjoin::fuzzy_left_join(table,teamlookups, by= c(Name="Nickname"), match_fun = stringr::str_detect )
+    
+    table <- table %>%
+      mutate(Wins = as.numeric(W),
+             Losses = as.numeric(L),
+             T = ifelse(!is.na(T),T,0),
+             T = ifelse(T == TRUE,0,T),
+             Ties = as.numeric(T)) %>%
+             group_by(Tm) %>%
+             mutate(Games = sum(Wins,Losses,Ties)) %>%
+             ungroup() %>%
+       dplyr::select(Year,Name,Tm,Games,Wins,Losses,Ties,PF,PA,PD,MoV,SoS,SRS,OSRS,DSRS)
+    master <- rbind(table, master)
+  }
+  return(master)
+}
+
+```
+
+## Create Tables
+
+```{r createtables}
+
+draftdata <- scrapeData_draft('https://www.pro-football-reference.com/years/','/draft.htm',
+                    startyear,endyear)
+
+seasondata <- scrapeData_records('https://www.pro-football-reference.com/years/',
+                    startyear,endyear)
+
+rosterdata <- scrapeData_roster('https://www.pro-football-reference.com/teams/','_roster.htm#roster',
+                    startyear,endyear)
+
+```
+
+## Create mastertable (OLD)
+
+```{r textscrape, message = FALSE, warning = FALSE, eval = FALSE}
 
 mastertable <- data.frame()
+
+mastertable <- scrapeData('https://www.pro-football-reference.com/years/','/draft.htm',
+                    startyear,endyear)
 
 i <- 1
 
@@ -140,7 +331,7 @@ print(paste("Adding data for ",years[i]," Draft to master table...",sep=""))
 
 url <- paste("https://www.pro-football-reference.com/years/",years[i],"/draft.htm#drafts",sep="")
 
-download.file(url, "nfldraft.csv", method="curl")
+download.file(URL, "nfldraft.csv", method="curl")
 
 draftdata <- as.data.frame(readLines("nfldraft.csv"))
 
@@ -204,7 +395,7 @@ write.csv(mastertable,"mastertable.csv")
 
 ## Create recordtable
 
-```{r recordtable}
+```{r recordtable, message = FALSE, warning = FALSE, eval = FALSE}
 
 recordtable <- data.frame()
 
@@ -412,9 +603,13 @@ skip_lines <- all_content[-1]
 valuechart <- read.csv(textConnection(skip_lines), header = TRUE, stringsAsFactors = FALSE)
 valuechart <- valuechart %>% select(Pick,"ExAV" = AV)
 
-mastertable <- read.csv("mastertable.csv", header = TRUE)
+#mastertable <- read.csv("mastertable.csv", header = TRUE)
 
-recordtable <- read.csv("recordtable.csv",header = TRUE)
+mastertable <- draftdata
+
+#recordtable <- read.csv("recordtable.csv",header = TRUE)
+
+recordtable <- seasondata
 
 mt_calc <- NFL_calcdif(mastertable,valuechart,recordtable)
 

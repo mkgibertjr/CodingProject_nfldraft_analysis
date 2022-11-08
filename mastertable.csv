@@ -1,0 +1,2808 @@
+"","Rnd","Pick","Tm","Player","Pos","year","CarAV","DrAV"
+"811","1","1","LAR","Sam Bradford ","QB",2010,44,23
+"812","1","2","DET","Ndamukong Suh","DT",2010,92,57
+"813","1","3","TAM","Gerald McCoy","DT",2010,68,64
+"814","1","4","WAS","Trent Williams","T",2010,73,66
+"815","1","5","KAN","Eric Berry ","DB",2010,47,47
+"816","1","6","SEA","Russell Okung","T",2010,63,36
+"817","1","7","CLE","Joe Haden","DB",2010,59,37
+"818","1","8","LVR","Rolando McClain","LB",2010,26,15
+"819","1","9","BUF","C.J. Spiller","RB",2010,34,32
+"820","1","10","JAX","Tyson Alualu","DT",2010,47,34
+"821","1","11","SFO","Anthony Davis","T",2010,36,36
+"822","1","12","LAC","Ryan Mathews","RB",2010,43,36
+"823","1","13","PHI","Brandon Graham","DE",2010,56,56
+"824","1","14","SEA","Earl Thomas","DB",2010,77,72
+"825","1","15","NYG","Jason Pierre-Paul","DE",2010,69,50
+"826","1","16","TEN","Derrick Morgan","DE",2010,40,40
+"827","1","17","SFO","Mike Iupati","G",2010,63,36
+"828","1","18","PIT","Maurkice Pouncey","C",2010,76,76
+"829","1","19","ATL","Sean Weatherspoon","LB",2010,22,22
+"830","1","20","HOU","Kareem Jackson","DB",2010,49,37
+"831","1","21","CIN","Jermaine Gresham","TE",2010,28,22
+"832","1","22","DEN","Demaryius Thomas","WR",2010,69,65
+"833","1","23","GNB","Bryan Bulaga","T",2010,62,59
+"834","1","24","DAL","Dez Bryant","WR",2010,62,61
+"835","1","25","DEN","Tim Tebow","QB",2010,12,11
+"836","1","26","ARI","Dan Williams","DT",2010,31,22
+"837","1","27","NWE","Devin McCourty","DB",2010,64,64
+"838","1","28","MIA","Jared Odrick","DE",2010,29,20
+"839","1","29","NYJ","Kyle Wilson","DB",2010,15,13
+"840","1","30","DET","Jahvid Best","RB",2010,13,13
+"841","1","31","IND","Jerry Hughes","DE",2010,57,4
+"842","1","32","NOR","Patrick Robinson","DB",2010,28,14
+"875","2","33","LAR","Rodger Saffold","T",2010,59,45
+"876","2","34","MIN","Chris Cook","DB",2010,9,9
+"877","2","35","TAM","Brian Price","DT",2010,4,4
+"878","2","36","KAN","Dexter McCluster","WR",2010,21,17
+"879","2","37","PHI","Nate Allen","DB",2010,29,26
+"880","2","38","CLE","T.J. Ward","DB",2010,39,23
+"881","2","39","TAM","Arrelious Benn","WR",2010,8,7
+"882","2","40","MIA","Koa Misi","LB",2010,31,31
+"883","2","41","BUF","Torell Troup","DT",2010,3,3
+"884","2","42","NWE","Rob Gronkowski ","TE",2010,73,69
+"885","2","43","BAL","Sergio Kindle","LB",2010,0,0
+"886","2","44","LVR","Lamarr Houston","DE",2010,32,26
+"887","2","45","DEN","Zane Beadles","G",2010,48,29
+"888","2","46","NYG","Linval Joseph","DT",2010,67,15
+"889","2","47","ARI","Daryl Washington","LB",2010,36,36
+"890","2","48","CAR","Jimmy Clausen","QB",2010,3,0
+"891","2","49","SFO","Taylor Mays","DB",2010,9,3
+"892","2","50","KAN","Javier Arenas","DB",2010,8,7
+"893","2","51","MIN","Toby Gerhart ","RB",2010,16,13
+"894","2","52","PIT","Jason Worilds","DE",2010,21,21
+"895","2","53","NWE","Jermaine Cunningham","LB",2010,8,8
+"896","2","54","CIN","Carlos Dunlap","DE",2010,63,60
+"897","2","55","DAL","Sean Lee ","LB",2010,52,52
+"898","2","56","GNB","Mike Neal","DE",2010,17,17
+"899","2","57","BAL","Terrence Cody","DT",2010,13,13
+"900","2","58","HOU","Ben Tate","RB",2010,14,13
+"901","2","59","CLE","Montario Hardesty","RB",2010,4,4
+"902","2","60","SEA","Golden Tate","WR",2010,58,16
+"903","2","61","NYJ","Vlad Ducasse","T",2010,20,3
+"904","2","62","NWE","Brandon Spikes","LB",2010,23,18
+"905","2","63","IND","Pat Angerer","LB",2010,17,17
+"906","2","64","NOR","Charles Brown","T",2010,15,15
+"939","3","65","LAR","Jerome Murphy","DB",2010,3,2
+"940","3","66","DET","Amari Spievey","DB",2010,12,12
+"941","3","67","TAM","Myron Lewis","DB",2010,1,1
+"942","3","68","KAN","Jon Asamoah","G",2010,20,13
+"943","3","69","LVR","Jared Veldheer","T",2010,50,20
+"944","3","70","BAL","Ed Dickson","TE",2010,16,9
+"945","3","71","GNB","Morgan Burnett","DB",2010,32,30
+"946","3","72","BUF","Alex Carrington","DE",2010,7,6
+"947","3","73","MIA","John Jerry","T",2010,39,16
+"948","3","74","JAX","D'Anthony Smith","DT",2010,1,1
+"949","3","75","CHI","Major Wright","DB",2010,20,17
+"950","3","76","NYG","Jones Chad","DB",2010,0,0
+"951","3","77","TEN","Damian Williams","WR",2010,9,9
+"952","3","78","CAR","Brandon LaFell","WR",2010,43,17
+"953","3","79","LAC","Donald Butler","LB",2010,29,27
+"954","3","80","DEN","J.D. Walton","C",2010,21,13
+"955","3","81","HOU","Earl Mitchell ","DT",2010,29,10
+"956","3","82","PIT","Emmanuel Sanders ","WR",2010,59,12
+"957","3","83","ATL","Corey Peters","DT",2010,44,23
+"958","3","84","CIN","Jordan Shipley","WR",2010,7,5
+"959","3","85","CLE","Colt McCoy","QB",2010,14,10
+"960","3","86","PHI","Daniel Te'o-Nesheim","DE",2010,12,1
+"961","3","87","DEN","Eric Decker","WR",2010,46,28
+"962","3","88","ARI","Andre Roberts","WR",2010,23,14
+"963","3","89","CAR","Armanti Edwards","WR",2010,1,1
+"964","3","90","NWE","Taylor Price","WR",2010,1,1
+"965","3","91","SFO","NaVorro Bowman ","LB",2010,68,64
+"966","3","92","CLE","Shawn Lauvao","G",2010,30,13
+"967","3","93","KAN","Tony Moeaki","TE",2010,10,9
+"968","3","94","IND","Kevin Thomas","DB",2010,2,2
+"969","3","95","NOR","Jimmy Graham","TE",2010,61,38
+"970","3","96","CIN","Brandon Ghee","DB",2010,3,2
+"971","3","97","TEN","Rennie Curran","LB",2010,1,1
+"972","3","98","ATL","Mike Johnson","G",2010,2,2
+"1005","4","99","LAR","Mardy Gilyard","WR",2010,1,1
+"1006","4","100","MIN","Everson Griffen","DE",2010,63,61
+"1007","4","101","TAM","Mike Williams","WR",2010,25,25
+"1008","4","102","HOU","Darryl Sharpton","LB",2010,10,9
+"1009","4","103","WAS","Perry Riley","LB",2010,30,27
+"1010","4","104","TEN","Alterraun Verner","DB",2010,34,25
+"1011","4","105","PHI","Trevard Lindley","DB",2010,1,1
+"1012","4","106","LVR","Bruce Campbell","T",2010,1,1
+"1013","4","107","BUF","Marcus Easley","WR",2010,1,1
+"1014","4","108","LVR","Jacoby Ford","WR",2010,12,12
+"1015","4","109","CHI","Corey Wootton","DE",2010,15,13
+"1016","4","110","LAC","Darrell Stuckey","DB",2010,8,8
+"1017","4","111","SEA","Walter Thurmond","DB",2010,11,5
+"1018","4","112","NYJ","Joe McKnight ","RB",2010,7,6
+"1019","4","113","NWE","Aaron Hernandez","TE",2010,22,22
+"1020","4","114","BAL","Dennis Pitta","TE",2010,16,16
+"1021","4","115","NYG","Phillip Dillard","LB",2010,0,0
+"1022","4","116","PIT","Thaddeus Gibson ","DE",2010,0,0
+"1023","4","117","ATL","Joe Hawley","C",2010,25,13
+"1024","4","118","HOU","Garrett Graham","TE",2010,7,7
+"1025","4","119","MIA","A.J. Edds","LB",2010,0,0
+"1026","4","120","CIN","Geno Atkins","DT",2010,88,88
+"1027","4","121","PHI","Keenan Clayton","LB",2010,3,2
+"1028","4","122","PHI","Mike Kafka","QB",2010,0,0
+"1029","4","123","NOR","Al Woods","DT",2010,23,0
+"1030","4","124","CAR","Eric Norwood","LB",2010,2,2
+"1031","4","125","PHI","Clay Harbor","TE",2010,7,2
+"1032","4","126","DAL","Akwasi Owusu-Ansah","DB",2010,1,0
+"1033","4","127","SEA","E.J. Wilson","DE",2010,0,0
+"1034","4","128","DET","Jason Fox","T",2010,9,2
+"1035","4","129","IND","Jacques McClendon","G",2010,3,0
+"1036","4","130","ARI","O'Brien Schofield","DE",2010,17,7
+"1037","4","131","CIN","Roddrick Muckelroy","LB",2010,2,1
+"1070","5","132","LAR","Michael Hoomanawanui","TE",2010,5,1
+"1071","5","133","SEA","Kam Chancellor ","DB",2010,45,45
+"1072","5","134","PHI","Ricky Sapp","DE",2010,1,0
+"1073","5","135","ATL","Dominique Franks","DB",2010,6,5
+"1074","5","136","KAN","Kendrick Lewis","DB",2010,29,16
+"1075","5","137","DEN","Perrish Cox","DB",2010,19,3
+"1076","5","138","LVR","Walter McFadden","DB",2010,0,0
+"1077","5","139","NYJ","John Conner","RB",2010,0,0
+"1078","5","140","BUF","Ed Wang","T",2010,0,0
+"1079","5","141","CHI","Joshua Moore","DB",2010,0,0
+"1080","5","142","KAN","Cameron Sheffield","DE",2010,1,1
+"1081","5","143","JAX","Larry Hart ","DE",2010,1,1
+"1082","5","144","HOU","Sherrick McManis","DB",2010,9,2
+"1083","5","145","MIA","Nolan Carroll","DB",2010,21,11
+"1084","5","146","LAC","Cam Thomas","DT",2010,16,9
+"1085","5","147","NYG","Mitch Petrus ","G",2010,4,4
+"1086","5","148","TEN","Robert Johnson","DB",2010,2,2
+"1087","5","149","LAR","Hall Davis","DE",2010,0,0
+"1088","5","150","NWE","Zoltan Mesko","P",2010,6,6
+"1089","5","151","PIT","Chris Scott","G",2010,8,0
+"1090","5","152","CIN","Otis Hudson","T",2010,0,0
+"1091","5","153","JAX","Austen Lane","DE",2010,7,7
+"1092","5","154","GNB","Andrew Quarless","TE",2010,9,9
+"1093","5","155","ARI","John Skelton","QB",2010,4,4
+"1094","5","156","BAL","David Reed","WR",2010,2,2
+"1095","5","157","BAL","Arthur Jones","DE",2010,19,14
+"1096","5","158","NOR","Matt Tennant","C",2010,3,2
+"1097","5","159","PHI","Riley Cooper","WR",2010,18,18
+"1098","5","160","CLE","Larry Asante","DB",2010,2,0
+"1099","5","161","MIN","Chris DeGeare","G",2010,2,2
+"1100","5","162","IND","Brody Eldridge","TE",2010,0,0
+"1101","5","163","MIA","Reshad Jones","DB",2010,44,44
+"1102","5","164","PIT","Crezdon Butler","DB",2010,2,0
+"1103","5","165","ATL","Kerry Meier","WR",2010,0,0
+"1104","5","166","PIT","Stevenson Sylvester","LB",2010,6,6
+"1105","5","167","MIN","Nate Triplett","LB",2010,0,0
+"1106","5","168","LAC","Jonathan Crompton","QB",2010,0,0
+"1107","5","169","GNB","Marshall Newhouse","G",2010,44,22
+"1140","6","170","LAR","Fendi Onobun","TE",2010,0,0
+"1141","6","171","ATL","Shann Schillinger","DB",2010,2,2
+"1142","6","172","TAM","Bowden Brent","P",2010,0,0
+"1143","6","173","SFO","Anthony Dixon","RB",2010,7,3
+"1144","6","174","WAS","Morris Dennis","RB",2010,0,0
+"1145","6","175","CAR","Greg Hardy ","DE",2010,32,26
+"1146","6","176","TEN","Rusty Smith","QB",2010,1,1
+"1147","6","177","CLE","Carlton Mitchell ","WR",2010,0,0
+"1148","6","178","BUF","Arthur Moats","LB",2010,21,9
+"1149","6","179","DAL","Sam Young","T",2010,17,0
+"1150","6","180","JAX","Deji Karim","RB",2010,4,3
+"1151","6","181","CHI","Dan LeFevour","QB",2010,0,0
+"1152","6","182","SFO","Nate Byham","TE",2010,0,0
+"1153","6","183","DEN","Eric Olsen","C",2010,3,0
+"1154","6","184","NYG","Adrian Tracy","DE",2010,1,1
+"1155","6","185","SEA","Anthony McCoy","TE",2010,4,4
+"1156","6","186","CLE","Clifton Geathers","DE",2010,3,0
+"1157","6","187","HOU","Shelley Smith","G",2010,7,0
+"1158","6","188","PIT","Jonathan Dwyer","RB",2010,8,8
+"1159","6","189","LAR","Eugene Sims","DE",2010,19,19
+"1160","6","190","LVR","Travis Goethel","LB",2010,1,1
+"1161","6","191","CIN","Dezmon Briscoe","WR",2010,4,0
+"1162","6","192","BUF","Danny Batten","DE",2010,3,3
+"1163","6","193","GNB","James Starks","RB",2010,27,27
+"1164","6","194","BAL","Ramon Harewood","T",2010,2,2
+"1165","6","195","PIT","Antonio Brown ","WR",2010,89,87
+"1166","6","196","DAL","Jamar Wall","DB",2010,0,0
+"1167","6","197","HOU","Trindon Holliday","WR",2010,4,0
+"1168","6","198","CAR","David Gettis","WR",2010,3,3
+"1169","6","199","MIN","Joe Webb","WR",2010,4,4
+"1170","6","200","PHI","Scott Charles","RB",2010,0,0
+"1171","6","201","ARI","Jorrick Calvin","DB",2010,1,0
+"1172","6","202","CAR","Jordan Pugh","DB",2010,4,3
+"1173","6","203","JAX","McGee Scotty","DB",2010,0,0
+"1174","6","204","CAR","Tony Pike","QB",2010,0,0
+"1175","6","205","NWE","Ted Larsen","C",2010,35,0
+"1176","6","206","SFO","Kyle Williams","WR",2010,6,6
+"1177","6","207","TEN","Rolle Myron","DB",2010,0,0
+"1210","7","208","NWE","Thomas Welch","T",2010,2,1
+"1211","7","209","BUF","Levi Brown","QB",2010,0,0
+"1212","7","210","TAM","Cody Grimm","DB",2010,6,6
+"1213","7","211","LAR","Marquis Johnson","DB",2010,0,0
+"1214","7","212","MIA","McCoy Chris","DE",2010,0,0
+"1215","7","213","DET","Willie Young","DE",2010,21,8
+"1216","7","214","MIN","Mickey Shuler","TE",2010,0,0
+"1217","7","215","LVR","Jeremy Ware","DB",2010,1,1
+"1218","7","216","BUF","Calloway Kyle","T",2010,0,0
+"1219","7","217","TAM","Dekoda Watson","LB",2010,11,8
+"1220","7","218","CHI","J'Marcus Webb","T",2010,32,19
+"1221","7","219","WAS","Terrence Austin","WR",2010,1,1
+"1222","7","220","PHI","Jamar Chaney","LB",2010,13,12
+"1223","7","221","NYG","Matt Dodge","P",2010,2,2
+"1224","7","222","TEN","Marc Mariani","WR",2010,5,3
+"1225","7","223","CAR","R.J. Stanford","DB",2010,4,1
+"1226","7","224","SFO","Phillip Adams","DB",2010,10,1
+"1227","7","225","DEN","Syd'Quan Thompson","DB",2010,1,1
+"1228","7","226","LAR","George Selvie","DE",2010,17,2
+"1229","7","227","HOU","Dorin Dickerson","WR",2010,1,0
+"1230","7","228","CIN","Reggie Stephens","C",2010,0,0
+"1231","7","229","WAS","Erik Cook","C",2010,1,1
+"1232","7","230","GNB","C.J. Wilson","DE",2010,15,9
+"1233","7","231","WAS","Selvish Capers","T",2010,0,0
+"1234","7","232","DEN","Jammie Kirlew","DE",2010,0,0
+"1235","7","233","ARI","Jim Dray","TE",2010,4,2
+"1236","7","234","DAL","Sean Lissemore","DT",2010,14,4
+"1237","7","235","LAC","Dedrick Epps","TE",2010,0,0
+"1238","7","236","SEA","Dexter Davis","LB",2010,1,1
+"1239","7","237","MIN","Ryan D'Imperio","RB",2010,0,0
+"1240","7","238","IND","Ricardo Mathews","DT",2010,14,5
+"1241","7","239","NOR","Sean Canfield","QB",2010,0,0
+"1242","7","240","IND","Kavell Conner","LB",2010,20,15
+"1243","7","241","TEN","Howard David","DT",2010,0,0
+"1244","7","242","PIT","Doug Worthington","DT",2010,0,0
+"1245","7","243","PHI","Jeff Owens","DT",2010,0,0
+"1246","7","244","PHI","Kurt Coleman","DB",2010,33,12
+"1247","7","245","SEA","Jameson Konz","TE",2010,0,0
+"1248","7","246","IND","Fisher Ray","DB",2010,0,0
+"1249","7","247","NWE","Brandon Deaderick","DE",2010,8,7
+"1250","7","248","NWE","Weston Kade","DT",2010,0,0
+"1251","7","249","CAR","Robert McClain","DB",2010,15,4
+"1252","7","250","NWE","Zac Robinson","QB",2010,0,0
+"1253","7","251","LVR","Stevie Brown","DB",2010,10,1
+"1254","7","252","MIA","Austin Spitler","LB",2010,5,5
+"1255","7","253","TAM","Erik Lorig","DE",2010,1,1
+"1256","7","254","LAR","Josh Hull","LB",2010,3,2
+"1257","7","255","DET","Tim Toone","WR",2010,0,0
+"1334","7","228","CHI","Harvey Unga","RB",2010,0,0
+"1335","7","228","DAL","Josh Brent","DT",2010,5,5
+"8111","1","1","CAR","Cam Newton","QB",2011,111,103
+"8121","1","2","DEN","Von Miller","LB",2011,98,98
+"8131","1","3","BUF","Marcell Dareus","DT",2011,56,46
+"8141","1","4","CIN","A.J. Green","WR",2011,71,71
+"8151","1","5","ARI","Patrick Peterson","DB",2011,90,90
+"8161","1","6","ATL","Julio Jones ","WR",2011,97,97
+"8171","1","7","SFO","Aldon Smith","DE",2011,34,24
+"8181","1","8","TEN","Jake Locker","QB",2011,15,15
+"8191","1","9","DAL","Tyron Smith","T",2011,85,85
+"8201","1","10","JAX","Blaine Gabbert","QB",2011,16,7
+"8211","1","11","HOU","J.J. Watt","DE",2011,103,103
+"8221","1","12","MIN","Christian Ponder","QB",2011,22,22
+"8231","1","13","DET","Nick Fairley","DT",2011,24,16
+"8241","1","14","LAR","Robert Quinn","DE",2011,61,44
+"8251","1","15","MIA","Mike Pouncey","G",2011,47,35
+"8261","1","16","WAS","Ryan Kerrigan","DE",2011,63,63
+"8271","1","17","NWE","Nate Solder","T",2011,69,57
+"8281","1","18","LAC","Corey Liuget","DT",2011,43,42
+"8291","1","19","NYG","Prince Amukamara","DB",2011,34,14
+"8301","1","20","TAM","Adrian Clayborn","DE",2011,26,12
+"8311","1","21","CLE","Phil Taylor","DT",2011,19,19
+"8321","1","22","IND","Anthony Castonzo","T",2011,66,66
+"8331","1","23","PHI","Danny Watkins","G",2011,8,8
+"8341","1","24","NOR","Cameron Jordan","DE",2011,86,86
+"8351","1","25","SEA","James Carpenter","T",2011,42,15
+"8361","1","26","KAN","Jonathan Baldwin","WR",2011,4,4
+"8371","1","27","BAL","Jimmy Smith","DB",2011,32,32
+"8381","1","28","NOR","Mark Ingram","RB",2011,62,49
+"8391","1","29","CHI","Gabe Carimi","T",2011,12,7
+"8401","1","30","NYJ","Muhammad Wilkerson","DT",2011,63,62
+"8411","1","31","PIT","Cameron Heyward ","DE",2011,76,76
+"8421","1","32","GNB","Derek Sherrod","T",2011,3,3
+"8751","2","33","NWE","Ras-I Dowling","DB",2011,1,1
+"8761","2","34","BUF","Aaron Williams","DB",2011,18,18
+"8771","2","35","CIN","Andy Dalton","QB",2011,84,81
+"8781","2","36","SFO","Colin Kaepernick","QB",2011,45,45
+"8791","2","37","CLE","Jabaal Sheard","DE",2011,49,23
+"8801","2","38","ARI","Ryan Williams","RB",2011,1,1
+"8811","2","39","TEN","Akeem Ayers","LB",2011,28,17
+"8821","2","40","DAL","Bruce Carter ","LB",2011,19,15
+"8831","2","41","WAS","Jarvis Jenkins","DT",2011,23,13
+"8841","2","42","HOU","Brooks Reed","LB",2011,36,24
+"8851","2","43","MIN","Kyle Rudolph ","TE",2011,34,34
+"8861","2","44","DET","Titus Young","WR",2011,8,8
+"8871","2","45","DEN","Rahim Moore","DB",2011,20,18
+"8881","2","46","DEN","Orlando Franklin","T",2011,41,32
+"8891","2","47","LAR","Lance Kendricks","TE",2011,16,13
+"8901","2","48","LVR","Stefen Wisniewski","C",2011,39,21
+"8911","2","49","IND","Ben Ijalana","T",2011,7,0
+"8921","2","50","LAC","Marcus Gilchrist","DB",2011,32,14
+"8931","2","51","TAM","Da'Quan Bowers","DE",2011,7,7
+"8941","2","52","NYG","Marvin Austin","DT",2011,2,1
+"8951","2","53","CHI","Stephen Paea","DT",2011,22,18
+"8961","2","54","PHI","Jaiquawn Jarrett","DB",2011,5,1
+"8971","2","55","KAN","Rodney Hudson","C",2011,54,12
+"8981","2","56","NWE","Shane Vereen","RB",2011,25,16
+"8991","2","57","DET","Mikel Leshoure","RB",2011,5,5
+"9001","2","58","BAL","Torrey Smith","WR",2011,38,29
+"9011","2","59","CLE","Greg Little","WR",2011,13,12
+"9021","2","60","HOU","Brandon Harris","DB",2011,3,2
+"9031","2","61","LAC","Jonas Mouton","LB",2011,0,0
+"9041","2","62","MIA","Daniel Thomas","RB",2011,11,11
+"9051","2","63","PIT","Marcus Gilbert","T",2011,42,42
+"9061","2","64","GNB","Randall Cobb","WR",2011,60,52
+"9391","3","65","CAR","Terrell McClain","DT",2011,16,4
+"9401","3","66","CIN","Dontay Moch","LB",2011,0,0
+"9411","3","67","DEN","Nate Irving ","LB",2011,9,9
+"9421","3","68","BUF","Kelvin Sheppard","LB",2011,26,8
+"9431","3","69","ARI","Rob Housler","TE",2011,9,9
+"9441","3","70","KAN","Justin Houston","LB",2011,67,55
+"9451","3","71","DAL","DeMarco Murray","RB",2011,62,42
+"9461","3","72","NOR","Martez Wilson","LB",2011,3,3
+"9471","3","73","NWE","Stevan Ridley","RB",2011,25,23
+"9481","3","74","NWE","Ryan Mallett","QB",2011,4,0
+"9491","3","75","SEA","John Moffitt","G",2011,6,6
+"9501","3","76","JAX","Will Rackley","G",2011,8,8
+"9511","3","77","TEN","Jurrell Casey","DT",2011,70,70
+"9521","3","78","LAR","Austin Pettis","WR",2011,8,8
+"9531","3","79","WAS","Leonard Hankerson","WR",2011,12,9
+"9541","3","80","SFO","Chris Culliver","DB",2011,13,11
+"9551","3","81","LVR","DeMarcus Van Dyke","DB",2011,3,2
+"9561","3","82","LAC","Vincent Brown","WR",2011,9,8
+"9571","3","83","NYG","Jerrel Jernigan","WR",2011,2,2
+"9581","3","84","TAM","Mason Foster ","LB",2011,39,20
+"9591","3","85","BAL","Jah Reid","T",2011,10,5
+"9601","3","86","KAN","Allen Bailey","DE",2011,31,29
+"9611","3","87","IND","Drake Nevis","DT",2011,4,3
+"9621","3","88","NOR","Johnny Patrick","DB",2011,4,2
+"9631","3","89","LAC","Shareece Wright","DB",2011,19,9
+"9641","3","90","PHI","Curtis Marsh","DB",2011,1,1
+"9651","3","91","ATL","Akeem Dent ","LB",2011,17,9
+"9661","3","92","LVR","Joe Barksdale","T",2011,37,1
+"9671","3","93","CHI","Chris Conte","DB",2011,28,17
+"9681","3","94","NYJ","Kenrick Ellis","DT",2011,8,8
+"9691","3","95","PIT","Curtis Brown","DB",2011,2,2
+"9701","3","96","GNB","Alex Green","RB",2011,5,5
+"9711","3","97","CAR","Sione Fua","DT",2011,5,4
+"1004","4","98","CAR","Brandon Hogan ","DB",2011,0,0
+"10051","4","99","SEA","K.J. Wright","LB",2011,64,64
+"10061","4","100","BUF","Da'Norris Searcy","DB",2011,25,12
+"10071","4","101","CIN","Clint Boling","G",2011,42,42
+"10081","4","102","CLE","Jordan Cameron","TE",2011,13,11
+"10091","4","103","ARI","Sam Acho","DE",2011,30,19
+"10101","4","104","TAM","Luke Stocker","TE",2011,5,3
+"10111","4","105","WAS","Roy Helu","RB",2011,13,13
+"10121","4","106","MIN","Christian Ballard","DT",2011,3,3
+"10131","4","107","SEA","Kris Durham ","WR",2011,5,0
+"10141","4","108","DEN","Quinton Carter ","DB",2011,5,5
+"10151","4","109","TEN","Colin McCarthy","LB",2011,11,11
+"10161","4","110","DAL","David Arkin","G",2011,0,0
+"10171","4","111","MIA","Clyde Gates","WR",2011,3,0
+"10181","4","112","LAR","Greg Salas","WR",2011,4,1
+"10191","4","113","LVR","Chimdi Chekwa","DB",2011,2,2
+"10201","4","114","JAX","Cecil Shorts","WR",2011,19,14
+"10211","4","115","SFO","Kendall Hunter","RB",2011,12,12
+"10221","4","116","PHI","Casey Matthews","LB",2011,10,10
+"10231","4","117","NYG","James Brewer","T",2011,4,4
+"10241","4","118","KAN","Jalil Brown","DB",2011,4,2
+"10251","4","119","IND","Delone Carter ","RB",2011,3,3
+"10261","4","120","PHI","Alex Henery","K",2011,8,9
+"10271","4","121","JAX","Chris Prosinski","DB",2011,10,5
+"10281","4","122","BUF","Chris Hairston","T",2011,18,10
+"10291","4","123","BAL","Tandon Doss","WR",2011,4,4
+"10301","4","124","CLE","Owen Marecic","RB",2011,0,0
+"10311","4","125","LVR","Taiwan Jones","RB",2011,3,3
+"10321","4","126","NYJ","Bilal Powell","RB",2011,26,26
+"10331","4","127","HOU","Roc Carmichael ","DB",2011,1,0
+"10341","4","128","PIT","Cortez Allen","DB",2011,10,10
+"10351","4","129","DEN","Julius Thomas","TE",2011,21,13
+"10361","4","130","TEN","Jamie Harper","RB",2011,0,0
+"10371","4","131","GNB","Davon House","DB",2011,16,9
+"10701","5","132","CAR","Kealoha Pilares","WR",2011,1,1
+"10711","5","133","BUF","Johnny White","RB",2011,0,0
+"10721","5","134","CIN","Robert Sands","DB",2011,0,0
+"10731","5","135","KAN","Ricky Stanzi ","QB",2011,0,0
+"10741","5","136","ARI","Anthony Sherman","RB",2011,6,1
+"10751","5","137","CLE","Buster Skrine","DB",2011,33,14
+"10761","5","138","NWE","Marcus Cannon","T",2011,45,45
+"10771","5","139","MIN","Brandon Burton","DB",2011,1,1
+"10781","5","140","KAN","Gabe Miller ","LB",2011,0,0
+"10791","5","141","GNB","D.J. Williams","TE",2011,1,1
+"10801","5","142","TEN","Karl Klug","DT",2011,14,14
+"10811","5","143","DAL","Josh Thomas","DB",2011,7,0
+"10821","5","144","HOU","Shiloh Keo","DB",2011,9,7
+"10831","5","145","ATL","Jacquizz Rodgers ","RB",2011,24,17
+"10841","5","146","WAS","DeJon Gomes","DB",2011,5,4
+"10851","5","147","JAX","Rod Issac","DB",2011,0,0
+"10861","5","148","LVR","Denarius Moore","WR",2011,15,15
+"10871","5","149","PHI","Dion Lewis","RB",2011,30,1
+"10881","5","150","CLE","Jason Pinkston","T",2011,8,8
+"10891","5","151","TAM","Ahmad Black","DB",2011,3,3
+"10901","5","152","HOU","T.J. Yates","QB",2011,6,6
+"10911","5","153","NYJ","Jeremy Kerley","WR",2011,23,19
+"10921","5","154","SEA","Richard Sherman","DB",2011,90,76
+"10931","5","155","WAS","Niles Paul","WR",2011,7,6
+"10941","5","156","SEA","Mark LeGree","DB",2011,0,0
+"10951","5","157","DET","Doug Hogue","LB",2011,2,1
+"10961","5","158","LAR","Jermale Hines","DB",2011,0,0
+"10971","5","159","NWE","Lee Smith","TE",2011,4,0
+"10981","5","160","CHI","Nathan Enderle","QB",2011,0,0
+"10991","5","161","PHI","Julian Vandervelde","G",2011,1,1
+"11001","5","162","PIT","Chris Carter ","LB",2011,6,3
+"11011","5","163","SFO","Daniel Kilgore","G",2011,24,16
+"11021","5","164","BAL","Chykie Brown","DB",2011,5,3
+"11031","5","165","BAL","Pernell McPhee","DE",2011,28,18
+"1136","6","166","CAR","Lawrence Wilson","LB",2011,0,0
+"1137","6","167","CIN","Ryan Whalen","WR",2011,0,0
+"1138","6","168","MIN","Demarcus Love","OL",2011,0,0
+"1139","6","169","BUF","Chris White","LB",2011,4,2
+"11401","6","170","MIN","Mistral Raymond","DB",2011,4,4
+"11411","6","171","ARI","Quan Sturdivant","LB",2011,0,0
+"11421","6","172","MIN","Brandon Fusco","C",2011,34,24
+"11431","6","173","SEA","Byron Maxwell","DB",2011,21,11
+"11441","6","174","MIA","Charles Clay","TE",2011,28,12
+"11451","6","175","TEN","Byron Stingily","T",2011,4,4
+"11461","6","176","DAL","Dwayne Harris","WR",2011,12,5
+"11471","6","177","WAS","Evan Royster","RB",2011,4,4
+"11481","6","178","WAS","Aldrick Robinson","WR",2011,12,5
+"11491","6","179","GNB","Caleb Schlauderaff","G",2011,1,0
+"11501","6","180","BAL","Tyrod Taylor ","QB",2011,41,1
+"11511","6","181","LVR","Richard Gordon","TE",2011,0,0
+"11521","6","182","SFO","Ronald Johnson","WR",2011,0,0
+"11531","6","183","LAC","Jordan Todman","RB",2011,5,0
+"11541","6","184","ARI","David Carter ","DT",2011,5,5
+"11551","6","185","NYG","Greg Jones","LB",2011,3,3
+"11561","6","186","GNB","D.J. Smith","LB",2011,6,6
+"11571","6","187","TAM","Allen Bradford","RB",2011,1,0
+"11581","6","188","IND","Chris Rucker","DB",2011,2,2
+"11591","6","189","DEN","Mike Mohamed","LB",2011,4,0
+"11601","6","190","SFO","Colin Jones","DB",2011,12,1
+"11611","6","191","PHI","Jason Kelce","C",2011,71,71
+"11621","6","192","ATL","Matthew Bosher","K",2011,14,14
+"11631","6","193","PHI","Brian Rolle","LB",2011,6,6
+"11641","6","194","NWE","Markell Carter ","LB",2011,0,0
+"11651","6","195","CHI","J.T. Thomas","LB",2011,12,1
+"11661","6","196","PIT","Keith Williams","G",2011,0,0
+"11671","6","197","GNB","Ricky Elmore","DL",2011,0,0
+"11681","6","198","NYG","Tyler Sash","DB",2011,1,1
+"11691","6","199","KAN","Jerrell Powe","DT",2011,4,2
+"11701","6","200","MIN","Ross Homan","LB",2011,0,0
+"11711","6","201","LAC","Stephen Schilling","G",2011,5,3
+"11721","6","202","NYG","Jacquian Williams","LB",2011,13,13
+"11731","6","203","CAR","Zachary Williams","OL",2011,0,0
+"1206","7","204","DEN","Virgil Green","TE",2011,8,5
+"1207","7","205","SEA","Lazarius Levingston","DL",2011,0,0
+"1208","7","206","BUF","Justin Rogers","DB",2011,4,4
+"1209","7","207","CIN","Korey Lindsey","DB",2011,0,0
+"12101","7","208","NYJ","Greg McElroy","QB",2011,1,1
+"12111","7","209","DET","Johnny Culbreath","OL",2011,0,0
+"12121","7","210","ATL","Andrew Jackson","OL",2011,0,0
+"12131","7","211","SFO","Bruce Miller","DE",2011,7,7
+"12141","7","212","TEN","Zach Clayton","DT",2011,0,0
+"12151","7","213","WAS","Brandyn Thompson","DB",2011,1,1
+"12161","7","214","HOU","Derek Newton","T",2011,28,28
+"12171","7","215","MIN","D'Aundre Reed","DE",2011,0,0
+"12181","7","216","LAR","Mikail Baker","DB",2011,0,0
+"12191","7","217","WAS","Maurice Hurt","G",2011,5,5
+"12201","7","218","GNB","Ryan Taylor","TE",2011,0,0
+"12211","7","219","NWE","Malcolm Williams","DB",2011,0,0
+"12221","7","220","DAL","Shaun Chapas","RB",2011,0,0
+"12231","7","221","NYG","Da'Rel Scott","RB",2011,1,1
+"12241","7","222","TAM","Anthony Gaitor","DB",2011,1,1
+"12251","7","223","KAN","Shane Bannon","RB",2011,0,0
+"12261","7","224","WAS","Markus White","DE",2011,0,0
+"12271","7","225","BAL","Anthony Allen","RB",2011,1,1
+"12281","7","226","NOR","Greg Romeus","DL",2011,0,0
+"12291","7","227","NYJ","Scotty McKnight ","WR",2011,0,0
+"12301","7","228","LAR","Jabara Williams","LB",2011,0,0
+"12311","7","229","LAR","Jonathan Nelson","DB",2011,1,0
+"12321","7","230","ATL","Cliff Matthews","DE",2011,3,3
+"12331","7","231","MIA","Frank Kearse","DT",2011,5,0
+"12341","7","232","PIT","Baron Batch","RB",2011,1,1
+"12351","7","233","GNB","Lawrence Guy","DT",2011,46,0
+"12361","7","234","LAC","Andrew Gachkar","LB",2011,10,8
+"12371","7","235","MIA","Jimmy Wilson","DB",2011,12,9
+"12381","7","236","MIN","Stephen Burton","WR",2011,0,0
+"12391","7","237","PHI","Greg Lloyd","LB",2011,0,0
+"12401","7","238","TAM","Daniel Hardy ","TE",2011,0,0
+"12411","7","239","SFO","Michael Person","G",2011,22,14
+"12421","7","240","PHI","Stanley Havili","RB",2011,1,0
+"12431","7","241","LVR","David Ausberry ","WR",2011,1,1
+"12441","7","242","SEA","Malcolm Smith","LB",2011,35,12
+"12451","7","243","NOR","Nate Bussey","LB",2011,0,0
+"12461","7","244","CAR","Lee Ziemba","T",2011,1,1
+"12471","7","245","BUF","Michael Jasper","DT",2011,0,0
+"12481","7","246","CIN","Jay Finley","RB",2011,0,0
+"12491","7","247","DEN","Jeremy Beal","DL",2011,0,0
+"12501","7","248","CLE","Eric Hagg","DB",2011,3,3
+"12511","7","249","ARI","DeMarco Sampson","WR",2011,0,0
+"12521","7","250","SFO","Curtis Holcomb","DB",2011,0,0
+"12531","7","251","TEN","Tommie Campbell","DB",2011,4,4
+"12541","7","252","DAL","Bill Nagy","G",2011,2,2
+"12551","7","253","WAS","Chris Neild","DT",2011,2,2
+"12561","7","254","HOU","Cheta Ozougwu","DE",2011,1,0
+"1333","3","96","LVR","Terrelle Pryor","QB",2011,17,7
+"8112","1","1","IND","Andrew Luck ","QB",2012,71,71
+"8122","1","2","WAS","Robert Griffin III","QB",2012,37,32
+"8132","1","3","CLE","Trent Richardson ","RB",2012,17,7
+"8142","1","4","MIN","Matt Kalil","T",2012,42,35
+"8152","1","5","JAX","Justin Blackmon","WR",2012,9,9
+"8162","1","6","DAL","Morris Claiborne","DB",2012,25,14
+"8172","1","7","TAM","Mark Barron","DB",2012,34,10
+"8182","1","8","MIA","Ryan Tannehill","QB",2012,76,49
+"8192","1","9","CAR","Luke Kuechly","LB",2012,91,91
+"8202","1","10","BUF","Stephon Gilmore","DB",2012,65,21
+"8212","1","11","KAN","Dontari Poe","DT",2012,55,41
+"8222","1","12","PHI","Fletcher Cox","DT",2012,82,82
+"8232","1","13","ARI","Michael Floyd ","WR",2012,28,27
+"8242","1","14","LAR","Michael Brockers ","DT",2012,53,53
+"8252","1","15","SEA","Bruce Irvin","DE",2012,41,22
+"8262","1","16","NYJ","Quinton Coples","DE",2012,17,17
+"8272","1","17","CIN","Dre Kirkpatrick","DB",2012,31,25
+"8282","1","18","LAC","Melvin Ingram","DE",2012,53,53
+"8292","1","19","CHI","Shea McClellin ","DE",2012,17,13
+"8302","1","20","TEN","Kendall Wright","WR",2012,28,24
+"8312","1","21","NWE","Chandler Jones ","DE",2012,67,26
+"8322","1","22","CLE","Brandon Weeden","QB",2012,14,11
+"8332","1","23","DET","Riley Reiff","T",2012,61,30
+"8342","1","24","PIT","David DeCastro","G",2012,66,66
+"8352","1","25","NWE","Dont'a Hightower ","LB",2012,60,60
+"8362","1","26","HOU","Whitney Mercilus","DE",2012,47,47
+"8372","1","27","CIN","Kevin Zeitler","G",2012,47,28
+"8382","1","28","GNB","Nick Perry ","DE",2012,22,22
+"8392","1","29","MIN","Harrison Smith","DB",2012,60,60
+"8402","1","30","SFO","A.J. Jenkins","WR",2012,2,0
+"8412","1","31","TAM","Doug Martin ","RB",2012,39,35
+"8422","1","32","NYG","David Wilson","RB",2012,5,5
+"8752","2","33","LAR","Brian Quick","WR",2012,11,10
+"8762","2","34","IND","Coby Fleener ","TE",2012,25,17
+"8772","2","35","BAL","Courtney Upshaw","LB",2012,27,24
+"8782","2","36","DEN","Derek Wolfe","DT",2012,49,46
+"8792","2","37","CLE","Mitchell Schwartz","T",2012,82,20
+"8802","2","38","JAX","Andre Branch","LB",2012,21,9
+"8812","2","39","LAR","Janoris Jenkins ","DB",2012,48,22
+"8822","2","40","CAR","Amini Silatolu","G",2012,16,16
+"8832","2","41","BUF","Cordy Glenn","G",2012,44,36
+"8842","2","42","MIA","Jonathan Martin ","T",2012,15,11
+"8852","2","43","NYJ","Stephen Hill","WR",2012,4,4
+"8862","2","44","KAN","Jeff Allen","T",2012,26,17
+"8872","2","45","CHI","Alshon Jeffery","WR",2012,50,34
+"8882","2","46","PHI","Mychal Kendricks","LB",2012,38,31
+"8892","2","47","SEA","Bobby Wagner","LB",2012,104,104
+"8902","2","48","NWE","Tavon Wilson","DB",2012,18,5
+"8912","2","49","LAC","Kendall Reyes","DT",2012,22,22
+"8922","2","50","LAR","Isaiah Pead","RB",2012,1,1
+"8932","2","51","GNB","Jerel Worthy","DT",2012,4,3
+"8942","2","52","TEN","Zach Brown","LB",2012,40,16
+"8952","2","53","CIN","Devon Still","DT",2012,3,3
+"8962","2","54","DET","Ryan Broyles","WR",2012,3,3
+"8972","2","55","ATL","Peter Konz","C",2012,15,15
+"8982","2","56","PIT","Mike Adams","T",2012,12,12
+"8992","2","57","DEN","Brock Osweiler ","QB",2012,14,7
+"9002","2","58","TAM","Lavonte David","LB",2012,74,74
+"9012","2","59","PHI","Vinny Curry","DE",2012,22,19
+"9022","2","60","BAL","Kelechi Osemele","T",2012,46,20
+"9032","2","61","SFO","LaMichael James","RB",2012,2,2
+"9042","2","62","GNB","Casey Hayward","DB",2012,45,7
+"9052","2","63","NYG","Rueben Randle ","WR",2012,21,21
+"938","3","64","IND","Dwayne Allen","TE",2012,12,11
+"9392","3","65","LAR","Trumaine Johnson","DB",2012,31,26
+"9402","3","66","MIN","Josh Robinson","DB",2012,11,9
+"9412","3","67","DEN","Ronnie Hillman","RB",2012,17,15
+"9422","3","68","HOU","DeVier Posey","WR",2012,2,2
+"9432","3","69","BUF","T.J. Graham","WR",2012,7,6
+"9442","3","70","JAX","Bryan Anger","P",2012,18,11
+"9452","3","71","WAS","Josh LeRibeus","G",2012,10,6
+"9462","3","72","MIA","Olivier Vernon","LB",2012,53,19
+"9472","3","73","LAC","Brandon Taylor","DB",2012,1,1
+"9482","3","74","KAN","Donald Stephenson ","T",2012,17,11
+"9492","3","75","SEA","Russell Wilson ","QB",2012,120,120
+"9502","3","76","HOU","Brandon Brooks","G",2012,45,13
+"9512","3","77","NYJ","Demario Davis ","LB",2012,68,30
+"9522","3","78","MIA","Michael Egnew","TE",2012,0,0
+"9532","3","79","CHI","Brandon Hardin","DB",2012,0,0
+"9542","3","80","ARI","Jamell Fleming","DB",2012,5,2
+"9552","3","81","DAL","Tyrone Crawford ","DE",2012,34,34
+"9562","3","82","TEN","Mike Martin ","DT",2012,6,6
+"9572","3","83","CIN","Mohamed Sanu","WR",2012,39,15
+"9582","3","84","BAL","Bernard Pierce","RB",2012,10,10
+"9592","3","85","DET","Bill Bentley","DB",2012,3,3
+"9602","3","86","PIT","Sean Spence","LB",2012,12,8
+"9612","3","87","CLE","John Hughes","DT",2012,9,8
+"9622","3","88","PHI","Nick Foles","QB",2012,31,24
+"9632","3","89","NOR","Akiem Hicks","DE",2012,52,13
+"9642","3","90","NWE","Jake Bequette","DE",2012,0,0
+"9652","3","91","ATL","Lamar Holmes","T",2012,11,11
+"9662","3","92","IND","T.Y. Hilton","WR",2012,70,70
+"9672","3","93","CIN","Brandon Thompson","DT",2012,7,7
+"9682","3","94","NYG","Jayron Hosley","DB",2012,7,7
+"9692","3","95","LVR","Tony Bergstrom","T",2012,12,2
+"1002","4","96","LAR","Chris Givens","WR",2012,12,11
+"1003","4","97","MIA","Lamar Miller","RB",2012,42,22
+"10041","4","98","BAL","Gino Gradkowski","G",2012,10,8
+"10052","4","99","HOU","Ben Jones","C",2012,47,15
+"10062","4","100","CLE","Travis Benjamin","WR",2012,25,13
+"10072","4","101","DEN","Omar Bolden","DB",2012,5,5
+"10082","4","102","WAS","Kirk Cousins ","QB",2012,73,37
+"10092","4","103","CAR","Frank Alexander","DE",2012,6,6
+"10102","4","104","CAR","Joe Adams","WR",2012,0,0
+"10112","4","105","BUF","Nigel Bradham","LB",2012,44,16
+"10122","4","106","SEA","Robert Turbin","RB",2012,16,12
+"10132","4","107","KAN","Devon Wylie","WR",2012,0,0
+"10142","4","108","DEN","Philip Blake","OL",2012,0,0
+"10152","4","109","PIT","Alameda Ta'amu ","DT",2012,3,0
+"10162","4","110","LAC","Ladarius Green","TE",2012,11,9
+"10172","4","111","CHI","Evan Rodriguez","TE",2012,0,0
+"10182","4","112","ARI","Bobby Massie","T",2012,45,21
+"10192","4","113","DAL","Kyle Wilber","LB",2012,15,13
+"10202","4","114","SEA","Jaye Howard","DT",2012,17,0
+"10212","4","115","TEN","Coty Sensabaugh","DB",2012,19,11
+"10222","4","116","CIN","Orson Charles","TE",2012,2,1
+"10232","4","117","SFO","Joe Looney","G",2012,20,2
+"10242","4","118","MIN","Jarius Wright","WR",2012,23,18
+"10252","4","119","WAS","Keenan Robinson","LB",2012,18,13
+"10262","4","120","CLE","James-Michael Johnson","LB",2012,11,4
+"10272","4","121","HOU","Keshawn Martin ","WR",2012,7,4
+"10282","4","122","NOR","Nick Toon","WR",2012,3,3
+"10292","4","123","PHI","Brandon Boykin","DB",2012,9,7
+"10302","4","124","BUF","Ron Brooks","DB",2012,6,4
+"10312","4","125","DET","Ronnell Lewis","LB",2012,1,1
+"10322","4","126","HOU","Jared Crick","DE",2012,27,20
+"10332","4","127","NYG","Adrien Robinson","TE",2012,0,0
+"10342","4","128","MIN","Rhett Ellison","RB",2012,9,4
+"10352","4","129","LVR","Miles Burris","LB",2012,14,14
+"10362","4","130","BAL","Christian Thompson","DB",2012,0,0
+"10372","4","131","NYG","Brandon Mosley","T",2012,2,2
+"1038","4","132","GNB","Mike Daniels","DT",2012,40,37
+"1039","4","133","GNB","Jerron McMillian","DB",2012,2,2
+"1040","4","134","MIN","Greg Childs","WR",2012,0,0
+"1041","4","135","DAL","Matt Johnson","DB",2012,0,0
+"10742","5","136","IND","Josh Chapman","NT",2012,8,8
+"10752","5","137","DEN","Malik Jackson","DT",2012,41,14
+"10762","5","138","DET","Tahir Whitehead","LB",2012,41,26
+"10772","5","139","MIN","Robert Blanton","DB",2012,9,9
+"10782","5","140","TAM","Najee Goode","LB",2012,10,0
+"10792","5","141","WAS","Adam Gettis","G",2012,1,1
+"10802","5","142","JAX","Brandon Marshall","LB",2012,30,0
+"10812","5","143","CAR","Josh Norman","DB",2012,41,22
+"10822","5","144","BUF","Zebrie Sanders ","OL",2012,0,0
+"10832","5","145","TEN","Taylor Thompson","TE",2012,0,0
+"10842","5","146","KAN","DeQuan Menzie","DB",2012,0,0
+"10852","5","147","BUF","Tank Carder","LB",2012,5,0
+"10862","5","148","DET","Chris Greenwood","DB",2012,0,0
+"10872","5","149","LAC","Johnnie Troutman","G",2012,13,13
+"10882","5","150","LAR","Rokevious Watkins","G",2012,1,0
+"10892","5","151","ARI","Senio Kelemete","G",2012,20,0
+"10902","5","152","DAL","Danny Coale","WR",2012,0,0
+"10912","5","153","PHI","Dennis Kelly","T",2012,25,6
+"10922","5","154","SEA","Korey Toomer","LB",2012,11,0
+"10932","5","155","MIA","Josh Kaddu","LB",2012,0,0
+"10942","5","156","CIN","Shaun Prater","DB",2012,2,0
+"10952","5","157","ATL","Bradie Ewing","RB",2012,0,0
+"10962","5","158","LVR","Jack Crawford ","DE",2012,18,1
+"10972","5","159","PIT","Chris Rainey","RB",2012,1,1
+"10982","5","160","CLE","Ryan Miller","G",2012,1,1
+"10992","5","161","HOU","Randy Bullock","K",2012,15,4
+"11002","5","162","NOR","Corey White","DB",2012,12,10
+"11012","5","163","GNB","Terrell Manning","LB",2012,0,0
+"11022","5","164","ATL","Jonathan Massaquoi","DE",2012,6,6
+"11032","5","165","SFO","Darius Fleming","LB",2012,1,0
+"11041","5","166","CIN","Marvin Jones ","WR",2012,46,15
+"11051","5","167","CIN","George Iloka","DB",2012,29,27
+"11061","5","168","LVR","Juron Criner","WR",2012,1,1
+"11071","5","169","BAL","Asa Jackson","DB",2012,3,2
+"1108","5","170","IND","Vick Ballard","RB",2012,5,5
+"11412","6","171","LAR","Greg Zuerlein","K",2012,23,21
+"11422","6","172","SEA","Jeremy Lane","DB",2012,11,11
+"11432","6","173","WAS","Alfred Morris ","RB",2012,36,28
+"11442","6","174","TAM","Keith Tandy","DB",2012,10,10
+"11452","6","175","MIN","Blair Walsh","K",2012,14,13
+"11462","6","176","JAX","Mike Harris","DB",2012,6,5
+"11472","6","177","ARI","Justin Bethel","DB",2012,18,14
+"11482","6","178","BUF","Mark Asper","G",2012,0,0
+"11492","6","179","NOR","Andrew Tiller","G",2012,6,0
+"11502","6","180","SFO","Trent Robinson","DB",2012,6,0
+"11512","6","181","SEA","Winston Guy","DB",2012,3,0
+"11522","6","182","KAN","Cyrus Gray","RB",2012,1,1
+"11532","6","183","MIA","B.J. Cunningham","WR",2012,0,0
+"11542","6","184","CHI","Isaiah Frey","DB",2012,3,3
+"11552","6","185","ARI","Ryan Lindley","QB",2012,-4,-4
+"11562","6","186","DAL","James Hanna","TE",2012,4,4
+"11572","6","187","NYJ","Josh Bush","DB",2012,3,2
+"11582","6","188","DEN","Danny Trevathan","LB",2012,48,19
+"11592","6","189","LVR","Christo Bilukidi","DE",2012,1,1
+"11602","6","190","TEN","Markelle Martin ","DB",2012,1,1
+"11612","6","191","CIN","Dan Herron","RB",2012,5,0
+"11622","6","192","ATL","Charles Mitchell ","DB",2012,1,1
+"11632","6","193","WAS","Tom Compton","T",2012,18,5
+"11642","6","194","PHI","Marvin McNutt","WR",2012,0,0
+"11652","6","195","HOU","Nick Mondek","OL",2012,0,0
+"11662","6","196","DET","Jonte Green","DB",2012,4,4
+"11672","6","197","NWE","Nate Ebner","DB",2012,11,11
+"11682","6","198","BAL","Tommy Streeter","WR",2012,0,0
+"11692","6","199","SFO","Jason Slowey","OL",2012,0,0
+"11702","6","200","PHI","Brandon Washington","G",2012,0,0
+"11712","6","201","NYG","Matt McCants","T",2012,3,0
+"11722","6","202","NYJ","Terrance Ganaway","RB",2012,0,0
+"11732","6","203","NYJ","Robert Griffin","OL",2012,0,0
+"11741","6","204","CLE","Emmanuel Acho","LB",2012,2,0
+"11751","6","205","CLE","Billy Winn","DT",2012,15,11
+"11761","6","206","IND","LaVon Brazill","WR",2012,3,3
+"11771","6","207","CAR","Brad Nortman","P",2012,11,7
+"12102","7","208","IND","Justin Anderson ","OL",2012,0,0
+"12112","7","209","LAR","Aaron Brown","LB",2012,0,0
+"12122","7","210","MIN","Audie Cole","LB",2012,7,7
+"12132","7","211","TEN","Scott Solomon","DE",2012,2,1
+"12142","7","212","TAM","Michael Smith","RB",2012,0,0
+"12152","7","213","WAS","Richard Crawford ","DB",2012,1,1
+"12162","7","214","IND","Tim Fugger","DE",2012,0,0
+"12172","7","215","MIA","Kheeston Randall","DT",2012,1,1
+"12182","7","216","CAR","D.J. Campbell","DB",2012,2,2
+"12192","7","217","WAS","Jordan Bernstine","DB",2012,0,0
+"12202","7","218","KAN","Jerome Long ","DT",2012,0,0
+"12212","7","219","MIN","Trevor Guyton","DE",2012,0,0
+"12222","7","220","CHI","Greg McCoy","DB",2012,0,0
+"12232","7","221","ARI","Nate Potter","T",2012,3,3
+"12242","7","222","DAL","Caleb McSurdy","LB",2012,0,0
+"12252","7","223","DET","Travis Lewis","LB",2012,4,4
+"12262","7","224","NWE","Alfonzo Dennard ","DB",2012,8,8
+"12272","7","225","SEA","J.R. Sweezy","DT",2012,47,29
+"12282","7","226","LAC","David Molk","C",2012,3,1
+"12292","7","227","MIA","Rishard Matthews","WR",2012,23,8
+"12302","7","228","JAX","Jeris Pendleton","DT",2012,0,0
+"12312","7","229","PHI","Bryce Brown","RB",2012,9,6
+"12322","7","230","LVR","Nathan Stupar","LB",2012,9,0
+"12332","7","231","PIT","Toney Clemons","WR",2012,0,0
+"12342","7","232","SEA","Greg Scruggs","DE",2012,1,1
+"12352","7","233","TAM","Drake Dunsmore","TE",2012,0,0
+"12362","7","234","NOR","Marcel Jones","OL",2012,0,0
+"12372","7","235","NWE","Jeremy Ebert","WR",2012,0,0
+"12382","7","236","BAL","DeAngelo Tyson","DT",2012,6,6
+"12392","7","237","SFO","Cam Johnson","DE",2012,5,0
+"12402","7","238","KAN","Junior Hemingway","WR",2012,2,2
+"12412","7","239","NYG","Markus Kuhn","DT",2012,6,6
+"12422","7","240","PIT","David Paulson","TE",2012,1,1
+"12432","7","241","GNB","Andrew Datko","OL",2012,0,0
+"12442","7","242","NYJ","Antonio Allen","DB",2012,10,10
+"12452","7","243","GNB","B.J. Coleman","QB",2012,0,0
+"12462","7","244","NYJ","Jordan White","WR",2012,0,0
+"12472","7","245","CLE","Trevin Wade","DB",2012,5,1
+"12482","7","246","PIT","Terrence Frederick","DB",2012,1,0
+"12492","7","247","CLE","Brad Smelley","TE",2012,0,0
+"12502","7","248","PIT","Kelvin Beachum","T",2012,47,17
+"12512","7","249","ATL","Travian Robertson","DT",2012,1,1
+"12522","7","250","LAC","Edwin Baker","RB",2012,1,0
+"12532","7","251","BUF","John Potter","K",2012,0,0
+"12542","7","252","LAR","Daryl Richardson ","RB",2012,7,7
+"12552","7","253","IND","Chandler Harnish","QB",2012,0,0
+"1332","2","64","CLE","Josh Gordon","WR",2012,29,19
+"8113","1","1","KAN","Eric Fisher","T",2013,61,61
+"8123","1","2","JAX","Luke Joeckel","T",2013,20,16
+"8133","1","3","MIA","Dion Jordan","DE",2013,10,4
+"8143","1","4","PHI","Lane Johnson","T",2013,54,54
+"8153","1","5","DET","Ezekiel Ansah","DE",2013,39,37
+"8163","1","6","CLE","Barkevious Mingo","LB",2013,25,10
+"8173","1","7","ARI","Jonathan Cooper","G",2013,14,6
+"8183","1","8","LAR","Tavon Austin","WR",2013,25,22
+"8193","1","9","NYJ","Dee Milliner","DB",2013,6,6
+"8203","1","10","TEN","Chance Warmack","G",2013,22,20
+"8213","1","11","LAC","D.J. Fluker","T",2013,44,31
+"8223","1","12","LVR","D.J. Hayden","DB",2013,15,8
+"8233","1","13","NYJ","Sheldon Richardson ","DT",2013,60,32
+"8243","1","14","CAR","Star Lotulelei","DT",2013,43,27
+"8253","1","15","NOR","Kenny Vaccaro","DB",2013,34,20
+"8263","1","16","BUF","EJ Manuel","QB",2013,10,10
+"8273","1","17","PIT","Jarvis Jones","LB",2013,17,17
+"8283","1","18","SFO","Eric Reid","DB",2013,32,25
+"8293","1","19","NYG","Justin Pugh","T",2013,41,25
+"8303","1","20","CHI","Kyle Long ","G",2013,41,41
+"8313","1","21","CIN","Tyler Eifert","TE",2013,18,17
+"8323","1","22","ATL","Desmond Trufant","DB",2013,35,34
+"8333","1","23","MIN","Sharrif Floyd ","DT",2013,13,13
+"8343","1","24","IND","Bjoern Werner","DE",2013,10,10
+"8353","1","25","MIN","Xavier Rhodes","DB",2013,44,41
+"8363","1","26","GNB","Datone Jones","DE",2013,10,9
+"8373","1","27","HOU","DeAndre Hopkins","WR",2013,68,57
+"8383","1","28","DEN","Sylvester Williams","DT",2013,29,23
+"8393","1","29","MIN","Cordarrelle Patterson","WR",2013,29,17
+"8403","1","30","LAR","Alec Ogletree","LB",2013,51,40
+"8413","1","31","DAL","Travis Frederick ","C",2013,53,53
+"8423","1","32","BAL","Matt Elam","DB",2013,13,13
+"8753","2","33","JAX","Johnathan Cyprien","DB",2013,23,20
+"8763","2","34","TEN","Justin Hunter","WR",2013,9,7
+"8773","2","35","PHI","Zach Ertz","TE",2013,42,42
+"8783","2","36","DET","Darius Slay","DB",2013,45,41
+"8793","2","37","CIN","Giovani Bernard","RB",2013,41,41
+"8803","2","38","LAC","Manti Te'o","LB",2013,20,14
+"8813","2","39","NYJ","Geno Smith","QB",2013,15,15
+"8823","2","40","SFO","Tank Carradine","DE",2013,7,7
+"8833","2","41","BUF","Robert Woods","WR",2013,50,15
+"8843","2","42","LVR","Menelik Watson","T",2013,9,6
+"8853","2","43","TAM","Johnthan Banks","DB",2013,12,11
+"8863","2","44","CAR","Kawann Short","DT",2013,40,40
+"8873","2","45","ARI","Kevin Minter","LB",2013,26,20
+"8883","2","46","BUF","Kiko Alonso","LB",2013,32,9
+"8893","2","47","DAL","Gavin Escobar ","TE",2013,2,2
+"8903","2","48","PIT","Le'Veon Bell","RB",2013,62,55
+"8913","2","49","NYG","Johnathan Hankins","DT",2013,38,17
+"8923","2","50","CHI","Jonathan Bostic","LB",2013,32,5
+"8933","2","51","WAS","David Amerson","DB",2013,20,7
+"8943","2","52","NWE","Jamie Collins","LB",2013,58,41
+"8953","2","53","CIN","Margus Hunt","DE",2013,17,4
+"8963","2","54","MIA","Jamar Taylor","DB",2013,16,3
+"8973","2","55","SFO","Vance McDonald","TE",2013,14,5
+"8983","2","56","BAL","Arthur Brown","LB",2013,3,2
+"8993","2","57","HOU","D.J. Swearinger","DB",2013,30,9
+"9003","2","58","DEN","Montee Ball","RB",2013,8,8
+"9013","2","59","NWE","Aaron Dobson","WR",2013,6,6
+"9023","2","60","ATL","Robert Alford","DB",2013,24,24
+"9033","2","61","GNB","Eddie Lacy","RB",2013,36,34
+"9043","2","62","SEA","Christine Michael ","RB",2013,9,8
+"937","3","63","KAN","Travis Kelce","TE",2013,69,69
+"9381","3","64","JAX","Dwayne Gratz","DB",2013,10,10
+"9393","3","65","DET","Larry Warford ","G",2013,47,20
+"9403","3","66","LVR","Sio Moore","LB",2013,15,10
+"9413","3","67","PHI","Bennie Logan","DT",2013,32,21
+"9423","3","68","CLE","Leon McFadden","DB",2013,2,1
+"9433","3","69","ARI","Tyrann Mathieu","DB",2013,48,22
+"9443","3","70","TEN","Blidi Wreh-Wilson","DB",2013,9,6
+"9453","3","71","LAR","T.J. McDonald","DB",2013,25,18
+"9463","3","72","NYJ","Brian Winters ","G",2013,30,26
+"9473","3","73","TAM","Mike Glennon","QB",2013,13,11
+"9483","3","74","DAL","Terrance Williams","WR",2013,28,28
+"9493","3","75","NOR","Terron Armstead","T",2013,56,56
+"9503","3","76","LAC","Keenan Allen ","WR",2013,56,56
+"9513","3","77","MIA","Dallas Thomas","T",2013,11,11
+"9523","3","78","BUF","Marquise Goodwin","WR",2013,18,5
+"9533","3","79","PIT","Markus Wheaton","WR",2013,13,13
+"9543","3","80","DAL","J.J. Wilcox","DB",2013,16,15
+"9553","3","81","NYG","Damontre Moore","DE",2013,5,4
+"9563","3","82","NOR","John Jenkins","DT",2013,15,10
+"9573","3","83","NWE","Logan Ryan","DB",2013,36,14
+"9583","3","84","CIN","Shawn Williams","DB",2013,24,24
+"9593","3","85","WAS","Jordan Reed","TE",2013,25,24
+"9603","3","86","IND","Hugh Thornton ","G",2013,15,15
+"9613","3","87","SEA","Jordan Hill","DT",2013,6,6
+"9623","3","88","SFO","Corey Lemonier","DE",2013,4,3
+"9633","3","89","HOU","Brennan Williams","OL",2013,0,0
+"9643","3","90","DEN","Kayvon Webster","DB",2013,9,4
+"9653","3","91","NWE","Duron Harmon","DB",2013,21,16
+"9663","3","92","LAR","Stedman Bailey","WR",2013,7,7
+"9673","3","93","MIA","Will Davis ","DB",2013,0,0
+"9683","3","94","BAL","Brandon Williams","DT",2013,48,48
+"9693","3","95","HOU","Sam Montgomery","DE",2013,0,0
+"9702","3","96","KAN","Knile Davis ","RB",2013,10,10
+"9712","3","97","TEN","Zaviar Gooden","LB",2013,4,3
+"10042","4","98","PHI","Matt Barkley","QB",2013,5,1
+"10053","4","99","KAN","Nico Johnson","LB",2013,3,1
+"10063","4","100","TAM","Akeem Spence","DT",2013,26,12
+"10073","4","101","JAX","Ace Sanders ","WR",2013,3,3
+"10083","4","102","NWE","Josh Boyce","WR",2013,1,1
+"10093","4","103","ARI","Alex Okafor","DE",2013,29,14
+"10103","4","104","MIA","Jelani Jenkins","LB",2013,16,15
+"10113","4","105","BUF","Duke Williams","DB",2013,8,8
+"10123","4","106","MIA","Dion Sims","TE",2013,7,6
+"10133","4","107","TEN","Brian Schwenke","C",2013,13,13
+"10143","4","108","CAR","Edmund Kugbila","OL",2013,0,0
+"10153","4","109","GNB","David Bakhtiari","T",2013,87,87
+"10163","4","110","NYG","Ryan Nassib","QB",2013,0,0
+"10173","4","111","PIT","Shamarko Thomas","DB",2013,5,4
+"10183","4","112","LVR","Tyler Wilson","QB",2013,0,0
+"10193","4","113","LAR","Barrett Jones","G",2013,0,0
+"10203","4","114","DAL","B.W. Webb","DB",2013,13,1
+"10213","4","115","PIT","Landry Jones","QB",2013,4,4
+"10223","4","116","ARI","Earl Watford","G",2013,15,11
+"10233","4","117","CHI","Khaseem Greene","LB",2013,3,3
+"10243","4","118","CIN","Sean Porter","LB",2013,0,0
+"10253","4","119","WAS","Phillip Thomas","DB",2013,2,2
+"10263","4","120","MIN","Gerald Hodges","LB",2013,18,8
+"10273","4","121","IND","Khaled Holmes","C",2013,4,4
+"10283","4","122","GNB","J.C. Tretter","T",2013,31,5
+"10293","4","123","SEA","Chris Harper","WR",2013,0,0
+"10303","4","124","HOU","Trevardo Williams","DE",2013,0,0
+"10313","4","125","GNB","Johnathan Franklin","RB",2013,1,1
+"10323","4","126","TAM","William Gholston","DE",2013,30,30
+"10333","4","127","ATL","Malliciah Goodman","DE",2013,5,5
+"10343","4","128","SFO","Quinton Patton","WR",2013,7,7
+"10353","4","129","BAL","John Simon","DE",2013,34,1
+"10363","4","130","BAL","Kyle Juszczyk","RB",2013,15,5
+"10373","4","131","SFO","Marcus Lattimore","RB",2013,0,0
+"10381","4","132","DET","Devin Taylor","DE",2013,12,12
+"10391","4","133","ATL","Levine Toilolo","TE",2013,8,6
+"10722","5","134","KAN","Sanders Commings","DB",2013,0,0
+"10732","5","135","JAX","Denard Robinson","WR",2013,8,8
+"10743","5","136","PHI","Earl Wolff","DB",2013,4,4
+"10753","5","137","SEA","Jesse Williams","DT",2013,0,0
+"10763","5","138","SEA","Tharold Simon","DB",2013,3,2
+"10773","5","139","IND","Montori Hughes","DT",2013,2,2
+"10783","5","140","ARI","Stepfan Taylor","RB",2013,3,3
+"10793","5","141","NYJ","Oday Aboushi","T",2013,14,3
+"10803","5","142","TEN","Lavar Edwards","DE",2013,1,1
+"10813","5","143","BUF","Jonathan Meeks","DB",2013,2,2
+"10823","5","144","NOR","Kenny Stills","WR",2013,34,13
+"10833","5","145","LAC","Steve Williams","DB",2013,4,4
+"10843","5","146","DEN","Quanterus Smith","DE",2013,1,1
+"10853","5","147","TAM","Steven Means","DE",2013,10,1
+"10863","5","148","CAR","A.J. Klein","LB",2013,33,10
+"10873","5","149","LAR","Brandon McGee","DB",2013,1,1
+"10883","5","150","PIT","Terry Hawthorne","DB",2013,0,0
+"10893","5","151","DAL","Joseph Randle ","RB",2013,7,7
+"10903","5","152","NYG","Cooper Taylor","DB",2013,1,1
+"10913","5","153","ATL","Stansly Maponga","DE",2013,2,2
+"10923","5","154","WAS","Chris Thompson","RB",2013,20,19
+"10933","5","155","MIN","Jeff Locke","P",2013,6,6
+"10943","5","156","CIN","Tanner Hawkinson","T",2013,0,0
+"10953","5","157","SFO","Quinton Dial","DE",2013,16,13
+"10963","5","158","SEA","Luke Willson","TE",2013,12,11
+"10973","5","159","GNB","Micah Hyde","DB",2013,39,13
+"10983","5","160","LAR","Zac Stacy","RB",2013,11,10
+"10993","5","161","DEN","Tavarres King","WR",2013,2,0
+"11003","5","162","WAS","Brandon Jenkins","DE",2013,0,0
+"11013","5","163","CHI","Jordan Mills","T",2013,40,15
+"11023","5","164","MIA","Mike Gillislee ","RB",2013,10,0
+"11033","5","165","DET","Sam Martin ","P",2013,16,15
+"11042","5","166","MIA","Caleb Sturgis","K",2013,8,4
+"11052","5","167","GNB","Josh Boyd","DE",2013,4,4
+"11062","5","168","BAL","Ricky Wagner","T",2013,41,22
+"11391","6","169","JAX","Josh Evans","DB",2013,13,13
+"11402","6","170","KAN","Eric Kush ","C",2013,10,1
+"11413","6","171","DET","Corey Fuller","WR",2013,3,3
+"11423","6","172","LVR","Nick Kasa","TE",2013,0,0
+"11433","6","173","DEN","Vinston Painter","G",2013,0,0
+"11443","6","174","ARI","Ryan Swope","WR",2013,0,0
+"11453","6","175","CLE","Jamoris Slaughter","DB",2013,0,0
+"11463","6","176","HOU","David Quessenberry ","OL",2013,4,0
+"11473","6","177","BUF","Dustin Hopkins ","K",2013,16,0
+"11483","6","178","NYJ","William Campbell","OL",2013,0,0
+"11493","6","179","LAC","Tourek Williams","DE",2013,5,5
+"11503","6","180","SFO","Nick Moody ","LB",2013,2,2
+"11513","6","181","LVR","Latavius Murray","RB",2013,38,17
+"11523","6","182","CAR","Kenjon Barner","RB",2013,4,0
+"11533","6","183","NOR","Rufus Johnson","DE",2013,0,0
+"11543","6","184","LVR","Mychal Rivera ","TE",2013,9,9
+"11553","6","185","DAL","DeVonte Holloman","LB",2013,1,1
+"11563","6","186","PIT","Justin Brown","WR",2013,1,1
+"11573","6","187","ARI","Andre Ellington","RB",2013,18,17
+"11583","6","188","CHI","Cornelius Washington","LB",2013,6,3
+"11593","6","189","TAM","Mike James ","RB",2013,2,2
+"11603","6","190","CIN","Rex Burkhead ","RB",2013,18,4
+"11613","6","191","WAS","Bacarri Rambo","DB",2013,8,1
+"11623","6","192","IND","John Boyett","DB",2013,0,0
+"11633","6","193","GNB","Nate Palmer","LB",2013,9,7
+"11643","6","194","SEA","Spencer Ware","RB",2013,17,0
+"11653","6","195","HOU","Alan Bonner ","WR",2013,0,0
+"11663","6","196","MIN","Jeff Baca ","G",2013,0,0
+"11673","6","197","CIN","Cobi Hamilton","WR",2013,2,0
+"11683","6","198","HOU","Chris Jones","DT",2013,14,0
+"11693","6","199","DET","Theo Riddick","RB",2013,24,24
+"11703","6","200","BAL","Kapron Lewis-Moore","DE",2013,0,0
+"11713","6","201","HOU","Ryan Griffin","TE",2013,12,10
+"11723","6","202","TEN","Khalid Wooten ","DB",2013,0,0
+"11733","6","203","BAL","Ryan Jensen","T",2013,34,10
+"11742","6","204","KAN","Braden Wilson","FB",2013,0,0
+"11752","6","205","LVR","Stacy McGee","DT",2013,16,10
+"11762","6","206","PIT","Vince Williams","LB",2013,36,36
+"12091","7","207","KAN","Mike Catapano","DE",2013,3,1
+"12103","7","208","JAX","Jeremy Harris","DB",2013,0,0
+"12113","7","209","LVR","Brice Butler","WR",2013,9,3
+"12123","7","210","JAX","Demetrius McCray","DB",2013,8,8
+"12133","7","211","DET","Michael Williams","TE",2013,0,0
+"12143","7","212","PHI","Joe Kruger","DE",2013,0,0
+"12153","7","213","MIN","Michael Mauti","LB",2013,6,2
+"12163","7","214","MIN","Travis Bond ","G",2013,0,0
+"12173","7","215","NYJ","Tommy Bohanon","RB",2013,1,1
+"12183","7","216","GNB","Charles Johnson","WR",2013,7,0
+"12193","7","217","CLE","Armonty Bryant","DE",2013,5,4
+"12203","7","218","PHI","Jordan Poyer","DB",2013,30,0
+"12213","7","219","ARI","D.C. Jefferson","TE",2013,0,0
+"12223","7","220","SEA","Ryan Seymour","G",2013,1,0
+"12233","7","221","LAC","Brad Sorensen","QB",2013,0,0
+"12243","7","222","BUF","Chris Gragg ","TE",2013,1,1
+"12253","7","223","PIT","Nick Williams","DT",2013,11,0
+"12263","7","224","GNB","Kevin Dorsey","WR",2013,0,0
+"12273","7","225","NYG","Eric Herman","OL",2013,0,0
+"12283","7","226","NWE","Michael Buchanan","DE",2013,2,2
+"12293","7","227","CLE","Garrett Gilkey","T",2013,2,1
+"12303","7","228","WAS","Jawan Jamison","RB",2013,0,0
+"12313","7","229","MIN","Everett Dawkins","DT",2013,0,0
+"12323","7","230","IND","Kerwynn Williams","RB",2013,6,0
+"12333","7","231","SEA","Ty Powell ","DE",2013,1,0
+"12343","7","232","GNB","Sam Barrington","LB",2013,4,4
+"12353","7","233","LVR","David Bass","DE",2013,9,0
+"12363","7","234","DEN","Zac Dysert","QB",2013,0,0
+"12373","7","235","NWE","Steve Beauharnais","LB",2013,0,0
+"12383","7","236","CHI","Marquess Wilson","WR",2013,6,6
+"12393","7","237","SFO","B.J. Daniels","QB",2013,0,0
+"12403","7","238","BAL","Aaron Mellette","WR",2013,0,0
+"12413","7","239","PHI","David King","DE",2013,1,0
+"12423","7","240","CIN","Reid Fragel","OL",2013,0,0
+"12433","7","241","SEA","Jared Smith","DT",2013,0,0
+"12443","7","242","SEA","Michael Bowie ","T",2013,4,4
+"12453","7","243","ATL","Kemal Ishmael","DB",2013,13,13
+"12463","7","244","ATL","Zeke Motta","DB",2013,1,1
+"12473","7","245","DET","Brandon Hepburn","LB",2013,0,0
+"12483","7","246","SFO","Carter Bykowski","OL",2013,0,0
+"12493","7","247","BAL","Marc Anthony","DB",2013,0,0
+"12503","7","248","TEN","Daimion Stafford","DB",2013,7,7
+"12513","7","249","ATL","Sean Renfree ","QB",2013,0,0
+"12523","7","250","MIA","Don Jones","DB",2013,2,1
+"12533","7","251","CIN","T.J. Johnson","C",2013,4,4
+"12543","7","252","SFO","Marcus Cooper","DB",2013,13,0
+"12553","7","253","NYG","Michael Cox","RB",2013,0,0
+"12562","7","254","IND","Justice Cunningham","TE",2013,0,0
+"8114","1","1","HOU","Jadeveon Clowney","DE",2014,45,37
+"8124","1","2","LAR","Greg Robinson","T",2014,28,14
+"8134","1","3","JAX","Blake Bortles ","QB",2014,44,44
+"8144","1","4","BUF","Sammy Watkins","WR",2014,39,19
+"8154","1","5","LVR","Khalil Mack","LB",2014,79,42
+"8164","1","6","ATL","Jake Matthews","T",2014,61,61
+"8174","1","7","TAM","Mike Evans","WR",2014,55,55
+"8184","1","8","CLE","Justin Gilbert","DB",2014,4,3
+"8194","1","9","MIN","Anthony Barr","LB",2014,48,48
+"8204","1","10","DET","Eric Ebron","TE",2014,27,15
+"8214","1","11","TEN","Taylor Lewan","T",2014,46,46
+"8224","1","12","NYG","Odell Beckham Jr.","WR",2014,51,42
+"8234","1","13","LAR","Aaron Donald","DT",2014,96,96
+"8244","1","14","CHI","Kyle Fuller ","DB",2014,44,44
+"8254","1","15","PIT","Ryan Shazier","LB",2014,27,27
+"8264","1","16","DAL","Zack Martin ","G",2014,68,68
+"8274","1","17","BAL","C.J. Mosley","LB",2014,61,59
+"8284","1","18","NYJ","Calvin Pryor","DB",2014,14,14
+"8294","1","19","MIA","Ja'Wuan James","T",2014,30,29
+"8304","1","20","NOR","Brandin Cooks","WR",2014,57,21
+"8314","1","21","GNB","Ha Ha Clinton-Dix","DB",2014,34,24
+"8324","1","22","CLE","Johnny Manziel","QB",2014,5,5
+"8334","1","23","KAN","Dee Ford","LB",2014,23,22
+"8344","1","24","CIN","Darqueze Dennard ","DB",2014,14,12
+"8354","1","25","LAC","Jason Verrett","DB",2014,17,12
+"8364","1","26","PHI","Marcus Smith","LB",2014,4,3
+"8374","1","27","ARI","Deone Bucannon","DB",2014,36,33
+"8384","1","28","CAR","Kelvin Benjamin","WR",2014,22,18
+"8394","1","29","NWE","Dominique Easley","DT",2014,7,4
+"8404","1","30","SFO","Jimmie Ward","DB",2014,19,19
+"8414","1","31","DEN","Bradley Roby","DB",2014,22,15
+"8424","1","32","MIN","Teddy Bridgewater","QB",2014,38,21
+"8754","2","33","HOU","Xavier Su'a-Filo","G",2014,22,16
+"8764","2","34","DAL","DeMarcus Lawrence","DE",2014,46,46
+"8774","2","35","CLE","Joel Bitonio","G",2014,42,42
+"8784","2","36","LVR","Derek Carr ","QB",2014,66,66
+"8794","2","37","ATL","Ra'Shede Hageman","DT",2014,8,8
+"8804","2","38","TAM","Austin Seferian-Jenkins","TE",2014,9,5
+"8814","2","39","JAX","Marqise Lee ","WR",2014,17,17
+"8824","2","40","DET","Kyle Van Noy","LB",2014,41,4
+"8834","2","41","LAR","Lamarcus Joyner","DB",2014,24,16
+"8844","2","42","PHI","Jordan Matthews","WR",2014,23,21
+"8854","2","43","NYG","Weston Richburg","OL",2014,32,19
+"8864","2","44","BUF","Cyrus Kouandjio","T",2014,7,6
+"8874","2","45","SEA","Paul Richardson ","WR",2014,14,10
+"8884","2","46","PIT","Stephon Tuitt","DE",2014,37,37
+"8894","2","47","WAS","Trent Murphy","LB",2014,32,12
+"8904","2","48","BAL","Timmy Jernigan","DT",2014,24,13
+"8914","2","49","NYJ","Jace Amaro","TE",2014,4,3
+"8924","2","50","LAC","Jeremiah Attaochu","LB",2014,16,8
+"8934","2","51","CHI","Ego Ferguson ","DT",2014,2,2
+"8944","2","52","ARI","Troy Niklas","TE",2014,1,1
+"8954","2","53","GNB","Davante Adams","WR",2014,54,54
+"8964","2","54","TEN","Bishop Sankey","RB",2014,6,6
+"8974","2","55","CIN","Jeremy Hill","RB",2014,21,21
+"8984","2","56","DEN","Cody Latimer","WR",2014,6,3
+"8994","2","57","SFO","Carlos Hyde","RB",2014,31,18
+"9004","2","58","NOR","Stanley Jean-Baptiste","DB",2014,0,0
+"9014","2","59","IND","Jack Mewhort","T",2014,21,21
+"9024","2","60","CAR","Kony Ealy","DE",2014,12,10
+"9034","2","61","JAX","Allen Robinson","WR",2014,42,18
+"9044","2","62","NWE","Jimmy Garoppolo","QB",2014,27,2
+"9053","2","63","MIA","Jarvis Landry ","WR",2014,49,29
+"9062","2","64","SEA","Justin Britt","T",2014,40,40
+"9394","3","65","HOU","C.J. Fiedorowicz","TE",2014,6,6
+"9404","3","66","WAS","Morgan Moses","OL",2014,44,44
+"9414","3","67","MIA","Billy Turner","T",2014,26,5
+"9424","3","68","ATL","Dezmen Southward","DB",2014,1,1
+"9434","3","69","TAM","Charles Sims","RB",2014,13,13
+"9444","3","70","SFO","Marcus Martin ","C",2014,9,9
+"9454","3","71","CLE","Christian Kirksey","LB",2014,29,24
+"9464","3","72","MIN","Scott Crichton","DE",2014,2,2
+"9474","3","73","BUF","Preston Brown","LB",2014,34,28
+"9484","3","74","NYG","Jay Bromley","DT",2014,6,6
+"9494","3","75","LAR","Tre Mason","RB",2014,7,7
+"9504","3","76","DET","Travis Swanson","C",2014,24,21
+"9514","3","77","SFO","Chris Borland","LB",2014,6,6
+"9524","3","78","WAS","Spencer Long ","G",2014,19,14
+"9534","3","79","BAL","Terrence Brooks","DB",2014,7,2
+"9544","3","80","NYJ","Dexter McDougle","DB",2014,2,1
+"9554","3","81","LVR","Gabe Jackson","G",2014,37,37
+"9564","3","82","CHI","Will Sutton","DT",2014,9,9
+"9574","3","83","HOU","Louis Nix ","DT",2014,0,0
+"9584","3","84","ARI","Kareem Martin ","DE",2014,13,9
+"9594","3","85","GNB","Khyri Thornton ","DT",2014,3,0
+"9604","3","86","PHI","Josh Huff","WR",2014,6,6
+"9614","3","87","KAN","Phillip Gaines","DB",2014,9,5
+"9624","3","88","CIN","Will Clarke","DE",2014,6,4
+"9634","3","89","LAC","Chris Watt","G",2014,4,4
+"9644","3","90","IND","Donte Moncrief","WR",2014,18,15
+"9654","3","91","ARI","John Brown","WR",2014,37,18
+"9664","3","92","CAR","Trai Turner","OL",2014,42,39
+"9674","3","93","JAX","Brandon Linder","OL",2014,26,26
+"9684","3","94","CLE","Terrance West ","RB",2014,12,4
+"9694","3","95","DEN","Michael Schofield","OL",2014,30,11
+"9703","3","96","MIN","Jerick McKinnon ","RB",2014,23,21
+"9713","3","97","PIT","Dri Archer","WR",2014,0,0
+"9721","3","98","GNB","Richard Rodgers ","TE",2014,14,12
+"973","3","99","BAL","Crockett Gillmore","TE",2014,4,4
+"974","3","100","SFO","Brandon Thomas","OL",2014,0,0
+"10074","4","101","PHI","Jaylen Watkins","DB",2014,5,3
+"10084","4","102","WAS","Bashaud Breeland","DB",2014,31,21
+"10094","4","103","ATL","Devonta Freeman ","RB",2014,44,43
+"10104","4","104","NYJ","Jalen Saunders","WR",2014,0,0
+"10114","4","105","NWE","Bryan Stork","C",2014,10,10
+"10124","4","106","SFO","Bruce Ellington","WR",2014,7,2
+"10134","4","107","LVR","Justin Ellis","DT",2014,20,19
+"10144","4","108","SEA","Cassius Marsh","DE",2014,13,5
+"10154","4","109","BUF","Ross Cockrell","DB",2014,19,0
+"10164","4","110","LAR","Maurice Alexander","DB",2014,11,9
+"10174","4","111","CIN","Russell Bodine","C",2014,28,26
+"10184","4","112","TEN","DaQuan Jones","DT",2014,38,38
+"10194","4","113","NYG","Andre Williams","RB",2014,7,6
+"10204","4","114","JAX","Aaron Colvin","DB",2014,15,12
+"10214","4","115","NYJ","Shaquelle Evans","WR",2014,0,0
+"10224","4","116","LVR","Keith McGill","DB",2014,4,4
+"10234","4","117","CHI","Ka'Deem Carey","RB",2014,3,3
+"10244","4","118","PIT","Martavis Bryant","WR",2014,19,17
+"10254","4","119","DAL","Anthony Hitchens","LB",2014,38,20
+"10264","4","120","ARI","Logan Thomas","QB",2014,7,0
+"10274","4","121","GNB","Carl Bradford","LB",2014,0,0
+"10284","4","122","TEN","Marqueston Huff","DB",2014,4,3
+"10294","4","123","SEA","Kevin Norwood","WR",2014,1,1
+"10304","4","124","KAN","De'Anthony Thomas","RB",2014,6,6
+"10314","4","125","MIA","Walt Aikens","DB",2014,6,6
+"10324","4","126","NOR","Khairi Fortt","LB",2014,0,0
+"10334","4","127","CLE","Pierre Desir","DB",2014,13,3
+"10344","4","128","CAR","Tre Boston","DB",2014,28,17
+"10354","4","129","SFO","Dontae Johnson","DB",2014,11,11
+"10364","4","130","NWE","James White ","RB",2014,36,36
+"10374","4","131","CHI","Brock Vereen","DB",2014,2,2
+"10382","4","132","SEA","Kevin Pierre-Louis","LB",2014,15,3
+"10392","4","133","DET","Nevin Lawson","DB",2014,20,16
+"10401","4","134","BAL","Brent Urban ","DT",2014,19,13
+"10411","4","135","HOU","Tom Savage ","QB",2014,4,4
+"1042","4","136","DET","Larry Webster","DE",2014,0,0
+"1043","4","137","NYJ","Dakota Dozier","OL",2014,14,3
+"1044","4","138","BAL","Lorenzo Taliaferro ","RB",2014,3,3
+"1045","4","139","ATL","Prince Shembo","LB",2014,2,2
+"1046","4","140","NWE","Cameron Fleming","T",2014,22,11
+"10794","5","141","PHI","Taylor Hart ","DE",2014,1,1
+"10804","5","142","WAS","Ryan Grant","WR",2014,10,7
+"10814","5","143","TAM","Kadeem Edwards","OL",2014,0,0
+"10824","5","144","JAX","Telvin Smith","LB",2014,44,44
+"10834","5","145","MIN","David Yankey","OL",2014,0,0
+"10844","5","146","DAL","Devin Street","WR",2014,1,1
+"10854","5","147","ATL","Ricardo Allen","DB",2014,20,20
+"10864","5","148","CAR","Bene Benwikere","DB",2014,10,6
+"10874","5","149","TAM","Kevin Pamphile","T",2014,15,14
+"10884","5","150","SFO","Aaron Lynch ","DE",2014,14,9
+"10894","5","151","TEN","Avery Williamson","LB",2014,37,22
+"10904","5","152","NYG","Nat Berhe","DB",2014,3,3
+"10914","5","153","BUF","Cyril Richardson ","G",2014,2,2
+"10924","5","154","NYJ","Jeremiah George","LB",2014,3,0
+"10934","5","155","MIA","Arthur Lynch ","TE",2014,0,0
+"10944","5","156","DEN","Lamin Barrow","LB",2014,2,1
+"10954","5","157","PIT","Shaquille Richardson ","DB",2014,0,0
+"10964","5","158","DET","Caraun Reid","DT",2014,9,6
+"10974","5","159","JAX","Chris Smith","DE",2014,8,2
+"10984","5","160","ARI","Ed Stinson ","DE",2014,5,5
+"10994","5","161","GNB","Corey Linsley","C",2014,49,49
+"11004","5","162","PHI","Ed Reynolds","DB",2014,3,1
+"11014","5","163","KAN","Aaron Murray","QB",2014,0,0
+"11024","5","164","CIN","A.J. McCarron","QB",2014,4,3
+"11034","5","165","LAC","Ryan Carrethers","DT",2014,3,3
+"11043","5","166","IND","Jonathan Newsome","LB",2014,4,4
+"11053","5","167","NOR","Vinnie Sunseri","DB",2014,0,0
+"11063","5","168","ATL","Marquis Spruill","LB",2014,0,0
+"11072","5","169","NOR","Ronald Powell","LB",2014,1,1
+"11081","5","170","SFO","Keith Reaser","DB",2014,2,2
+"1109","5","171","MIA","Jordan Tripp","LB",2014,3,1
+"1110","5","172","SEA","Jimmy Staten","DT",2014,0,0
+"1111","5","173","PIT","Wesley Johnson","OL",2014,11,0
+"1112","5","174","NYG","Devon Kennard","DE",2014,32,15
+"1113","5","175","BAL","John Urschel","G",2014,7,7
+"1114","5","176","GNB","Jared Abbrederis","WR",2014,1,1
+"11474","6","177","HOU","Jeoffrey Pagan","DE",2014,1,1
+"11484","6","178","TEN","Zach Mettenberger","QB",2014,1,1
+"11494","6","179","NWE","Jon Halapio","OL",2014,10,0
+"11504","6","180","SFO","Kenneth Acker","DB",2014,7,5
+"11514","6","181","HOU","Alfred Blue","RB",2014,18,18
+"11524","6","182","MIN","Antone Exum","DB",2014,6,3
+"11534","6","183","CHI","David Fales","QB",2014,1,0
+"11544","6","184","MIN","Kendall James","DB",2014,0,0
+"11554","6","185","TAM","Robert Herron","WR",2014,0,0
+"11564","6","186","WAS","Lache Seastrunk","RB",2014,0,0
+"11574","6","187","NYG","Bennett Jackson","DB",2014,0,0
+"11584","6","188","LAR","E.J. Gaines","DB",2014,13,10
+"11594","6","189","DET","T.J. Jones","WR",2014,6,6
+"11604","6","190","MIA","Matt Hazel","WR",2014,0,0
+"11614","6","191","CHI","Pat O'Donnell","P",2014,12,12
+"11624","6","192","PIT","Jordan Zumwalt","LB",2014,0,0
+"11634","6","193","KAN","Zach Fulton","G",2014,39,19
+"11644","6","194","BAL","Keith Wenning","QB",2014,0,0
+"11654","6","195","NYJ","Brandon Dixon","DB",2014,3,0
+"11664","6","196","ARI","Walt Powell","WR",2014,1,0
+"11674","6","197","GNB","Demetri Goodson","DB",2014,2,2
+"11684","6","198","NWE","Zach Moore","DE",2014,3,1
+"11694","6","199","SEA","Garrett Scott","OL",2014,0,0
+"11704","6","200","KAN","Laurent Duvernay-Tardif","OL",2014,26,26
+"11714","6","201","LAC","Marion Grice","RB",2014,0,0
+"11724","6","202","NOR","Tavon Rooks","OL",2014,0,0
+"11734","6","203","IND","Andrew Jackson","LB",2014,1,1
+"11743","6","204","CAR","Tyler Gaffney","RB",2014,0,0
+"11753","6","205","JAX","Luke Bowanko","C",2014,8,5
+"11763","6","206","NWE","Jemea Thomas","DB",2014,0,0
+"11772","6","207","DEN","Matt Paradis","OL",2014,31,19
+"1178","6","208","SEA","Eric Pinkins","DB",2014,1,0
+"1179","6","209","NYJ","Quincy Enunwa","WR",2014,13,13
+"1180","6","210","NYJ","IK Enemkpali","DT",2014,1,0
+"1181","6","211","HOU","Jay Prosch","FB",2014,0,0
+"1182","6","212","CIN","Marquis Flowers","LB",2014,7,4
+"1183","6","213","NYJ","Tajh Boyd","QB",2014,0,0
+"1184","6","214","LAR","Garrett Gilbert","QB",2014,1,0
+"1185","6","215","PIT","Daniel McCullers","DT",2014,6,6
+"12184","7","216","HOU","Andre Hal","DB",2014,19,19
+"12194","7","217","WAS","Ted Bolser","TE",2014,0,0
+"12204","7","218","BAL","Michael Campanaro","WR",2014,4,4
+"12214","7","219","LVR","T.J. Carrie ","DB",2014,21,14
+"12224","7","220","MIN","Shamar Stephen","DT",2014,29,23
+"12234","7","221","BUF","Randell Johnson","LB",2014,2,2
+"12244","7","222","JAX","Storm Johnson","RB",2014,0,0
+"12254","7","223","MIN","Brandon Watts","LB",2014,1,1
+"12264","7","224","PHI","Beau Allen","DT",2014,13,8
+"12274","7","225","MIN","Jabari Price","DB",2014,1,1
+"12284","7","226","LAR","Mitchell Van Dyk","OL",2014,0,0
+"12294","7","227","SEA","Kiero Small","RB",2014,0,0
+"12304","7","228","WAS","Zach Hocker","K",2014,0,0
+"12314","7","229","DET","Nate Freese","K",2014,-1,-1
+"12324","7","230","PIT","Rob Blanchflower","TE",2014,0,0
+"12334","7","231","DAL","Ben Gardner","DE",2014,0,0
+"12344","7","232","IND","Ulrick John","OL",2014,2,0
+"12354","7","233","NYJ","Trevor Reilly","LB",2014,4,3
+"12364","7","234","MIA","Terrence Fede","DE",2014,6,6
+"12374","7","235","LVR","Shelby Harris","DE",2014,20,1
+"12384","7","236","GNB","Jeff Janis","WR",2014,2,2
+"12394","7","237","BUF","Seantrel Henderson","OL",2014,15,14
+"12404","7","238","DAL","Will Smith","LB",2014,0,0
+"12414","7","239","CIN","James Wright","WR",2014,2,2
+"12424","7","240","LAC","Tevin Reese","WR",2014,0,0
+"12434","7","241","LAR","C.B. Bryant","DB",2014,1,1
+"12444","7","242","DEN","Corey Nelson","LB",2014,8,8
+"12454","7","243","SFO","Kaleb Ramsey","DE",2014,0,0
+"12464","7","244","NWE","Jeremy Gallon","WR",2014,0,0
+"12474","7","245","SFO","Trey Millard","FB",2014,0,0
+"12484","7","246","CHI","Charles Leno Jr.","T",2014,43,43
+"12494","7","247","LVR","Jonathan Dowling","DB",2014,0,0
+"12504","7","248","DAL","Ahmad Dixon","DB",2014,0,0
+"12514","7","249","LAR","Michael Sam","DE",2014,0,0
+"12524","7","250","LAR","Demetrius Rhaney","OL",2014,2,2
+"12534","7","251","DAL","Ken Bishop","DT",2014,0,0
+"12544","7","252","CIN","Lavelle Westbrooks","DB",2014,0,0
+"12554","7","253","ATL","Yawin Smallwood","LB",2014,0,0
+"12563","7","254","DAL","Terrance Mitchell ","DB",2014,13,0
+"12571","7","255","ATL","Tyler Starr","LB",2014,0,0
+"1258","7","256","HOU","Lonnie Ballentine","DB",2014,0,0
+"8415","1","1","TAM","Jameis Winston","QB",2015,54,54
+"8425","1","2","TEN","Marcus Mariota","QB",2015,45,44
+"843","1","3","JAX","Dante Fowler","OLB",2015,21,6
+"844","1","4","LVR","Amari Cooper","WR",2015,45,23
+"845","1","5","WAS","Brandon Scherff","T",2015,39,39
+"846","1","6","NYJ","Leonard Williams","DE",2015,43,33
+"847","1","7","CHI","Kevin White","WR",2015,2,2
+"848","1","8","ATL","Vic Beasley","OLB",2015,32,32
+"849","1","9","NYG","Ereck Flowers","T",2015,33,22
+"850","1","10","LAR","Todd Gurley","RB",2015,54,50
+"851","1","11","MIN","Trae Waynes","CB",2015,18,18
+"852","1","12","CLE","Danny Shelton","NT",2015,32,15
+"853","1","13","NOR","Andrus Peat","T",2015,42,42
+"854","1","14","MIA","DeVante Parker","WR",2015,29,29
+"855","1","15","LAC","Melvin Gordon","RB",2015,43,38
+"856","1","16","HOU","Kevin Johnson","CB",2015,11,9
+"857","1","17","SFO","Arik Armstead","DT",2015,30,30
+"858","1","18","KAN","Marcus Peters ","CB",2015,59,28
+"859","1","19","CLE","Cameron Erving","C",2015,23,6
+"860","1","20","PHI","Nelson Agholor","WR",2015,27,19
+"861","1","21","CIN","Cedric Ogbuehi","T",2015,15,12
+"862","1","22","PIT","Bud Dupree","OLB",2015,32,32
+"863","1","23","DEN","Shane Ray","DE",2015,12,12
+"864","1","24","ARI","D.J. Humphries","T",2015,28,28
+"865","1","25","CAR","Shaq Thompson","OLB",2015,31,31
+"866","1","26","BAL","Breshad Perriman","WR",2015,13,4
+"867","1","27","DAL","Byron Jones","CB",2015,34,29
+"868","1","28","DET","Laken Tomlinson","G",2015,36,10
+"869","1","29","IND","Phillip Dorsett","WR",2015,14,7
+"870","1","30","GNB","Damarious Randall","S",2015,22,12
+"871","1","31","NOR","Stephone Anthony","ILB",2015,10,9
+"872","1","32","NWE","Malcom Brown ","DT",2015,38,28
+"9054","2","33","NYG","Landon Collins","S",2015,35,28
+"9063","2","34","TAM","Donovan Smith","T",2015,47,47
+"907","2","35","LVR","Mario Edwards","DT",2015,14,11
+"908","2","36","JAX","T.J. Yeldon","RB",2015,20,19
+"909","2","37","NYJ","Devin Smith","WR",2015,2,1
+"910","2","38","WAS","Preston Smith","DE",2015,38,23
+"911","2","39","CHI","Eddie Goldman","DT",2015,30,30
+"912","2","40","TEN","Dorial Green-Beckham","WR",2015,7,4
+"913","2","41","CAR","Devin Funchess","TE",2015,20,20
+"914","2","42","ATL","Jalen Collins","CB",2015,3,3
+"915","2","43","HOU","Benardrick McKinney","ILB",2015,41,41
+"916","2","44","NOR","Hau'oli Kikaha","OLB",2015,5,5
+"917","2","45","MIN","Eric Kendricks","ILB",2015,46,46
+"918","2","46","SFO","Jaquiski Tartt","S",2015,18,18
+"919","2","47","PHI","Eric Rowe","CB",2015,16,2
+"920","2","48","LAC","Denzel Perryman ","ILB",2015,23,23
+"921","2","49","KAN","Mitch Morse","G",2015,33,22
+"922","2","50","BUF","Ronald Darby","CB",2015,26,9
+"923","2","51","CLE","Nate Orchard","DE",2015,10,9
+"924","2","52","MIA","Jordan Phillips","NT",2015,25,11
+"925","2","53","CIN","Jake Fisher","T",2015,8,8
+"926","2","54","DET","Ameer Abdullah","RB",2015,13,11
+"927","2","55","BAL","Maxx Williams","TE",2015,6,4
+"928","2","56","PIT","Senquez Golson","CB",2015,0,0
+"929","2","57","LAR","Rob Havenstein","T",2015,39,39
+"930","2","58","ARI","Markus Golden","DE",2015,25,17
+"931","2","59","DEN","Ty Sambrailo","T",2015,12,3
+"932","2","60","DAL","Randy Gregory","OLB",2015,6,6
+"933","2","61","TAM","Ali Marpet","C",2015,36,36
+"934","2","62","GNB","Quinten Rollins","CB",2015,7,7
+"935","2","63","SEA","Frank Clark ","DE",2015,38,21
+"936","2","64","NWE","Jordan Richards","S",2015,9,5
+"9695","3","65","IND","D'Joun Smith","CB",2015,0,0
+"9704","3","66","TEN","Jeremiah Poutasi","G",2015,3,3
+"9714","3","67","JAX","A.J. Cann","G",2015,30,30
+"9722","3","68","LVR","Clive Walford","TE",2015,7,7
+"9731","3","69","SEA","Tyler Lockett","WR",2015,45,45
+"9741","3","70","HOU","Jaelen Strong","WR",2015,2,2
+"975","3","71","CHI","Hroniss Grasu","C",2015,9,6
+"976","3","72","LAR","Jamon Brown","T",2015,19,12
+"977","3","73","ATL","Tevin Coleman","RB",2015,31,25
+"978","3","74","NYG","Owamagbe Odighizuwa","DE",2015,1,1
+"979","3","75","NOR","Garrett Grayson","QB",2015,0,0
+"980","3","76","KAN","Chris Conley","WR",2015,20,11
+"981","3","77","CLE","Duke Johnson","RB",2015,27,18
+"982","3","78","NOR","P.J. Williams","CB",2015,11,11
+"983","3","79","SFO","Eli Harold","OLB",2015,11,11
+"984","3","80","DET","Alex Carter ","CB",2015,0,0
+"985","3","81","BUF","John Miller","G",2015,28,18
+"986","3","82","NYJ","Lorenzo Mauldin","OLB",2015,4,4
+"987","3","83","LAC","Craig Mager","CB",2015,4,4
+"988","3","84","PHI","Jordan Hicks","OLB",2015,33,19
+"989","3","85","CIN","Tyler Kroft","TE",2015,7,5
+"990","3","86","ARI","David Johnson","RB",2015,39,34
+"991","3","87","PIT","Sammie Coates","WR",2015,4,4
+"992","3","88","MIN","Danielle Hunter","DE",2015,42,42
+"993","3","89","LAR","Sean Mannion","QB",2015,1,1
+"994","3","90","BAL","Carl Davis","DT",2015,8,7
+"995","3","91","DAL","Chaz Green","T",2015,7,4
+"996","3","92","DEN","Jeff Heuerman","TE",2015,5,5
+"997","3","93","IND","Henry Anderson","DE",2015,23,9
+"998","3","94","GNB","Ty Montgomery","WR",2015,16,13
+"999","3","95","WAS","Matt Jones","RB",2015,10,10
+"1000","3","96","CLE","Xavier Cooper","DT",2015,4,3
+"1001","3","97","NWE","Geneo Grissom","DE",2015,3,3
+"10021","3","98","KAN","Steven Nelson","CB",2015,23,11
+"10031","3","99","CIN","Paul Dawson","ILB",2015,1,1
+"10365","4","100","TEN","Angelo Blackson","DT",2015,17,2
+"10375","4","101","NWE","Trey Flowers","DE",2015,31,24
+"10383","4","102","CAR","Daryl Williams ","G",2015,33,24
+"10393","4","103","NYJ","Bryce Petty","QB",2015,4,4
+"10402","4","104","JAX","James Sample","S",2015,1,1
+"10412","4","105","WAS","Jamison Crowder","WR",2015,29,20
+"10421","4","106","CHI","Jeremy Langford","RB",2015,8,8
+"10431","4","107","ATL","Justin Hardy ","WR",2015,8,8
+"10441","4","108","TEN","Jalston Fowler","FB",2015,0,0
+"10451","4","109","IND","Clayton Geathers","S",2015,13,13
+"10461","4","110","MIN","T.J. Clemmings","T",2015,17,16
+"1047","4","111","NWE","Tre' Jackson","G",2015,5,5
+"1048","4","112","WAS","Arie Kouandjio","G",2015,4,4
+"1049","4","113","DET","Gabe Wright","DT",2015,1,1
+"1050","4","114","MIA","Jamil Douglas","G",2015,7,3
+"1051","4","115","CLE","Ibraheim Campbell","S",2015,6,5
+"1052","4","116","ARI","Rodney Gunter","DT",2015,19,19
+"1053","4","117","SFO","Blake Bell","TE",2015,4,2
+"1054","4","118","KAN","Ramik Wilson","ILB",2015,14,12
+"1055","4","119","LAR","Andrew Donnal","T",2015,3,3
+"1056","4","120","CIN","Josh Shaw","CB",2015,7,7
+"1057","4","121","PIT","Doran Grant","CB",2015,0,0
+"1058","4","122","BAL","Za'Darius Smith","DE",2015,36,12
+"1059","4","123","CLE","Vince Mayle","WR",2015,0,0
+"1060","4","124","TAM","Kwon Alexander","OLB",2015,32,22
+"1061","4","125","BAL","Javorius Allen","RB",2015,14,14
+"1062","4","126","SFO","Mike Davis ","RB",2015,16,1
+"1063","4","127","DAL","Damien Wilson","ILB",2015,24,11
+"1064","4","128","LVR","Jon Feliciano","G",2015,15,5
+"1065","4","129","GNB","Jake Ryan","OLB",2015,14,14
+"1066","4","130","SEA","Terry Poole","G",2015,0,0
+"1067","4","131","NWE","Shaq Mason","C",2015,38,38
+"1068","4","132","SFO","DeAndre Smelter","WR",2015,0,0
+"1069","4","133","DEN","Max Garcia","C",2015,18,16
+"10702","4","134","SEA","Mark Glowinski","G",2015,27,8
+"10712","4","135","CIN","Marcus Hardison","DE",2015,0,0
+"10723","4","136","BAL","Tray Walker","CB",2015,0,0
+"11054","5","137","ATL","Grady Jarrett","NT",2015,40,40
+"11064","5","138","TEN","David Cobb","RB",2015,1,1
+"11073","5","139","JAX","Rashad Greene","WR",2015,2,2
+"11082","5","140","LVR","Ben Heeney","ILB",2015,3,3
+"11091","5","141","WAS","Martrell Spaight","OLB",2015,6,6
+"11101","5","142","CHI","Adrian Amos","S",2015,29,18
+"11111","5","143","MIN","MyCole Pruitt","TE",2015,4,1
+"11121","5","144","NYG","Mykkele Thompson ","S",2015,0,0
+"11131","5","145","MIA","Bobby McCain","CB",2015,20,20
+"11141","5","146","MIN","Stefon Diggs","WR",2015,54,38
+"1115","5","147","GNB","Brett Hundley","QB",2015,5,5
+"1116","5","148","NOR","Davis Tull","OLB",2015,0,0
+"1117","5","149","MIA","Jay Ajayi","RB",2015,19,14
+"1118","5","150","MIA","Cedric Thompson","S",2015,0,0
+"1119","5","151","IND","David Parry","NT",2015,13,13
+"1120","5","152","NYJ","Jarvis Harrison","G",2015,0,0
+"1121","5","153","LAC","Kyle Emanuel","OLB",2015,17,17
+"1122","5","154","NOR","Tyeler Davison","DT",2015,28,17
+"1123","5","155","BUF","Karlos Williams ","RB",2015,4,4
+"1124","5","156","MIA","Tony Lippett","WR",2015,6,6
+"1125","5","157","CIN","C.J. Uzomah","TE",2015,9,9
+"1126","5","158","ARI","Shaquille Riddick","DE",2015,0,0
+"1127","5","159","ARI","JJ Nelson","WR",2015,12,12
+"1128","5","160","PIT","Jesse James","TE",2015,11,10
+"1129","5","161","LVR","Neiron Ball ","OLB",2015,1,1
+"1130","5","162","TAM","Kenny Bell","WR",2015,0,0
+"1131","5","163","DAL","Ryan Russell","DE",2015,4,0
+"1132","5","164","DEN","Lorenzo Doss","CB",2015,0,0
+"1133","5","165","SFO","Bradley Pinion","P",2015,9,5
+"1134","5","166","NWE","Joe Cardona","LS",2015,5,5
+"1135","5","167","NOR","Damian Swann","CB",2015,1,1
+"11361","5","168","DET","Michael Burton","FB",2015,0,0
+"11371","5","169","CAR","David Mayo ","LB",2015,10,4
+"11381","5","170","SEA","Tye Smith","CB",2015,3,0
+"11392","5","171","BAL","Nick Boyle","TE",2015,9,9
+"11403","5","172","KAN","D.J. Alexander","OLB",2015,7,5
+"11414","5","173","KAN","James O'Shaughnessy","TE",2015,6,1
+"11424","5","174","CAR","Cameron Artis-Payne","RB",2015,5,5
+"11434","5","175","HOU","Keith Mumphery","WR",2015,2,2
+"11444","5","176","BAL","Robert Myers","G",2015,0,0
+"11773","6","177","TEN","Deiontrez Mount","OLB",2015,1,0
+"11781","6","178","NWE","Matthew Wells","LB",2015,0,0
+"11791","6","179","LVR","Max Valles","OLB",2015,0,0
+"11801","6","180","JAX","Michael Bennett","DT",2015,1,1
+"11811","6","181","WAS","Kyshoen Jarrett","S",2015,3,3
+"11821","6","182","WAS","Tevin Mitchel","CB",2015,0,0
+"11831","6","183","CHI","Tayo Fabuluje","T",2015,0,0
+"11841","6","184","TAM","Kaelin Clay","WR",2015,3,0
+"11851","6","185","MIN","Tyrus Thompson","T",2015,0,0
+"1186","6","186","NYG","Geremy Davis ","WR",2015,0,0
+"1187","6","187","WAS","Evan Spencer","WR",2015,0,0
+"1188","6","188","BUF","Tony Steward","OLB",2015,1,1
+"1189","6","189","CLE","Charles Gaines","CB",2015,1,1
+"1190","6","190","SFO","Ian Silberman","G",2015,0,0
+"1191","6","191","PHI","JaCorey Shepherd ","CB",2015,1,0
+"1192","6","192","LAC","Darius Philon","DT",2015,13,13
+"1193","6","193","MIN","B.J. Dubose","DE",2015,0,0
+"1194","6","194","BUF","Nick O'Leary","TE",2015,6,4
+"1195","6","195","CLE","Malcolm Johnson","TE",2015,0,0
+"1196","6","196","PHI","Randall Evans","CB",2015,0,0
+"1197","6","197","CIN","Derron Smith","S",2015,3,2
+"1198","6","198","CLE","Randall Telfer","TE",2015,0,0
+"1199","6","199","PIT","Leterrius Walton","DT",2015,3,3
+"1200","6","200","DET","Quandre Diggs","CB",2015,23,12
+"1201","6","201","LAR","Bud Sasser","WR",2015,0,0
+"1202","6","202","NWE","A.J. Derby","TE",2015,3,0
+"1203","6","203","DEN","Darius Kilgo","NT",2015,3,2
+"1204","6","204","BAL","Darren Waller","WR",2015,20,1
+"1205","6","205","IND","Josh Robinson","RB",2015,0,0
+"12061","6","206","GNB","Aaron Ripkowski","FB",2015,2,2
+"12071","6","207","IND","Amarlo Herrera","ILB",2015,0,0
+"12081","6","208","TEN","Andy Gallik","C",2015,4,4
+"12092","6","209","SEA","Obum Gwacham","DE",2015,1,0
+"12104","6","210","GNB","Christian Ringo","DE",2015,2,1
+"12114","6","211","HOU","Reshard Cliett","OLB",2015,0,0
+"12124","6","212","PIT","Anthony Chickillo ","DE",2015,10,9
+"12134","6","213","GNB","Kennard Backman","TE",2015,0,0
+"12144","6","214","SEA","Kristjan Sokoli","DT",2015,0,0
+"12154","6","215","LAR","Cody Wichmann","G",2015,5,5
+"12164","6","216","HOU","Christian Covington ","DT",2015,17,8
+"12174","6","217","KAN","Rakeem Nunez-Roches","DT",2015,14,8
+"12505","7","218","LVR","Anthony Morris","OL",2015,0,0
+"12515","7","219","CLE","Hayes Pullard ","ILB",2015,9,0
+"12525","7","220","JAX","Neal Sterling","WR",2015,2,1
+"12535","7","221","LVR","Andre Debose","WR",2015,0,0
+"12545","7","222","WAS","Austin Reiter ","C",2015,17,0
+"12555","7","223","NYJ","Deon Simon","NT",2015,2,2
+"12564","7","224","LAR","Bryce Hager","ILB",2015,8,6
+"12572","7","225","ATL","Jake Rodgers ","T",2015,1,0
+"12581","7","226","NYG","Bobby Hart ","G",2015,28,7
+"1259","7","227","LAR","Martin Ifedi","DE",2015,0,0
+"1260","7","228","MIN","Austin Shepherd","T",2015,1,1
+"1261","7","229","JAX","Ben Koyack","TE",2015,1,1
+"1262","7","230","NOR","Marcus Murphy","RB",2015,2,1
+"1263","7","231","TAM","Joey Iosefa","FB",2015,0,0
+"1264","7","232","MIN","Edmond Robinson","OLB",2015,3,2
+"1265","7","233","KAN","Da'Ron Brown","WR",2015,0,0
+"1266","7","234","BUF","Dezmin Lewis","WR",2015,0,0
+"1267","7","235","HOU","Kenny Hilliard","RB",2015,0,0
+"1268","7","236","DAL","Mark Nzeocha","OLB",2015,5,0
+"1269","7","237","PHI","Brian Mihalik","DE",2015,2,0
+"1270","7","238","CIN","Mario Alford","WR",2015,0,0
+"1271","7","239","PIT","Gerod Holliman","S",2015,0,0
+"1272","7","240","DET","Corey Robinson","T",2015,7,6
+"1273","7","241","CLE","Ifo Ekpre-Olomu","CB",2015,0,0
+"1274","7","242","LVR","Dexter McDonald","CB",2015,2,2
+"1275","7","243","DAL","Laurence Gibson ","T",2015,0,0
+"1276","7","244","SFO","Trent Brown","G",2015,31,13
+"1277","7","245","TEN","Tre McBride","WR",2015,1,0
+"1278","7","246","DAL","Geoff Swaim","TE",2015,4,3
+"1279","7","247","NWE","Darryl Roberts","CB",2015,12,0
+"1280","7","248","SEA","Ryan Murphy","DB",2015,0,0
+"1281","7","249","ATL","Akeem King","DB",2015,3,0
+"1282","7","250","DEN","Trevor Siemian ","QB",2015,13,13
+"1283","7","251","DEN","Taurean Nixon","DB",2015,0,0
+"1284","7","252","DEN","Josh Furman","DB",2015,0,0
+"1285","7","253","NWE","Xzavier Dickson","OLB",2015,0,0
+"1286","7","254","SFO","Rory Anderson","TE",2015,0,0
+"1287","7","255","IND","Denzelle Good","T",2015,20,10
+"1288","7","256","ARI","Gerald Christian","TE",2015,0,0
+"1365","5","160","LAR","Isaiah Battle","T",2015,0,0
+"8416","1","1","LAR","Jared Goff","QB",2016,50,50
+"8426","1","2","PHI","Carson Wentz ","QB",2016,45,45
+"8431","1","3","LAC","Joey Bosa","DE",2016,40,40
+"8441","1","4","DAL","Ezekiel Elliott","RB",2016,54,54
+"8451","1","5","JAX","Jalen Ramsey","CB",2016,52,30
+"8461","1","6","BAL","Ronnie Stanley ","T",2016,43,43
+"8471","1","7","SFO","DeForest Buckner ","DE",2016,50,36
+"8481","1","8","TEN","Jack Conklin","T",2016,48,32
+"8491","1","9","CHI","Leonard Floyd ","OLB",2016,35,26
+"8501","1","10","NYG","Eli Apple","CB",2016,16,8
+"8511","1","11","TAM","Vernon Hargreaves III","CB",2016,17,11
+"8521","1","12","NOR","Sheldon Rankins","DT",2016,17,17
+"8531","1","13","MIA","Laremy Tunsil","T",2016,40,16
+"8541","1","14","LVR","Karl Joseph","S",2016,16,13
+"8551","1","15","CLE","Corey Coleman","WR",2016,6,5
+"8561","1","16","DET","Taylor Decker","T",2016,36,36
+"8571","1","17","ATL","Keanu Neal","S",2016,18,18
+"8581","1","18","IND","Ryan Kelly","C",2016,35,35
+"8591","1","19","BUF","Shaq Lawson","DE",2016,16,11
+"8601","1","20","NYJ","Darron Lee ","OLB",2016,20,18
+"8611","1","21","HOU","Will Fuller","WR",2016,24,24
+"8621","1","22","WAS","Josh Doctson","WR",2016,9,9
+"8631","1","23","MIN","Laquon Treadwell","WR",2016,6,6
+"8641","1","24","CIN","William Jackson III","CB",2016,15,15
+"8651","1","25","PIT","Artie Burns","CB",2016,14,14
+"8661","1","26","DEN","Paxton Lynch ","QB",2016,2,2
+"8671","1","27","GNB","Kenny Clark","DT",2016,33,33
+"8681","1","28","SFO","Joshua Garnett","G",2016,5,5
+"8691","1","29","ARI","Robert Nkemdiche","DT",2016,6,6
+"8701","1","30","CAR","Vernon Butler","DT",2016,10,7
+"8711","1","31","SEA","Germain Ifedi","G",2016,33,28
+"9045","2","32","CLE","Emmanuel Ogbah","DE",2016,26,15
+"9055","2","33","TEN","Kevin Dodd","DE",2016,2,2
+"9064","2","34","DAL","Jaylon Smith","OLB",2016,30,30
+"9071","2","35","LAC","Hunter Henry ","TE",2016,18,18
+"9081","2","36","JAX","Myles Jack","OLB",2016,40,40
+"9091","2","37","KAN","Chris Jones","DT",2016,39,39
+"9101","2","38","MIA","Xavien Howard","CB",2016,36,36
+"9111","2","39","TAM","Noah Spence ","DE",2016,5,5
+"9121","2","40","NYG","Sterling Shepard","WR",2016,25,25
+"9131","2","41","BUF","Reggie Ragland","ILB",2016,17,0
+"9141","2","42","BAL","Kamalei Correa ","DE",2016,11,3
+"9151","2","43","TEN","Austin Johnson","NT",2016,12,10
+"9161","2","44","LVR","Jihad Ward","DE",2016,9,6
+"9171","2","45","TEN","Derrick Henry ","RB",2016,43,43
+"9181","2","46","DET","A'Shawn Robinson","DT",2016,20,19
+"9191","2","47","NOR","Michael Thomas","WR",2016,58,58
+"9201","2","48","GNB","Jason Spriggs","T",2016,8,7
+"9211","2","49","SEA","Jarran Reed","DT",2016,29,29
+"9221","2","50","HOU","Nick Martin ","G",2016,19,19
+"9231","2","51","NYJ","Christian Hackenberg","QB",2016,0,0
+"9241","2","52","ATL","Deion Jones","OLB",2016,35,35
+"9251","2","53","WAS","Su'a Cravens","OLB",2016,3,2
+"9261","2","54","MIN","Mackensie Alexander","CB",2016,14,6
+"9271","2","55","CIN","Tyler Boyd","WR",2016,27,27
+"9281","2","56","CHI","Cody Whitehair","G",2016,30,30
+"9291","2","57","IND","T.J. Green","S",2016,5,5
+"9301","2","58","PIT","Sean Davis","CB",2016,18,18
+"9311","2","59","TAM","Roberto Aguayo","K",2016,0,0
+"9321","2","60","NWE","Cyrus Jones","CB",2016,4,1
+"9331","2","61","NOR","Vonn Bell","S",2016,20,14
+"9341","2","62","CAR","James Bradberry ","CB",2016,29,19
+"9351","2","63","DEN","Adam Gotsis","DT",2016,20,15
+"9685","3","64","TEN","Kevin Byard ","S",2016,34,34
+"9696","3","65","CLE","Carl Nassib","DE",2016,18,6
+"9705","3","66","LAC","Max Tuerk ","C",2016,0,0
+"9715","3","67","DAL","Maliek Collins","DT",2016,28,25
+"9723","3","68","SFO","Will Redmond","CB",2016,3,0
+"9732","3","69","JAX","Yannick Ngakoue","DE",2016,36,32
+"9742","3","70","BAL","Bronson Kaufusi","DE",2016,2,1
+"9751","3","71","NYG","Darian Thompson","S",2016,11,5
+"9761","3","72","CHI","Jonathan Bullard","DT",2016,8,7
+"9771","3","73","MIA","Kenyan Drake","RB",2016,27,15
+"9781","3","74","KAN","KeiVarae Russell","CB",2016,2,0
+"9791","3","75","LVR","Shilique Calhoun","DE",2016,5,2
+"9801","3","76","CLE","Shon Coleman","T",2016,6,6
+"9811","3","77","CAR","Daryl Worley","CB",2016,19,11
+"9821","3","78","NWE","Joe Thuney","G",2016,41,41
+"9831","3","79","PHI","Isaac Seumalo","G",2016,17,17
+"9841","3","80","BUF","Adolphus Washington","DT",2016,9,9
+"9851","3","81","ATL","Austin Hooper","TE",2016,22,19
+"9861","3","82","IND","Le'Raven Clark","T",2016,9,9
+"9871","3","83","NYJ","Jordan Jenkins","OLB",2016,27,27
+"9881","3","84","WAS","Kendall Fuller","CB",2016,18,12
+"9891","3","85","HOU","Braxton Miller","WR",2016,2,2
+"9901","3","86","MIA","Leonte Carroo","WR",2016,2,2
+"9911","3","87","CIN","Nick Vigil","ILB",2016,20,17
+"9921","3","88","GNB","Kyler Fackrell","OLB",2016,15,9
+"9931","3","89","PIT","Javon Hargrave","DT",2016,30,25
+"9941","3","90","SEA","C.J. Prosise","RB",2016,5,5
+"9951","3","91","NWE","Jacoby Brissett","QB",2016,23,2
+"9961","3","92","ARI","Brandon Williams","CB",2016,4,4
+"9971","3","93","CLE","Cody Kessler","QB",2016,5,3
+"9981","3","94","SEA","Nick Vannett","TE",2016,6,4
+"9991","3","95","DET","Graham Glasgow","C",2016,29,25
+"10001","3","96","NWE","Vincent Valentine","DT",2016,3,3
+"10011","3","97","SEA","Rees Odhiambo","G",2016,4,4
+"10022","3","98","DEN","Justin Simmons ","S",2016,33,33
+"10355","4","99","CLE","Joe Schobert","OLB",2016,32,25
+"10366","4","100","LVR","Connor Cook","QB",2016,0,0
+"10376","4","101","DAL","Charles Tapper ","DE",2016,0,0
+"10384","4","102","LAC","Joshua Perry ","ILB",2016,1,1
+"10394","4","103","JAX","Sheldon Day","DT",2016,6,2
+"10403","4","104","BAL","Tavon Young","CB",2016,10,10
+"10413","4","105","KAN","Parker Ehinger","G",2016,4,3
+"10422","4","106","KAN","Eric Murray","CB",2016,11,5
+"10432","4","107","BAL","Chris Moore","WR",2016,4,4
+"10442","4","108","TAM","Ryan Smith","CB",2016,8,8
+"10452","4","109","NYG","B.J. Goodson","OLB",2016,21,9
+"10462","4","110","LAR","Tyler Higbee","TE",2016,16,16
+"10471","4","111","DET","Miles Killebrew","S",2016,6,6
+"10481","4","112","NWE","Malcolm Mitchell ","WR",2016,4,4
+"10491","4","113","CHI","Nick Kwiatkoski","ILB",2016,19,15
+"10501","4","114","CLE","Ricardo Louis","WR",2016,3,3
+"10511","4","115","ATL","De'Vondre Campbell","OLB",2016,33,25
+"10521","4","116","IND","Hassan Ridgeway","DT",2016,8,5
+"10531","4","117","LAR","Pharoh Cooper","WR",2016,6,3
+"10541","4","118","NYJ","Juston Burris","CB",2016,10,3
+"10551","4","119","HOU","Tyler Ervin ","RB",2016,1,0
+"10561","4","120","NOR","David Onyemata","DT",2016,22,22
+"10571","4","121","MIN","Willie Beavers","T",2016,0,0
+"10581","4","122","CIN","Andrew Billings","NT",2016,14,14
+"10591","4","123","PIT","Jerald Hawkins","T",2016,2,2
+"10601","4","124","CHI","Deon Bush","S",2016,6,6
+"10611","4","125","IND","Antonio Morrison ","ILB",2016,13,9
+"10621","4","126","KAN","Demarcus Robinson","WR",2016,13,13
+"10631","4","127","CHI","Deiondre' Hall","CB",2016,2,1
+"10641","4","128","ARI","Evan Boehm","C",2016,12,6
+"10651","4","129","CLE","Derrick Kindred","S",2016,8,8
+"10661","4","130","BAL","Alex Lewis","T",2016,14,8
+"10671","4","131","GNB","Blake Martinez","LB",2016,38,29
+"10681","4","132","BAL","Willie Henry ","DT",2016,4,4
+"10691","4","133","SFO","Rashard Robinson","CB",2016,9,6
+"10703","4","134","BAL","Kenneth Dixon","RB",2016,5,5
+"10713","4","135","DAL","Dak Prescott ","QB",2016,61,61
+"10724","4","136","DEN","Devontae Booker","RB",2016,15,11
+"10733","4","137","GNB","Dean Lowry","DE",2016,27,27
+"10744","4","138","CLE","Seth Devalve","TE",2016,5,4
+"10754","4","139","BUF","Cardale Jones","QB",2016,0,0
+"11083","5","140","TEN","Tajae Sharpe","WR",2016,11,11
+"11092","5","141","CAR","Zack Sanchez","CB",2016,1,1
+"11102","5","142","SFO","Ronald Blair","DE",2016,6,6
+"11112","5","143","LVR","DeAndre Washington","RB",2016,12,11
+"11122","5","144","DEN","Connor McGovern","G",2016,19,14
+"11132","5","145","SFO","John Theus","T",2016,1,1
+"11142","5","146","BAL","Matt Judon","DE",2016,35,35
+"11151","5","147","SEA","Quinton Jefferson","DT",2016,14,12
+"11161","5","148","TAM","Caleb Benenoch","T",2016,12,12
+"11171","5","149","NYG","Paul Perkins ","RB",2016,5,5
+"11181","5","150","CHI","Jordan Howard","RB",2016,24,21
+"11191","5","151","DET","Joe Dahl","G",2016,11,11
+"11201","5","152","WAS","Matthew Ioannidis","DT",2016,18,18
+"11211","5","153","PHI","Wendell Smallwood","RB",2016,10,9
+"11221","5","154","CLE","Jordan Payton","WR",2016,0,0
+"11231","5","155","IND","Joe Haeg","T",2016,20,17
+"11241","5","156","BUF","Jonathan Williams","RB",2016,3,1
+"11251","5","157","TEN","LeShaun Sims","CB",2016,11,7
+"11261","5","158","NYJ","Brandon Shell","T",2016,22,15
+"11271","5","159","HOU","K.J. Dillon","S",2016,0,0
+"11281","5","160","MIN","Kentrell Brothers","OLB",2016,4,4
+"11291","5","161","CIN","Christian Westerman ","G",2016,2,2
+"11301","5","162","KAN","Kevin Hogan ","QB",2016,2,0
+"11311","5","163","GNB","Trevor Davis","WR",2016,2,1
+"11321","5","164","PHI","Halapoulivaati Vaitai","T",2016,17,12
+"11331","5","165","KAN","Tyreek Hill","WR",2016,57,57
+"11341","5","166","HOU","D.J. Reader","NT",2016,24,23
+"11351","5","167","ARI","Marqui Christian","S",2016,4,0
+"11362","5","168","CLE","Spencer Drango","G",2016,8,8
+"11372","5","169","DET","Antwione Williams","LB",2016,2,2
+"11382","5","170","ARI","Cole Toner","T",2016,2,0
+"11393","5","171","SEA","Alex Collins","RB",2016,15,3
+"11404","5","172","CLE","Rashard Higgins","WR",2016,11,11
+"11415","5","173","CLE","Trey Caldwell","DB",2016,0,0
+"11425","5","174","SFO","Fahn Cooper","T",2016,0,0
+"11435","5","175","LAC","Jatavis Brown","OLB",2016,15,15
+"11764","6","176","DEN","Andy Janovich","FB",2016,2,2
+"11774","6","177","LAR","Temarrick Hemingway","TE",2016,0,0
+"11782","6","178","KAN","D.J. White","CB",2016,1,1
+"11792","6","179","LAC","Drew Kaser","P",2016,5,5
+"11802","6","180","MIN","Moritz Boehringer","WR",2016,0,0
+"11812","6","181","JAX","Tyrone Holmes","OLB",2016,1,0
+"11822","6","182","BAL","Keenan Reynolds","RB",2016,0,0
+"11832","6","183","TAM","Devante Bond","OLB",2016,4,4
+"11842","6","184","NYG","Jerell Adams","TE",2016,2,2
+"11852","6","185","CHI","DeAndre Houston-Carson","S",2016,4,4
+"11861","6","186","MIA","Jakeem Grant","WR",2016,12,12
+"11871","6","187","WAS","Nate Sudfeld","QB",2016,1,0
+"11881","6","188","MIN","David Morgan","TE",2016,1,1
+"11891","6","189","DAL","Anthony Brown","CB",2016,16,16
+"11901","6","190","LAR","Josh Forrest ","ILB",2016,4,4
+"11911","6","191","DET","Jake Rudock","QB",2016,0,0
+"11921","6","192","BUF","Kolby Listenbee","WR",2016,0,0
+"11931","6","193","TEN","Sebastian Tretola","G",2016,0,0
+"11941","6","194","LVR","Cory James","OLB",2016,7,7
+"11951","6","195","ATL","Wes Schweitzer ","G",2016,23,18
+"11961","6","196","PHI","Blake Countess","CB",2016,4,0
+"11971","6","197","TAM","Danny Vitale ","FB",2016,1,0
+"11981","6","198","LAC","Derek Watt","FB",2016,1,1
+"11991","6","199","CIN","Cody Core","WR",2016,3,3
+"12001","6","200","GNB","Kyle Murphy","T",2016,2,2
+"12011","6","201","JAX","Brandon Allen","QB",2016,4,0
+"12021","6","202","DET","Anthony Zettel","DT",2016,9,8
+"12031","6","203","KAN","Dadi Nicolas","DE",2016,1,1
+"12041","6","204","MIA","Jordan Lucas","S",2016,4,1
+"12051","6","205","ARI","Harlan Miller","CB",2016,1,1
+"12062","6","206","LAR","Mike Thomas","WR",2016,2,1
+"12072","6","207","SFO","Jeff Driskel","QB",2016,6,0
+"12082","6","208","NWE","Kamu Grugier-Hill","OLB",2016,12,0
+"12093","6","209","BAL","Maurice Canady","CB",2016,3,2
+"12105","6","210","DET","Jimmy Landes","LS",2016,0,0
+"12115","6","211","SFO","Kelvin Taylor","RB",2016,0,0
+"12125","6","212","DAL","Kavon Frazier","S",2016,4,3
+"12135","6","213","SFO","Aaron Burbridge","WR",2016,1,1
+"12145","6","214","NWE","Elandon Roberts","ILB",2016,26,20
+"12155","6","215","SEA","Joey Hunt","C",2016,7,7
+"12165","6","216","DAL","Darius Jackson","RB",2016,0,0
+"12175","6","217","DAL","Rico Gathers","TE",2016,0,0
+"12185","6","218","BUF","Kevon Seymour","CB",2016,3,1
+"12195","6","219","DEN","Will Parks","S",2016,9,8
+"12205","6","220","PIT","Travis Feeney","OLB",2016,0,0
+"12215","6","221","NWE","Ted Karras","G",2016,19,13
+"12546","7","222","TEN","Aaron Wallace","OLB",2016,1,1
+"12556","7","223","MIA","Brandon Doughty","QB",2016,0,0
+"12565","7","224","LAC","Donavon Clark","G",2016,0,0
+"12573","7","225","NWE","Devin Lucien","WR",2016,0,0
+"12582","7","226","JAX","Jonathan Woodard","DE",2016,1,0
+"12591","7","227","MIN","Stephen Weatherly","OLB",2016,11,8
+"12601","7","228","DEN","Riley Dixon","P",2016,9,4
+"12611","7","229","PIT","Demarcus Ayers","WR",2016,0,0
+"12621","7","230","CHI","Daniel Braverman","WR",2016,0,0
+"12631","7","231","MIA","Thomas Duarte","TE",2016,0,0
+"12641","7","232","WAS","Steven Daniels","ILB",2016,0,0
+"12651","7","233","PHI","Jalen Mills ","S",2016,20,20
+"12661","7","234","LVR","Vadal Alexander","G",2016,4,4
+"12671","7","235","NYJ","Lac Edwards","P",2016,9,9
+"12681","7","236","DET","Dwayne Washington","RB",2016,4,2
+"12691","7","237","NOR","Daniel Lasco","RB",2016,0,0
+"12701","7","238","ATL","Devin Fuller","WR",2016,0,0
+"12711","7","239","IND","Trevor Bates","LB",2016,1,0
+"12721","7","240","PHI","Alex McCalister","DE",2016,0,0
+"12731","7","241","NYJ","Charone Peake","WR",2016,1,1
+"12741","7","242","WAS","Keith Marshall","RB",2016,0,0
+"12751","7","243","SEA","Kenny Lawler","WR",2016,0,0
+"12761","7","244","MIN","Jayron Kearse","S",2016,5,5
+"12771","7","245","CIN","Clayton Fejedelem","S",2016,7,7
+"12781","7","246","PIT","Tyler Matakevich","OLB",2016,6,5
+"12791","7","247","SEA","Zac Brooks","RB",2016,0,0
+"12801","7","248","IND","Austin Blythe","C",2016,25,1
+"12811","7","249","SFO","Prince Charles Iworah","CB",2016,0,0
+"12821","7","250","CLE","Scooby Wright III","ILB",2016,1,0
+"12831","7","251","PHI","Joe Walker","ILB",2016,8,2
+"12841","7","252","CAR","Beau Sandland","TE",2016,0,0
+"12851","7","253","TEN","Kalan Reed","CB",2016,0,0
+"8417","1","1","CLE","Myles Garrett ","DE",2017,35,35
+"8427","1","2","CHI","Mitchell Trubisky ","QB",2017,33,33
+"8432","1","3","SFO","Solomon Thomas ","DE",2017,15,15
+"8442","1","4","JAX","Leonard Fournette ","RB",2017,25,20
+"8452","1","5","TEN","Corey Davis ","WR",2017,25,25
+"8462","1","6","NYJ","Jamal Adams ","S",2017,35,28
+"8472","1","7","LAC","Mike Williams ","WR",2017,20,20
+"8482","1","8","CAR","Christian McCaffrey","RB",2017,41,41
+"8492","1","9","CIN","John Ross ","WR",2017,5,5
+"8502","1","10","KAN","Patrick Mahomes ","QB",2017,54,54
+"8512","1","11","NOR","Marshon Lattimore ","CB",2017,27,27
+"8522","1","12","HOU","Deshaun Watson ","QB",2017,52,52
+"8532","1","13","ARI","Haason Reddick ","LB",2017,18,18
+"8542","1","14","PHI","Derek Barnett ","DE",2017,17,17
+"8552","1","15","IND","Malik Hooker ","S",2017,14,14
+"8562","1","16","BAL","Marlon Humphrey ","CB",2017,28,28
+"8572","1","17","WAS","Jonathan Allen ","DE",2017,26,26
+"8582","1","18","TEN","Adoree' Jackson ","CB",2017,16,16
+"8592","1","19","TAM","O.J. Howard ","TE",2017,11,11
+"8602","1","20","DEN","Garett Bolles ","T",2017,31,31
+"8612","1","21","DET","Jarrad Davis","LB",2017,22,22
+"8622","1","22","MIA","Charles Harris","OLB",2017,9,7
+"8632","1","23","NYG","Evan Engram ","TE",2017,18,18
+"8642","1","24","LVR","Gareon Conley ","CB",2017,9,7
+"8652","1","25","CLE","Jabrill Peppers ","S",2017,20,10
+"8662","1","26","ATL","Takkarist McKinley ","DE",2017,13,13
+"8672","1","27","BUF","Tre'Davious White ","CB",2017,39,39
+"8682","1","28","DAL","Taco Charlton ","DE",2017,9,6
+"8692","1","29","CLE","David Njoku ","TE",2017,9,9
+"8702","1","30","PIT","T.J. Watt ","OLB",2017,47,47
+"8712","1","31","SFO","Reuben Foster ","LB",2017,8,8
+"8721","1","32","NOR","Ryan Ramczyk ","T",2017,55,55
+"9056","2","33","GNB","Kevin King ","CB",2017,13,13
+"9065","2","34","JAX","Cam Robinson ","T",2017,23,23
+"9072","2","35","SEA","Malik McDowell","DT",2017,0,0
+"9082","2","36","ARI","Budda Baker ","S",2017,33,33
+"9092","2","37","BUF","Zay Jones ","WR",2017,11,9
+"9102","2","38","LAC","Forrest Lamp ","G",2017,8,8
+"9112","2","39","NYJ","Marcus Maye","S",2017,20,20
+"9122","2","40","CAR","Curtis Samuel ","WR",2017,19,19
+"9132","2","41","MIN","Dalvin Cook","RB",2017,36,36
+"9142","2","42","NOR","Marcus Williams","S",2017,20,20
+"9152","2","43","PHI","Sidney Jones","CB",2017,7,4
+"9162","2","44","LAR","Gerald Everett","TE",2017,11,11
+"9172","2","45","CHI","Adam Shaheen","TE",2017,3,2
+"9182","2","46","IND","Quincy Wilson","CB",2017,5,5
+"9192","2","47","BAL","Tyus Bowser","OLB",2017,9,9
+"9202","2","48","CIN","Joe Mixon","RB",2017,27,27
+"9212","2","49","WAS","Ryan Anderson","OLB",2017,6,6
+"9222","2","50","TAM","Justin Evans","S",2017,8,8
+"9232","2","51","DEN","DeMarcus Walker","DE",2017,7,7
+"9242","2","52","CLE","DeShone Kizer ","QB",2017,6,5
+"9252","2","53","DET","Teez Tabor","CB",2017,3,3
+"9262","2","54","MIA","Raekwon McMillan","LB",2017,13,11
+"9272","2","55","NYG","Dalvin Tomlinson","DT",2017,27,27
+"9282","2","56","LVR","Obi Melifonwu","S",2017,1,1
+"9292","2","57","HOU","Zach Cunningham","LB",2017,27,27
+"9302","2","58","SEA","Ethan Pocic","C",2017,14,14
+"9312","2","59","KAN","Tanoh Kpassagnon","DE",2017,14,14
+"9322","2","60","DAL","Chidobe Awuzie","CB",2017,16,16
+"9332","2","61","GNB","Josh Jones","S",2017,9,5
+"9342","2","62","PIT","JuJu Smith-Schuster","WR",2017,29,29
+"9352","2","63","BUF","Dion Dawkins","G",2017,27,27
+"9361","2","64","CAR","Taylor Moton","G",2017,26,26
+"9697","3","65","CLE","Larry Ogunjobi","DT",2017,22,22
+"9706","3","66","SFO","Ahkello Witherspoon","CB",2017,11,11
+"9716","3","67","NOR","Alvin Kamara ","RB",2017,51,51
+"9724","3","68","JAX","Dawuane Smoot","DE",2017,9,9
+"9733","3","69","LAR","Cooper Kupp","WR",2017,29,29
+"9743","3","70","MIN","Pat Elflein","C",2017,23,21
+"9752","3","71","LAC","Dan Feeney","G",2017,26,26
+"9762","3","72","TEN","Taywan Taylor","WR",2017,6,6
+"9772","3","73","CIN","Jordan Willis","OLB",2017,6,4
+"9782","3","74","BAL","Chris Wormley","DE",2017,11,10
+"9792","3","75","ATL","Duke Riley","LB",2017,11,7
+"9802","3","76","NOR","Alex Anzalone","LB",2017,11,11
+"9812","3","77","CAR","Daeshon Hall","DE",2017,1,0
+"9822","3","78","BAL","Tim Williams","OLB",2017,2,2
+"9832","3","79","NYJ","ArDarius Stewart","WR",2017,1,1
+"9842","3","80","IND","Tarell Basham","DE",2017,9,1
+"9852","3","81","WAS","Fabian Moreau","CB",2017,10,10
+"9862","3","82","DEN","Carlos Henderson","WR",2017,0,0
+"9872","3","83","NWE","Derek Rivers","DE",2017,2,2
+"9882","3","84","TAM","Chris Godwin","WR",2017,26,26
+"9892","3","85","NWE","Antonio Garcia","T",2017,0,0
+"9902","3","86","KAN","Kareem Hunt","RB",2017,34,25
+"9912","3","87","NYG","Davis Webb ","QB",2017,0,0
+"9922","3","88","LVR","Eddie Vanderdoes","DT",2017,5,5
+"9932","3","89","HOU","D'Onta Foreman","RB",2017,4,3
+"9942","3","90","SEA","Shaquill Griffin ","DB",2017,22,22
+"9952","3","91","LAR","John Johnson","S",2017,19,19
+"9962","3","92","DAL","Jourdan Lewis","CB",2017,12,12
+"9972","3","93","GNB","Montravius Adams","DT",2017,5,5
+"9982","3","94","PIT","Cameron Sutton","CB",2017,7,7
+"9992","3","95","SEA","Lano Hill","S",2017,5,5
+"10002","3","96","DET","Kenny Golladay","WR",2017,23,23
+"10012","3","97","MIA","Cordrea Tankersley","CB",2017,3,3
+"10023","3","98","ARI","Chad Williams","WR",2017,1,1
+"10032","3","99","PHI","Rasul Douglas","CB",2017,13,9
+"10043","3","100","TEN","Jonnu Smith","TE",2017,11,11
+"10054","3","101","DEN","Brendan Langley","CB",2017,1,1
+"10064","3","102","SEA","Nazair Jones","DT",2017,3,3
+"10075","3","103","NOR","Trey Hendrickson","OLB",2017,13,13
+"10085","3","104","SFO","C.J. Beathard","QB",2017,9,9
+"10095","3","105","PIT","James Conner","RB",2017,21,21
+"10105","3","106","SEA","Amara Darboh","WR",2017,1,1
+"10115","3","107","TAM","Kendell Beckwith","ILB",2017,4,4
+"10443","4","108","GNB","Vince Biegel","LB",2017,6,1
+"10453","4","109","MIN","Jaleel Johnson","DT",2017,11,11
+"10463","4","110","JAX","Dede Westbrook","WR",2017,13,13
+"10472","4","111","SEA","Tedric Thompson","S",2017,8,8
+"10482","4","112","CHI","Eddie Jackson ","S",2017,34,34
+"10492","4","113","LAC","Rayshawn Jenkins","S",2017,13,13
+"10502","4","114","WAS","Samaje Perine","RB",2017,7,5
+"10512","4","115","ARI","Dorian Johnson","G",2017,0,0
+"10522","4","116","CIN","Carl Lawson","OLB",2017,10,10
+"10532","4","117","LAR","Josh Reynolds","WR",2017,11,11
+"10542","4","118","PHI","Mack Hollins","WR",2017,4,3
+"10552","4","119","CHI","Tarik Cohen","RB",2017,21,21
+"10562","4","120","MIN","Ben Gedeon","ILB",2017,15,15
+"10572","4","121","SFO","Joe Williams","RB",2017,0,0
+"10582","4","122","BAL","Nico Siragusa","G",2017,0,0
+"10592","4","123","WAS","Montae Nicholson ","S",2017,11,11
+"10602","4","124","DET","Jalen Reeves-Maybin","LB",2017,6,6
+"10612","4","125","LAR","Samson Ebukam","OLB",2017,19,19
+"10622","4","126","CLE","Howard Wilson","CB",2017,0,0
+"10632","4","127","DET","Michael Roberts ","TE",2017,1,1
+"10642","4","128","CIN","Josh Malone","WR",2017,1,1
+"10652","4","129","LVR","David Sharpe","T",2017,4,3
+"10662","4","130","HOU","Julie'n Davenport","T",2017,14,10
+"10672","4","131","NWE","Deatrich Wise Jr.","DE",2017,17,17
+"10682","4","132","PHI","Donnel Pumphrey","RB",2017,0,0
+"10692","4","133","DAL","Ryan Switzer","WR",2017,3,1
+"10704","4","134","GNB","Jamaal Williams","RB",2017,21,21
+"10714","4","135","PIT","Joshua Dobbs ","QB",2017,0,0
+"10725","4","136","ATL","Sean Harlow","G",2017,0,0
+"10734","4","137","IND","Zach Banner","T",2017,2,0
+"10745","4","138","CIN","Ryan Glasgow","DT",2017,3,3
+"10755","4","139","KAN","Jehu Chesson","WR",2017,0,0
+"10764","4","140","NYG","Wayne Gallman","RB",2017,11,11
+"10774","4","141","NYJ","Chad Hansen","WR",2017,3,1
+"10784","4","142","HOU","Carlos Watkins","DT",2017,9,9
+"10795","4","143","IND","Marlon Mack","RB",2017,18,18
+"10805","4","144","IND","Grover Stewart","DT",2017,15,15
+"11133","5","145","DEN","Jake Butt","TE",2017,1,1
+"11143","5","146","SFO","George Kittle","TE",2017,28,28
+"11152","5","147","CHI","Jordan Morgan","G",2017,0,0
+"11162","5","148","JAX","Blair Brown","LB",2017,3,3
+"11172","5","149","ATL","Damontae Kazee","CB",2017,12,12
+"11182","5","150","NYJ","Jordan Leggett","TE",2017,1,1
+"11192","5","151","LAC","Desmond King","S",2017,19,17
+"11202","5","152","CAR","Corn Elder","CB",2017,2,2
+"11212","5","153","CIN","Jake Elliott","K",2017,10,0
+"11222","5","154","WAS","Jeremy Sprinkle","TE",2017,2,2
+"11232","5","155","TEN","Jayon Brown","LB",2017,22,22
+"11242","5","156","ATL","Brian Hill","RB",2017,10,9
+"11252","5","157","ARI","Will Holden","T",2017,4,3
+"11262","5","158","IND","Nate Hairston","CB",2017,8,5
+"11272","5","159","BAL","Jermaine Eluemunor","G",2017,7,2
+"11282","5","160","CLE","Roderick Johnson","T",2017,6,0
+"11292","5","161","IND","Anthony Walker","LB",2017,23,23
+"11302","5","162","TAM","Jeremy McNichols ","RB",2017,2,0
+"11312","5","163","BUF","Matt Milano","LB",2017,26,26
+"11322","5","164","MIA","Isaac Asiata","G",2017,0,0
+"11332","5","165","DET","Jamal Agnew","CB",2017,14,14
+"11342","5","166","PHI","Shelton Gibson ","WR",2017,0,0
+"11352","5","167","NYG","Avery Moss","DE",2017,5,2
+"11363","5","168","LVR","Marquel Lee","LB",2017,8,8
+"11373","5","169","HOU","Treston Decoud","S",2017,1,1
+"11383","5","170","MIN","Rodney Adams","WR",2017,0,0
+"11394","5","171","BUF","Nathan Peterman ","QB",2017,2,2
+"11405","5","172","DEN","Isaiah McKenzie","WR",2017,8,0
+"11416","5","173","PIT","Brian Allen","DB",2017,1,1
+"11426","5","174","ATL","Eric Saubert","TE",2017,0,0
+"11436","5","175","GNB","DeAngelo Yancey","WR",2017,0,0
+"11445","5","176","CIN","JJ Dielman ","C",2017,0,0
+"11454","5","177","SFO","Trent Taylor","WR",2017,6,6
+"11464","5","178","MIA","Davon Godchaux","DT",2017,18,18
+"11475","5","179","ARI","T.J. Logan","RB",2017,0,0
+"11485","5","180","MIN","Danny Isidora","G",2017,4,3
+"11495","5","181","NYJ","Dylan Donahue","DL",2017,0,0
+"11505","5","182","GNB","Aaron Jones","RB",2017,32,32
+"11515","5","183","KAN","Ukeme Eligwe","LB",2017,2,1
+"11525","5","184","PHI","Nathan Gerry","S",2017,15,15
+"11853","6","185","CLE","Caleb Brantley","DT",2017,2,2
+"11862","6","186","BAL","Chuck Clark","DB",2017,13,13
+"11872","6","187","SEA","Michael Tyson","S",2017,1,0
+"11882","6","188","NYJ","Elijah McGuire ","RB",2017,6,6
+"11892","6","189","LAR","Tanzel Smart","DT",2017,4,4
+"11902","6","190","LAC","Sam Tevi","T",2017,25,25
+"11912","6","191","DAL","Xavier Woods","S",2017,18,18
+"11922","6","192","CAR","Alex Armah","FB",2017,1,1
+"11932","6","193","CIN","Jordan Evans","LB",2017,9,9
+"11942","6","194","MIA","Vincent Taylor","DT",2017,5,2
+"11952","6","195","BUF","Tanner Vallejo","LB",2017,6,1
+"11962","6","196","NOR","Al-Quadin Muhammad","DE",2017,8,0
+"11972","6","197","NYJ","Jeremy Clark","CB",2017,0,0
+"11982","6","198","SFO","D.J. Jones","DT",2017,14,14
+"11992","6","199","WAS","Chase Roullier","C",2017,20,20
+"12002","6","200","NYG","Adam Bisnowaty","T",2017,0,0
+"12012","6","201","MIN","Bucky Hodges","TE",2017,0,0
+"12022","6","202","SFO","Pita Taumoepenu","OLB",2017,0,0
+"12032","6","203","DEN","De'Angelo Henderson","RB",2017,0,0
+"12042","6","204","NYJ","Derrick Jones","CB",2017,0,0
+"12052","6","205","DET","Jeremiah Ledbetter","DE",2017,1,1
+"12063","6","206","LAR","Sam Rogers","FB",2017,0,0
+"12073","6","207","CIN","Brandon Wilson","RB",2017,5,5
+"12083","6","208","ARI","Rudy Ford","S",2017,4,2
+"12094","6","209","WAS","Robert Davis","WR",2017,0,0
+"12106","6","210","SEA","Justin Senior","T",2017,0,0
+"12116","6","211","NWE","Conor McDermott","T",2017,2,0
+"12126","6","212","GNB","Kofi Amichia","C",2017,0,0
+"12136","6","213","PIT","Colin Holba","LS",2017,0,0
+"12146","6","214","PHI","Elijah Qualls","DT",2017,1,1
+"12156","6","215","DET","Brad Kaaya ","QB",2017,0,0
+"12166","6","216","DAL","Marquez White","CB",2017,0,0
+"12176","6","217","TEN","Corey Levin","OL",2017,1,1
+"12186","6","218","KAN","Leon McQuay","S",2017,0,0
+"12516","7","219","MIN","Stacy Coley","WR",2017,0,0
+"12526","7","220","MIN","Ifeadi Odenigbo","DL",2017,9,9
+"12536","7","221","LVR","Shalom Luani","S",2017,2,1
+"12547","7","222","JAX","Jalen Myrick","CB",2017,0,0
+"12557","7","223","TAM","Stevie Tu'ikolovatu","NT",2017,0,0
+"12566","7","224","CLE","Zane Gonzalez","K",2017,8,1
+"12574","7","225","LAC","Isaac Rochell","DT",2017,9,9
+"12583","7","226","SEA","David Moore","WR",2017,12,12
+"12592","7","227","TEN","Josh Carraway","OLB",2017,0,0
+"12602","7","228","DAL","Joey Ivie","DT",2017,0,0
+"12612","7","229","SFO","Adrian Colbert","DB",2017,6,4
+"12622","7","230","WAS","Josh Harvey-Clemons","S",2017,3,3
+"12632","7","231","LVR","Jylan Ware","T",2017,0,0
+"12642","7","232","MIN","Elijah Lee","LB",2017,7,0
+"12652","7","233","CAR","Harrison Butker","K",2017,16,0
+"12662","7","234","LAR","Ejuan Price","DE",2017,0,0
+"12672","7","235","WAS","Joshua Holsey","DB",2017,1,1
+"12682","7","236","TEN","Brad Seaton","T",2017,0,0
+"12692","7","237","MIA","Isaiah Ford","WR",2017,4,4
+"12702","7","238","GNB","Devante Mays","RB",2017,0,0
+"12712","7","239","DAL","Noah Brown","WR",2017,1,1
+"12722","7","240","JAX","Marquez Williams","FB",2017,0,0
+"12732","7","241","TEN","Khalfani Muhammad","RB",2017,0,0
+"12742","7","242","LVR","Elijah Hood","RB",2017,0,0
+"12752","7","243","HOU","Kyle Fuller","C",2017,2,1
+"12762","7","244","LVR","Treyvon Hester","DT",2017,3,1
+"12772","7","245","MIN","Jack Tocho","CB",2017,0,0
+"12782","7","246","DAL","Jordan Carrell","DT",2017,0,0
+"12792","7","247","GNB","Malachi Dupre","WR",2017,0,0
+"12802","7","248","PIT","Keion Adams","OLB",2017,0,0
+"12812","7","249","SEA","Chris Carson","RB",2017,28,28
+"12822","7","250","DET","Pat O'Connor","DE",2017,2,0
+"12832","7","251","CIN","Mason Schreck","TE",2017,0,0
+"12842","7","252","CLE","Matthew Dayes","RB",2017,0,0
+"12852","7","253","DEN","Chad Kelly","QB",2017,0,0
+"8503","1","1","CLE","Baker Mayfield","QB",2018,30,30
+"8513","1","2","NYG","Saquon Barkley","RB",2018,23,23
+"8523","1","3","NYJ","Sam Darnold ","QB",2018,15,15
+"8533","1","4","CLE","Denzel Ward ","CB",2018,16,16
+"8543","1","5","DEN","Bradley Chubb","DE",2018,18,18
+"8553","1","6","IND","Quenton Nelson","G",2018,42,42
+"8563","1","7","BUF","Josh Allen ","QB",2018,35,35
+"8573","1","8","CHI","Roquan Smith","ILB",2018,29,29
+"8583","1","9","SFO","Mike McGlinchey","T",2018,23,23
+"8593","1","10","ARI","Josh Rosen","QB",2018,3,2
+"8603","1","11","MIA","Minkah Fitzpatrick","S",2018,36,9
+"8613","1","12","TAM","Vita Vea","DT",2018,14,14
+"8623","1","13","WAS","Daron Payne ","DT",2018,21,21
+"8633","1","14","NOR","Marcus Davenport","DE",2018,9,9
+"8643","1","15","LVR","Kolton Miller","T",2018,23,23
+"8653","1","16","BUF","Tremaine Edmunds","ILB",2018,31,31
+"8663","1","17","LAC","Derwin James","S",2018,11,11
+"8673","1","18","GNB","Jaire Alexander","CB",2018,20,20
+"8683","1","19","DAL","Leighton Vander Esch","OLB",2018,19,19
+"8693","1","20","DET","Frank Ragnow","C",2018,21,21
+"8703","1","21","CIN","Billy Price","C",2018,10,10
+"8713","1","22","TEN","Rashaan Evans","ILB",2018,20,20
+"8722","1","23","NWE","Isaiah Wynn","T",2018,8,8
+"873","1","24","CAR","D.J. Moore","WR",2018,25,25
+"874","1","25","BAL","Hayden Hurst","TE",2018,11,6
+"8755","1","26","ATL","Calvin Ridley","WR",2018,24,24
+"8765","1","27","SEA","Rashaad Penny","RB",2018,7,7
+"8775","1","28","PIT","Terrell Edmunds","S",2018,16,16
+"8785","1","29","JAX","Taven Bryan","DT",2018,9,9
+"8795","1","30","MIN","Mike Hughes","CB",2018,5,5
+"8805","1","31","NWE","Sony Michel","RB",2018,15,15
+"8815","1","32","BAL","Lamar Jackson","QB",2018,48,48
+"9143","2","33","CLE","Austin Corbett","C",2018,10,1
+"9153","2","34","NYG","Will Hernandez","G",2018,17,17
+"9163","2","35","CLE","Nick Chubb","RB",2018,24,24
+"9173","2","36","IND","Darius Leonard","LB",2018,42,42
+"9183","2","37","IND","Braden Smith","G",2018,21,21
+"9193","2","38","TAM","Ronald Jones II","RB",2018,15,15
+"9203","2","39","CHI","James Daniels","C",2018,13,13
+"9213","2","40","DEN","Courtland Sutton ","WR",2018,14,14
+"9223","2","41","TEN","Harold Landry","OLB",2018,18,18
+"9233","2","42","MIA","Mike Gesicki","TE",2018,12,12
+"9243","2","43","DET","Kerryon Johnson","RB",2018,11,11
+"9253","2","44","SFO","Dante Pettis","WR",2018,5,4
+"9263","2","45","GNB","Josh Jackson","CB",2018,7,7
+"9273","2","46","KAN","Breeland Speaks","DE",2018,3,3
+"9283","2","47","ARI","Christian Kirk","WR",2018,15,15
+"9293","2","48","LAC","Uchenna Nwosu","OLB",2018,9,9
+"9303","2","49","PHI","Dallas Goedert","TE",2018,11,11
+"9313","2","50","DAL","Connor Williams","T",2018,15,15
+"9323","2","51","CHI","Anthony Miller","WR",2018,12,12
+"9333","2","52","IND","Kemoko Turay","OLB",2018,4,4
+"9343","2","53","TAM","M.J. Stewart","CB",2018,4,3
+"9353","2","54","CIN","Jessie Bates III","S",2018,20,20
+"9362","2","55","CAR","Donte Jackson","CB",2018,14,14
+"9371","2","56","NWE","Duke Dawson","CB",2018,3,0
+"9382","2","57","LVR","P.J. Hall","DT",2018,12,8
+"9395","2","58","ATL","Isaiah Oliver","CB",2018,11,11
+"9405","2","59","WAS","Derrius Guice","RB",2018,2,2
+"9415","2","60","PIT","James Washington","WR",2018,11,11
+"9425","2","61","JAX","DJ Chark","WR",2018,13,13
+"9435","2","62","MIN","Brian O'Neill","T",2018,23,23
+"9445","2","63","TAM","Carlton Davis","CB",2018,14,14
+"9455","2","64","IND","Tyquan Lewis","DE",2018,7,7
+"9783","3","65","LVR","Brandon Parker","T",2018,10,10
+"9793","3","66","NYG","Lorenzo Carter ","DE",2018,9,9
+"9803","3","67","CLE","Chad Thomas","DE",2018,5,5
+"9813","3","68","HOU","Justin Reid","S",2018,14,14
+"9823","3","69","NYG","B.J. Hill","DT",2018,11,11
+"9833","3","70","SFO","Fred Warner","OLB",2018,33,33
+"9843","3","71","DEN","Royce Freeman","RB",2018,9,9
+"9853","3","72","NYJ","Nathan Shepherd","DT",2018,8,8
+"9863","3","73","MIA","Jerome Baker","OLB",2018,19,19
+"9873","3","74","WAS","Geron Christian","T",2018,5,5
+"9883","3","75","KAN","Derrick Nnadi","DT",2018,17,17
+"9893","3","76","PIT","Mason Rudolph","QB",2018,4,4
+"9903","3","77","CIN","Sam Hubbard","DE",2018,16,16
+"9913","3","78","CIN","Malik Jefferson","OLB",2018,3,1
+"9923","3","79","SEA","Rasheem Green","DT",2018,6,6
+"9933","3","80","HOU","Martinas Rankin","T",2018,7,3
+"9943","3","81","DAL","Michael Gallup","WR",2018,18,18
+"9953","3","82","DET","Tracy Walker","S",2018,7,7
+"9963","3","83","BAL","Orlando Brown Jr.","T",2018,32,32
+"9973","3","84","LAC","Justin Jones","DT",2018,12,12
+"9983","3","85","CAR","Rashaan Gaulden","CB",2018,1,1
+"9993","3","86","BAL","Mark Andrews","TE",2018,24,24
+"10003","3","87","LVR","Arden Key","DE",2018,6,6
+"10013","3","88","GNB","Oren Burks","ILB",2018,5,5
+"10024","3","89","LAR","Joseph Noteboom","T",2018,9,9
+"10033","3","90","ATL","Deadrin Senat","DT",2018,3,3
+"10044","3","91","NOR","Tre'Quan Smith","WR",2018,11,11
+"10055","3","92","PIT","Chukwuma Okorafor","T",2018,10,10
+"10065","3","93","JAX","Ronnie Harrison","S",2018,12,9
+"10076","3","94","TAM","Alex Cappa","T",2018,15,15
+"10086","3","95","SFO","Tarvarius Moore","S",2018,7,7
+"10096","3","96","BUF","Harrison Phillips","DT",2018,4,4
+"10106","3","97","ARI","Mason Cole","C",2018,12,12
+"10116","3","98","HOU","Jordan Akins","TE",2018,9,9
+"10125","3","99","DEN","Isaac Yiadom","CB",2018,9,5
+"10135","3","100","KAN","Dorian O'Daniel","OLB",2018,4,4
+"10464","4","101","CAR","Ian Thomas","TE",2018,5,5
+"10473","4","102","MIN","Jalyn Holmes","DE",2018,5,5
+"10483","4","103","HOU","Keke Coutee","WR",2018,8,8
+"10493","4","104","IND","Nyheim Hines","RB",2018,17,17
+"10503","4","105","CLE","Antonio Callaway","WR",2018,5,5
+"10513","4","106","DEN","Josey Jewell","ILB",2018,15,15
+"10523","4","107","NYJ","Chris Herndon","TE",2018,6,6
+"10533","4","108","NYG","Kyle Lauletta","QB",2018,0,0
+"10543","4","109","WAS","Troy Apke","S",2018,5,5
+"10553","4","110","LVR","Nick Nelson","CB",2018,1,1
+"10563","4","111","LAR","Brian Allen","C",2018,5,5
+"10573","4","112","CIN","Mark Walton","RB",2018,3,1
+"10583","4","113","DEN","DaeSean Hamilton","WR",2018,6,6
+"10593","4","114","DET","Da'Shawn Hand","DE",2018,7,7
+"10603","4","115","CHI","Joel Iyiegbuniwe","LB",2018,3,3
+"10613","4","116","DAL","Dorance Armstrong Jr.","DE",2018,7,7
+"10623","4","117","TAM","Jordan Whitehead","S",2018,13,13
+"10633","4","118","BAL","Anthony Averett","CB",2018,4,4
+"10643","4","119","LAC","Kyzir White","S",2018,11,11
+"10653","4","120","SEA","Will Dissly","TE",2018,6,6
+"10663","4","121","BUF","Taron Johnson","CB",2018,16,16
+"10673","4","122","BAL","Kenny Young","LB",2018,11,6
+"10683","4","123","MIA","Durham Smythe","TE",2018,2,2
+"10693","4","124","KAN","Armani Watts","S",2018,2,2
+"10705","4","125","PHI","Avonte Maddox","CB",2018,10,10
+"10715","4","126","ATL","Ito Smith","RB",2018,6,6
+"10726","4","127","NOR","Rick Leonard","T",2018,0,0
+"10735","4","128","SFO","Kentavius Street","DT",2018,2,2
+"10746","4","129","JAX","Will Richardson","T",2018,3,3
+"10756","4","130","PHI","Josh Sweat","DE",2018,6,6
+"10765","4","131","MIA","Kalen Ballage","RB",2018,5,3
+"10775","4","132","BAL","Jaleel Scott","WR",2018,0,0
+"10785","4","133","GNB","J'Mon Moore","WR",2018,0,0
+"10796","4","134","ARI","Chase Edmonds","RB",2018,11,11
+"10806","4","135","LAR","John Franklin-Myers","DE",2018,4,1
+"10815","4","136","CAR","Marquis Haynes","OLB",2018,3,3
+"10825","4","137","DAL","Dalton Schultz","TE",2018,6,6
+"11153","5","138","GNB","Cole Madison","G",2018,0,0
+"11163","5","139","NYG","R.J. McIntosh","DT",2018,2,2
+"11173","5","140","LVR","Maurice Hurst Jr.","DT",2018,10,10
+"11183","5","141","SEA","Shaquem Griffin","OLB",2018,4,4
+"11193","5","142","SFO","D.J. Reed","CB",2018,5,2
+"11203","5","143","NWE","Ja'Whaun Bentley","ILB",2018,13,13
+"11213","5","144","TAM","Justin Watson","WR",2018,2,2
+"11223","5","145","CHI","Bilal Nichols ","DT",2018,18,18
+"11233","5","146","SEA","Tre Flowers","S",2018,14,14
+"11243","5","147","LAR","Micah Kiser","ILB",2018,6,6
+"11253","5","148","PIT","Marcus Allen","S",2018,1,1
+"11263","5","149","SEA","Michael Dickson","P",2018,8,8
+"11273","5","150","CLE","Genard Avery","LB",2018,6,4
+"11283","5","151","CIN","Davontae Harris","CB",2018,5,0
+"11293","5","152","TEN","Dane Cruikshank","CB",2018,2,2
+"11303","5","153","DET","Tyrell Crosby","T",2018,10,10
+"11313","5","154","BUF","Siran Neal","CB",2018,3,3
+"11323","5","155","LAC","Scott Quessenberry","C",2018,7,7
+"11333","5","156","DEN","Troy Fumagalli","TE",2018,1,1
+"11343","5","157","MIN","Tyler Conklin","TE",2018,4,4
+"11353","5","158","CIN","Andrew Brown","DE",2018,2,2
+"11364","5","159","IND","Daurice Fountain","WR",2018,0,0
+"11374","5","160","LAR","Ogbonnia Okoronkwo","DE",2018,2,2
+"11384","5","161","CAR","Jermaine Carter Jr.","LB",2018,8,8
+"11395","5","162","BAL","Jordan Lasley","WR",2018,0,0
+"11406","5","163","WAS","Tim Settle","DT",2018,6,6
+"11417","5","164","NOR","Natrell Jamerson","S",2018,1,0
+"11427","5","165","PIT","Jaylen Samuels","TE",2018,7,7
+"11437","5","166","BUF","Wyatt Teller","G",2018,14,2
+"11446","5","167","MIN","Daniel Carlson","K",2018,8,-1
+"11455","5","168","SEA","Jamarco Jones","T",2018,5,5
+"11465","5","169","IND","Jordan Wilkins","RB",2018,8,8
+"11476","5","170","CIN","Darius Phillips","CB",2018,6,6
+"11486","5","171","DAL","Mike White","QB",2018,0,0
+"11496","5","172","GNB","JK Scott","P",2018,6,6
+"11506","5","173","LVR","Johnny Townsend","P",2018,2,2
+"11516","5","174","GNB","Marquez Valdes-Scantling ","WR",2018,14,14
+"11843","6","175","CLE","Damion Ratley","WR",2018,3,3
+"11854","6","176","LAR","John Kelly","RB",2018,1,1
+"11863","6","177","HOU","Duke Ejiofor","DE",2018,1,1
+"11873","6","178","NWE","Christian Sam","ILB",2018,0,0
+"11883","6","179","NYJ","Parry Nickerson","CB",2018,1,1
+"11893","6","180","NYJ","Folorunso Fatukasi","DT",2018,7,7
+"11903","6","181","CHI","Kylie Fitts","DE",2018,1,0
+"11913","6","182","ARI","Christian Campbell","CB",2018,0,0
+"11923","6","183","DEN","Sam Jones","G",2018,0,0
+"11933","6","184","SFO","Marcell Harris","S",2018,7,7
+"11943","6","185","IND","Deon Cain","WR",2018,1,0
+"11953","6","186","SEA","Jacob Martin","LB",2018,5,2
+"11963","6","187","BUF","Ray-Ray McCloud","WR",2018,1,0
+"11973","6","188","CLE","Simeon Thomas","CB",2018,1,0
+"11983","6","189","NOR","Kamrin Moore","CB",2018,0,0
+"11993","6","190","BAL","DeShon Elliott","S",2018,6,6
+"12003","6","191","LAC","Dylan Cantrell","WR",2018,0,0
+"12013","6","192","LAR","Jamil Demby","T",2018,1,1
+"12023","6","193","DAL","Chris Covington","LB",2018,0,0
+"12033","6","194","ATL","Russell Gage","WR",2018,12,12
+"12043","6","195","LAR","Sebastian Joseph","DT",2018,15,15
+"12053","6","196","KAN","Tremon Smith","WR",2018,1,1
+"12064","6","197","WAS","Shaun Dion Hamilton","LB",2018,8,8
+"12074","6","198","KAN","Kahlil McKenzie","DT",2018,1,0
+"12084","6","199","TEN","Luke Falk","QB",2018,1,0
+"12095","6","200","ATL","Foyesade Oluokun","S",2018,15,15
+"12107","6","201","NOR","Boston Scott","RB",2018,6,0
+"12117","6","202","TAM","Jack Cichy","ILB",2018,0,0
+"12127","6","203","JAX","Tanner Lee","QB",2018,0,0
+"12137","6","204","NYJ","Trenton Cannon","RB",2018,2,2
+"12147","6","205","LAR","Trevon Young","DE",2018,0,0
+"12157","6","206","PHI","Matt Pryor","T",2018,5,5
+"12167","6","207","GNB","Equanimeous St. Brown","WR",2018,3,3
+"12177","6","208","DAL","Cedrick Wilson Jr.","WR",2018,1,1
+"12187","6","209","MIA","Cornell Armstrong ","CB",2018,2,1
+"12196","6","210","NWE","Braxton Berrios","WR",2018,4,0
+"12206","6","211","HOU","Jordan Thomas","TE",2018,2,2
+"12216","6","212","BAL","Greg Senat","T",2018,1,0
+"12225","6","213","MIN","Colby Gossett","G",2018,1,0
+"12235","6","214","HOU","Peter Kalambayi","LB",2018,2,2
+"12245","6","215","BAL","Bradley Bozeman","C",2018,18,18
+"12255","6","216","LVR","Azeem Victor","LB",2018,0,0
+"12265","6","217","DEN","Keishawn Bierria","ILB",2018,1,1
+"12275","6","218","MIN","Ade Aruna","DE",2018,0,0
+"12603","7","219","NWE","Danny Etling","QB",2018,0,0
+"12613","7","220","SEA","Alex McGough","QB",2018,0,0
+"12623","7","221","IND","Matthew Adams","LB",2018,7,7
+"12633","7","222","HOU","Jermaine Kelly","CB",2018,0,0
+"12643","7","223","SFO","Jullian Taylor","DT",2018,1,1
+"12653","7","224","CHI","Javon Wims","WR",2018,1,1
+"12663","7","225","MIN","Devante Downs","LB",2018,6,1
+"12673","7","226","DEN","David Williams","RB",2018,0,0
+"12683","7","227","MIA","Quentin Poling","LB",2018,0,0
+"12693","7","228","LVR","Marcell Ateman","WR",2018,2,2
+"12703","7","229","MIA","Jason Sanders","K",2018,12,12
+"12713","7","230","JAX","Leon Jacobs","OLB",2018,9,9
+"12723","7","231","LAR","Travin Howard","OLB",2018,1,1
+"12733","7","232","GNB","James Looney","DE",2018,0,0
+"12743","7","233","PHI","Jordan Mailata","T",2018,5,5
+"12753","7","234","CAR","Andre Smith","ILB",2018,2,1
+"12763","7","235","IND","Zaire Franklin","LB",2018,5,5
+"12773","7","236","DAL","Bo Scarbrough","RB",2018,2,0
+"12783","7","237","DET","Nick Bawden","RB",2018,0,0
+"12793","7","238","BAL","Zach Sieler","DE",2018,7,0
+"12803","7","239","GNB","Hunter Bradley","LS",2018,3,3
+"12813","7","240","SFO","Richie James","WR",2018,7,7
+"12823","7","241","WAS","Greg Stroman","CB",2018,2,2
+"12833","7","242","CAR","Kendrick Norton","DT",2018,0,0
+"12843","7","243","NWE","Keion Crossen","CB",2018,4,1
+"12853","7","244","LAR","Justin Lawler","DE",2018,1,1
+"12861","7","245","NOR","Will Clapp","C",2018,4,4
+"12871","7","246","PIT","Joshua Frazier","DT",2018,0,0
+"12881","7","247","JAX","Logan Cooke","P",2018,7,7
+"1289","7","248","GNB","Kendall Donnerson","OLB",2018,0,0
+"1290","7","249","CIN","Logan Woodside ","QB",2018,0,0
+"1291","7","250","NWE","Ryan Izzo","TE",2018,3,3
+"1292","7","251","LAC","Justin Jackson ","RB",2018,7,7
+"1293","7","252","CIN","Rod Taylor","G",2018,0,0
+"1294","7","253","CIN","Auden Tate","WR",2018,5,5
+"1295","7","254","ARI","Korey Cunningham","T",2018,3,2
+"1296","7","255","BUF","Austin Proehl","WR",2018,0,0
+"1297","7","256","WAS","Trey Quinn","WR",2018,2,2
+"1374","3","96","NYG","Sam Beal","DB",2018,1,1
+"1407","6","196","WAS","Adonis Alexander","DB",2018,1,1
+"8504","1","1","ARI","Kyler Murray ","QB",2019,30,30
+"8514","1","2","SFO","Nick Bosa","DE",2019,12,12
+"8524","1","3","NYJ","Quinnen Williams","DT",2019,12,12
+"8534","1","4","LVR","Clelin Ferrell","DE",2019,11,11
+"8544","1","5","TAM","Devin White","LB",2019,23,23
+"8554","1","6","NYG","Daniel Jones ","QB",2019,18,18
+"8564","1","7","JAX","Josh Allen","LB",2019,9,9
+"8574","1","8","DET","T.J. Hockenson ","TE",2019,9,9
+"8584","1","9","BUF","Ed Oliver","DT",2019,13,13
+"8594","1","10","PIT","Devin Bush Jr.","LB",2019,12,12
+"8604","1","11","CIN","Jonah Williams","G",2019,4,4
+"8614","1","12","GNB","Rashan Gary","LB",2019,5,5
+"8624","1","13","MIA","Christian Wilkins","DT",2019,13,13
+"8634","1","14","ATL","Chris Lindstrom ","G",2019,9,9
+"8644","1","15","WAS","Dwayne Haskins ","QB",2019,3,3
+"8654","1","16","CAR","Brian Burns","DE",2019,11,11
+"8664","1","17","NYG","Dexter Lawrence","DT",2019,15,15
+"8674","1","18","MIN","Garrett Bradbury","C",2019,16,16
+"8684","1","19","TEN","Jeffery Simmons","DT",2019,11,11
+"8694","1","20","DEN","Noah Fant","TE",2019,8,8
+"8704","1","21","GNB","Darnell Savage Jr.","S",2019,11,11
+"8714","1","22","PHI","Andre Dillard","T",2019,3,3
+"8723","1","23","HOU","Tytus Howard","T",2019,15,15
+"8731","1","24","LVR","Josh Jacobs","RB",2019,16,16
+"8741","1","25","BAL","Marquise Brown ","WR",2019,16,16
+"8756","1","26","WAS","Montez Sweat","DE",2019,16,16
+"8766","1","27","LVR","Johnathan Abram ","S",2019,5,5
+"8776","1","28","LAC","Jerry Tillery","DT",2019,8,8
+"8786","1","29","SEA","L.J. Collier","DE",2019,8,8
+"8796","1","30","NYG","Deandre Baker","CB",2019,5,5
+"8806","1","31","ATL","Kaleb McGary","T",2019,16,16
+"8816","1","32","NWE","N'Keal Harry ","WR",2019,4,4
+"9144","2","33","ARI","Byron Murphy","CB",2019,9,9
+"9154","2","34","IND","Rock Ya-Sin","CB",2019,7,7
+"9164","2","35","JAX","Jawaan Taylor","T",2019,15,15
+"9174","2","36","SFO","Deebo Samuel","WR",2019,12,12
+"9184","2","37","CAR","Greg Little","T",2019,3,3
+"9194","2","38","BUF","Cody Ford","T",2019,11,11
+"9204","2","39","TAM","Sean Murphy-Bunting","CB",2019,10,10
+"9214","2","40","LVR","Trayvon Mullen","CB",2019,9,9
+"9224","2","41","DEN","Dalton Risner","T",2019,12,12
+"9234","2","42","DEN","Drew Lock","QB",2019,8,8
+"9244","2","43","DET","Jahlani Tavai","LB",2019,8,8
+"9254","2","44","GNB","Elgton Jenkins","C",2019,19,19
+"9264","2","45","NWE","Joejuan Williams ","CB",2019,2,2
+"9274","2","46","CLE","Greedy Williams","CB",2019,4,4
+"9284","2","47","SEA","Marquise Blair","S",2019,2,2
+"9294","2","48","NOR","Erik McCoy","C",2019,16,16
+"9304","2","49","IND","Ben Banogu","LB",2019,2,2
+"9314","2","50","MIN","Irv Smith Jr.","TE",2019,6,6
+"9324","2","51","TEN","A.J. Brown","WR",2019,23,23
+"9334","2","52","CIN","Drew Sample","TE",2019,2,2
+"9344","2","53","PHI","Miles Sanders ","RB",2019,15,15
+"9354","2","54","HOU","Lonnie Johnson Jr.","CB",2019,5,5
+"9363","2","55","HOU","Max Scharping","T",2019,14,14
+"9372","2","56","KAN","Mecole Hardman","WR",2019,13,13
+"9383","2","57","PHI","JJ Arcega-Whiteside","WR",2019,2,2
+"9396","2","58","DAL","Trysten Hill","DT",2019,3,3
+"9406","2","59","IND","Parris Campbell","WR",2019,2,2
+"9416","2","60","LAC","Nasir Adderley","S",2019,5,5
+"9426","2","61","LAR","Taylor Rapp","S",2019,8,8
+"9436","2","62","ARI","Andy Isabella","WR",2019,4,4
+"9446","2","63","KAN","Juan Thornhill","S",2019,9,9
+"9456","2","64","SEA","D.K. Metcalf","WR",2019,21,21
+"9784","3","65","ARI","Zach Allen","DE",2019,5,5
+"9794","3","66","PIT","Diontae Johnson ","WR",2019,13,13
+"9804","3","67","SFO","Jalen Hurd","WR",2019,0,0
+"9814","3","68","NYJ","Jachai Polite","LB",2019,0,0
+"9824","3","69","JAX","Josh Oliver ","TE",2019,0,0
+"9834","3","70","LAR","Darrell Henderson","RB",2019,5,5
+"9844","3","71","DEN","Dre'Mont Jones","DT",2019,7,7
+"9854","3","72","CIN","Germaine Pratt","LB",2019,12,12
+"9864","3","73","CHI","David Montgomery","RB",2019,15,15
+"9874","3","74","BUF","Devin Singletary","RB",2019,14,14
+"9884","3","75","GNB","Jace Sternberger","TE",2019,1,1
+"9894","3","76","WAS","Terry McLaurin ","WR",2019,14,14
+"9904","3","77","NWE","Chase Winovich","DE",2019,10,10
+"9914","3","78","MIA","Michael Deiter","G",2019,7,7
+"9924","3","79","LAR","David Long","CB",2019,1,1
+"9934","3","80","CLE","Sione Takitaki","LB",2019,8,8
+"9944","3","81","DET","Will Harris","S",2019,4,4
+"9954","3","82","TEN","Nate Davis","G",2019,15,15
+"9964","3","83","PIT","Justin Layne","CB",2019,2,2
+"9974","3","84","KAN","Khalen Saunders","DT",2019,4,4
+"9984","3","85","BAL","Jaylon Ferguson","DE",2019,8,8
+"9994","3","86","HOU","Kahale Warring","TE",2019,0,0
+"10004","3","87","NWE","Damien Harris ","RB",2019,5,5
+"10014","3","88","SEA","Cody Barton","LB",2019,4,4
+"10025","3","89","IND","Bobby Okereke","LB",2019,9,9
+"10034","3","90","DAL","Connor McGovern","G",2019,4,4
+"10045","3","91","LAC","Trey Pipkins","T",2019,5,5
+"10056","3","92","NYJ","Chuma Edoga","T",2019,5,5
+"10066","3","93","BAL","Miles Boykin","WR",2019,6,6
+"10077","3","94","TAM","Jamel Dean","CB",2019,6,6
+"10087","3","95","NYG","Oshane Ximines","DE",2019,3,3
+"10097","3","96","BUF","Dawson Knox","TE",2019,6,6
+"10107","3","97","LAR","Bobby Evans","T",2019,4,4
+"10117","3","98","JAX","Quincy Williams","S",2019,3,3
+"10126","3","99","TAM","Mike Edwards","S",2019,5,5
+"10136","3","100","CAR","Will Grier","QB",2019,1,1
+"10145","3","101","NWE","Yodny Cajuste","T",2019,0,0
+"10155","3","102","MIN","Alexander Mattison","RB",2019,8,8
+"10484","4","103","ARI","Hakeem Butler","WR",2019,0,0
+"10494","4","104","CIN","Ryan Finley","QB",2019,2,2
+"10504","4","105","NOR","Chauncey Gardner-Johnson","S",2019,8,8
+"10514","4","106","LVR","Maxx Crosby ","DE",2019,12,12
+"10524","4","107","TAM","Anthony Nelson","DE",2019,3,3
+"10534","4","108","NYG","Julian Love","CB",2019,5,5
+"10544","4","109","IND","Khari Willis","S",2019,7,7
+"10554","4","110","SFO","Mitch Wishnowsky","P",2019,4,4
+"10564","4","111","ATL","Kendall Sheffield","CB",2019,8,8
+"10574","4","112","WAS","Bryce Love","RB",2019,0,0
+"10584","4","113","BAL","Justice Hill","RB",2019,4,4
+"10594","4","114","MIN","Dru Samia","G",2019,3,3
+"10604","4","115","CAR","Christian Miller","LB",2019,1,1
+"10614","4","116","TEN","Amani Hooker","S",2019,3,3
+"10624","4","117","DET","Austin Bryant","DE",2019,1,1
+"10634","4","118","NWE","Hjalte Froholdt ","G",2019,0,0
+"10644","4","119","CLE","Sheldrick Redwine","S",2019,4,4
+"10654","4","120","SEA","Gary Jennings Jr","WR",2019,0,0
+"10664","4","121","NYJ","Trevon Wesco","TE",2019,0,0
+"10674","4","122","PIT","Benny Snell Jr.","RB",2019,6,6
+"10684","4","123","BAL","Ben Powers","G",2019,4,4
+"10694","4","124","SEA","Phil Haynes","G",2019,0,0
+"10706","4","125","CIN","Renell Wren","DT",2019,1,1
+"10716","4","126","CHI","Riley Ridley","WR",2019,1,1
+"10727","4","127","BAL","Iman Marshall","CB",2019,0,0
+"10736","4","128","DAL","Tony Pollard","RB",2019,8,8
+"10747","4","129","LVR","Isaiah Johnson","CB",2019,1,1
+"10757","4","130","LAC","Drue Tranquill","LB",2019,3,3
+"10766","4","131","WAS","Wes Martin","G",2019,4,4
+"10776","4","132","SEA","Ugo Amadi","S",2019,3,3
+"10786","4","133","NWE","Jarrett Stidham","QB",2019,1,1
+"10797","4","134","LAR","Greg Gaines","DT",2019,3,3
+"10807","4","135","ATL","John Cominsky","DE",2019,3,3
+"10816","4","136","CIN","Michael Jordan","G",2019,8,8
+"10826","4","137","LVR","Foster Moreau","TE",2019,2,2
+"10835","4","138","PHI","Shareef Miller","DE",2019,0,0
+"11164","5","139","ARI","Deionte Thompson","S",2019,3,3
+"11174","5","140","JAX","Ryquell Armstead","RB",2019,2,2
+"11184","5","141","PIT","Zach Gentry","TE",2019,0,0
+"11194","5","142","SEA","Ben Burr-Kirven","LB",2019,2,2
+"11204","5","143","NYG","Ryan Connelly","LB",2019,3,2
+"11214","5","144","IND","Marvell Tell III","S",2019,1,1
+"11224","5","145","TAM","Matt Gay","K",2019,5,3
+"11234","5","146","DET","Amani Oruwariye","CB",2019,6,6
+"11244","5","147","BUF","Vosean Joseph","LB",2019,0,0
+"11254","5","148","SFO","Dre Greenlaw","LB",2019,12,12
+"11264","5","149","LVR","Hunter Renfrow","WR",2019,10,10
+"11274","5","150","GNB","Kingsley Keke","DT",2019,6,6
+"11284","5","151","MIA","Andrew Van Ginkel","LB",2019,8,8
+"11294","5","152","ATL","Qadree Ollison","RB",2019,0,0
+"11304","5","153","WAS","Ross Pierschbacher","G",2019,0,0
+"11314","5","154","CAR","Jordan Scarlett","RB",2019,0,0
+"11324","5","155","CLE","Mack Wilson","LB",2019,10,10
+"11334","5","156","DEN","Justin Hollins","LB",2019,3,1
+"11344","5","157","NYJ","Blake Cashman","LB",2019,4,4
+"11354","5","158","DAL","Michael Jackson","CB",2019,0,0
+"11365","5","159","NWE","Byron Cowart","DT",2019,8,8
+"11375","5","160","BAL","Daylon Mack","DT",2019,0,0
+"11385","5","161","HOU","Charles Omenihu","DE",2019,4,4
+"11396","5","162","MIN","Cameron Smith","LB",2019,0,0
+"11407","5","163","NWE","Jake Bailey","P",2019,5,5
+"11418","5","164","IND","E.J. Speed","LB",2019,2,2
+"11428","5","165","DAL","Joe Jackson","DE",2019,0,0
+"11438","5","166","LAC","Easton Stick","QB",2019,0,0
+"11447","5","167","PHI","Clayton Thorson","QB",2019,0,0
+"11456","5","168","TEN","D'Andre Walker","LB",2019,0,0
+"11466","5","169","LAR","David Edwards","T",2019,12,12
+"11477","5","170","CLE","Austin Seibert","K",2019,2,2
+"11487","5","171","NYG","Darius Slayton","WR",2019,12,12
+"11497","5","172","ATL","Jordan Miller","CB",2019,1,1
+"11507","5","173","WAS","Cole Holcomb","LB",2019,12,12
+"11833","6","174","ARI","KeeSean Johnson","WR",2019,4,4
+"11844","6","175","PIT","Sutton Smith","DE",2019,0,0
+"11855","6","176","SFO","Kaden Smith","TE",2019,3,0
+"11864","6","177","NOR","Saquan Hampton","S",2019,0,0
+"11874","6","178","JAX","Gardner Minshew II","QB",2019,16,16
+"11884","6","179","ARI","Lamont Gaillard","C",2019,2,2
+"11894","6","180","NYG","Corey Ballentine","CB",2019,2,2
+"11904","6","181","BUF","Jaquan Johnson","CB",2019,2,2
+"11914","6","182","CIN","Trayveon Williams","RB",2019,1,1
+"11924","6","183","SFO","Justin Skule","T",2019,8,8
+"11934","6","184","DET","Travis Fulgham","WR",2019,4,0
+"11944","6","185","GNB","Ka'dar Hollman","CB",2019,1,1
+"11954","6","186","DET","Ty Johnson","RB",2019,4,2
+"11964","6","187","DEN","Juwann Winfree","WR",2019,0,0
+"11974","6","188","TEN","David Long ","LB",2019,4,4
+"11984","6","189","CLE","Drew Forbes","T",2019,0,0
+"11994","6","190","MIN","Armon Watts","DT",2019,2,2
+"12004","6","191","MIN","Marcus Epps","S",2019,3,0
+"12014","6","192","PIT","Isaiah Buggs","DT",2019,2,2
+"12024","6","193","MIN","Oli Udoh","T",2019,0,0
+"12034","6","194","GNB","Dexter Williams","RB",2019,0,0
+"12044","6","195","HOU","Xavier Crawford","CB",2019,0,0
+"12054","6","196","NYJ","Blessuan Austin","CB",2019,6,6
+"12065","6","197","BAL","Trace McSorley","QB",2019,0,0
+"12075","6","198","SFO","Tim Harris","CB",2019,0,0
+"12085","6","199","IND","Gerri Green","DE",2019,0,0
+"12096","6","200","LAC","Emeke Egbule","LB",2019,2,2
+"12108","6","201","KAN","Rashad Fenton","CB",2019,3,3
+"12118","6","202","MIA","Isaiah Prince","T",2019,1,1
+"12128","6","203","ATL","Marcus Green","WR",2019,0,0
+"12138","6","204","SEA","Travis Homer","RB",2019,3,3
+"12148","6","205","CHI","Duke Shelley","CB",2019,2,2
+"12158","6","206","WAS","Kelvin Harmon","WR",2019,3,3
+"12168","6","207","PIT","Ulysees Gilbert","LB",2019,1,1
+"12178","6","208","TAM","Scott Miller ","WR",2019,7,7
+"12188","6","209","SEA","Demarcus Christmas","DT",2019,0,0
+"12197","6","210","CIN","Deshaun Davis","LB",2019,0,0
+"12207","6","211","CIN","Rodney Anderson","RB",2019,0,0
+"12217","6","212","CAR","Dennis Daley","T",2019,6,6
+"12226","6","213","DAL","Donovan Wilson","S",2019,5,5
+"12236","6","214","KAN","Darwin Thompson","RB",2019,2,2
+"12567","7","215","TAM","Terry Beckner","DT",2019,0,0
+"12575","7","216","KAN","Nick Allegretti","G",2019,6,6
+"12584","7","217","MIN","Kris Boyd","CB",2019,3,3
+"12593","7","218","DAL","Mike Weber","RB",2019,0,0
+"12604","7","219","PIT","Derwin Gray","T",2019,0,0
+"12614","7","220","HOU","Cullen Gillaspia","RB",2019,0,0
+"12624","7","221","CLE","Donnie Lewis Jr.","CB",2019,0,0
+"12634","7","222","CHI","Kerrith Whyte Jr","RB",2019,1,0
+"12644","7","223","CIN","Jordan Brown","CB",2019,0,0
+"12654","7","224","DET","Isaac Nauta","TE",2019,0,0
+"12664","7","225","BUF","Darryl Johnson","DE",2019,3,3
+"12674","7","226","GNB","Ty Summers","LB",2019,3,3
+"12684","7","227","WAS","Jimmy Moreland","CB",2019,5,5
+"12694","7","228","BUF","Tommy Sweeney","TE",2019,1,1
+"12704","7","229","DET","P.J. Johnson","DE",2019,0,0
+"12714","7","230","LVR","Quinton Bell","DE",2019,0,0
+"12724","7","231","NOR","Alizé Mack","TE",2019,0,0
+"12734","7","232","NYG","George Asafo-Adjei","T",2019,0,0
+"12744","7","233","MIA","Chandler Cox","RB",2019,0,0
+"12754","7","234","MIA","Myles Gaskin","RB",2019,8,8
+"12764","7","235","JAX","Dontavius Russell","DT",2019,0,0
+"12774","7","236","SEA","John Ursua","WR",2019,0,0
+"12784","7","237","CAR","Terry Godwin","WR",2019,0,0
+"12794","7","238","CHI","Stephen Denmark","CB",2019,0,0
+"12804","7","239","MIN","Dillon Mitchell","WR",2019,0,0
+"12814","7","240","IND","Jackson Barton","T",2019,0,0
+"12824","7","241","DAL","Jalen Jelks","DE",2019,0,0
+"12834","7","242","LAC","Cortez Broughton","DT",2019,1,1
+"12844","7","243","LAR","Nick Scott","S",2019,2,2
+"12854","7","244","NOR","Kaden Elliss","LB",2019,1,1
+"12862","7","245","NYG","Chris Slayton","DT",2019,0,0
+"12872","7","246","IND","Javon Patterson","C",2019,0,0
+"12882","7","247","MIN","Olabisi Johnson","WR",2019,5,5
+"12891","7","248","ARI","Joshua Miles","T",2019,1,1
+"12901","7","249","ARI","Michael Dogbe","DE",2019,0,0
+"12911","7","250","MIN","Austin Cutting ","LS",2019,1,1
+"12921","7","251","LAR","Dakota Allen","LB",2019,1,0
+"12931","7","252","NWE","Ken Webster","CB",2019,2,0
+"12941","7","253","WAS","Jordan Brailford","DE",2019,1,0
+"12951","7","254","ARI","Caleb Wilson","TE",2019,0,0
+"1372","5","160","ARI","Jalen Thompson","DB",2019,5,5
+"8545","1","1","CIN","Joe Burrow ","QB",2020,7,7
+"8555","1","2","WAS","Chase Young ","DE",2020,14,14
+"8565","1","3","DET","Jeff Okudah ","CB",2020,2,2
+"8575","1","4","NYG","Andrew Thomas ","T",2020,6,6
+"8585","1","5","MIA","Tua Tagovailoa ","QB",2020,5,5
+"8595","1","6","LAC","Justin Herbert ","QB",2020,13,13
+"8605","1","7","CAR","Derrick Brown ","DT",2020,6,6
+"8615","1","8","ARI","Isaiah Simmons ","LB",2020,5,5
+"8625","1","9","JAX","C.J. Henderson ","CB",2020,3,3
+"8635","1","10","CLE","Jedrick Wills Jr.","T",2020,8,8
+"8645","1","11","NYJ","Mekhi Becton ","T",2020,5,5
+"8655","1","12","LVR","Henry Ruggs III","WR",2020,4,4
+"8665","1","13","TAM","Tristan Wirfs ","T",2020,11,11
+"8675","1","14","SFO","Javon Kinlaw ","DT",2020,7,7
+"8685","1","15","DEN","Jerry Jeudy ","WR",2020,5,5
+"8695","1","16","ATL","AJ Terrell ","CB",2020,5,5
+"8705","1","17","DAL","CeeDee Lamb ","WR",2020,8,8
+"8715","1","18","MIA","Austin Jackson ","T",2020,6,6
+"8724","1","19","LVR","Damon Arnette ","CB",2020,2,2
+"8732","1","20","JAX","K'Lavon Chaisson ","DE",2020,2,2
+"8742","1","21","PHI","Jalen Reagor ","WR",2020,4,4
+"8757","1","22","MIN","Justin Jefferson ","WR",2020,12,12
+"8767","1","23","LAC","Kenneth Murray ","LB",2020,8,8
+"8777","1","24","NOR","Cesar Ruiz ","C",2020,5,5
+"8787","1","25","SFO","Brandon Aiyuk ","WR",2020,6,6
+"8797","1","26","GNB","Jordan Love","QB",2020,0,0
+"8807","1","27","SEA","Jordyn Brooks ","LB",2020,3,3
+"8817","1","28","BAL","Patrick Queen ","LB",2020,10,10
+"8825","1","29","TEN","Isaiah Wilson ","T",2020,0,0
+"8835","1","30","MIA","Noah Igbinoghene ","CB",2020,2,2
+"8845","1","31","MIN","Jeff Gladney ","CB",2020,5,5
+"8855","1","32","KAN","Clyde Edwards-Helaire ","RB",2020,8,8
+"9185","2","33","CIN","Tee Higgins ","WR",2020,6,6
+"9195","2","34","IND","Michael Pittman Jr.","WR",2020,4,4
+"9205","2","35","DET","D'Andre Swift ","RB",2020,6,6
+"9215","2","36","NYG","Xavier McKinney","S",2020,2,2
+"9225","2","37","NWE","Kyle Dugger ","S",2020,3,3
+"9235","2","38","CAR","Yetur Gross-Matos ","DE",2020,3,3
+"9245","2","39","MIA","Robert Hunt ","G",2020,6,6
+"9255","2","40","HOU","Ross Blacklock ","DT",2020,1,1
+"9265","2","41","IND","Jonathan Taylor","RB",2020,10,10
+"9275","2","42","JAX","Laviska Shenault Jr.","WR",2020,5,5
+"9285","2","43","CHI","Cole Kmet ","TE",2020,2,2
+"9295","2","44","CLE","Grant Delpit","S",2020,0,0
+"9305","2","45","TAM","Antoine Winfield Jr.","S",2020,6,6
+"9315","2","46","DEN","KJ Hamler ","WR",2020,3,3
+"9325","2","47","ATL","Marlon Davidson ","DE",2020,1,1
+"9335","2","48","SEA","Darrell Taylor","DE",2020,0,0
+"9345","2","49","PIT","Chase Claypool ","WR",2020,7,7
+"9355","2","50","CHI","Jaylon Johnson ","CB",2020,5,5
+"9364","2","51","DAL","Trevon Diggs","CB",2020,4,4
+"9373","2","52","LAR","Cam Akers ","RB",2020,4,4
+"9384","2","53","PHI","Jalen Hurts ","QB",2020,4,4
+"9397","2","54","BUF","A.J. Epenesa ","DE",2020,2,2
+"9407","2","55","BAL","J.K. Dobbins ","RB",2020,7,7
+"9417","2","56","MIA","Raekwon Davis ","DT",2020,7,7
+"9427","2","57","LAR","Van Jefferson ","WR",2020,1,1
+"9437","2","58","MIN","Ezra Cleveland ","T",2020,5,5
+"9447","2","59","NYJ","Denzel Mims ","WR",2020,2,2
+"9457","2","60","NWE","Josh Uche ","LB",2020,1,1
+"9465","2","61","TEN","Kristian Fulton ","CB",2020,1,1
+"9475","2","62","GNB","AJ Dillon","RB",2020,2,2
+"9485","2","63","KAN","Willie Gay Jr.","LB",2020,4,4
+"9495","2","64","CAR","Jeremy Chinn ","S",2020,14,14
+"9825","3","65","CIN","Logan Wilson ","LB",2020,2,2
+"9835","3","66","WAS","Antonio Gibson ","RB",2020,5,5
+"9845","3","67","DET","Julian Okwara ","DE",2020,0,0
+"9855","3","68","NYJ","Ashtyn Davis ","S",2020,3,3
+"9865","3","69","SEA","Damien Lewis ","G",2020,8,8
+"9875","3","70","MIA","Brandon Jones ","S",2020,2,2
+"9885","3","71","BAL","Justin Madubuike","DT",2020,2,2
+"9895","3","72","ARI","Josh Jones ","T",2020,1,1
+"9905","3","73","JAX","DaVon Hamilton ","DT",2020,3,3
+"9915","3","74","NOR","Zack Baun ","LB",2020,2,2
+"9925","3","75","DET","Jonah Jackson ","G",2020,7,7
+"9935","3","76","TAM","Ke'Shawn Vaughn ","RB",2020,1,1
+"9945","3","77","DEN","Michael Ojemudia ","CB",2020,4,4
+"9955","3","78","ATL","Matt Hennessy ","C",2020,2,2
+"9965","3","79","NYJ","Jabari Zuniga","DE",2020,1,1
+"9975","3","80","LVR","Lynn Bowden Jr.","WR",2020,2,0
+"9985","3","81","LVR","Bryan Edwards ","WR",2020,2,2
+"9995","3","82","DAL","Neville Gallimore ","DT",2020,4,4
+"10005","3","83","DEN","Lloyd Cushenberry III","C",2020,6,6
+"10015","3","84","LAR","Terrell Lewis","LB",2020,1,1
+"10026","3","85","IND","Julian Blackmon","S",2020,4,4
+"10035","3","86","BUF","Zack Moss ","RB",2020,5,5
+"10046","3","87","NWE","Anfernee Jennings ","LB",2020,3,3
+"10057","3","88","CLE","Jordan Elliott ","DT",2020,1,1
+"10067","3","89","MIN","Cameron Dantzler","CB",2020,4,4
+"10078","3","90","HOU","Jonathan Greenard ","DE",2020,1,1
+"10088","3","91","NWE","Devin Asiasi ","TE",2020,0,0
+"10098","3","92","BAL","Devin Duvernay ","WR",2020,4,4
+"10108","3","93","TEN","Darrynton Evans ","RB",2020,1,1
+"10118","3","94","GNB","Josiah Deguara ","TE",2020,0,0
+"10127","3","95","DEN","McTelvin Agim ","DT",2020,1,1
+"10137","3","96","KAN","Lucas Niang","T",2020,0,0
+"10146","3","97","CLE","Jacob Phillips ","LB",2020,2,2
+"10156","3","98","BAL","Malik Harrison","LB",2020,4,4
+"10165","3","99","NYG","Matt Peart ","T",2020,1,1
+"10175","3","100","LVR","Tanner Muse","S",2020,0,0
+"10185","3","101","NWE","Dalton Keene ","TE",2020,0,0
+"10195","3","102","PIT","Alex Highsmith ","LB",2020,4,4
+"10205","3","103","PHI","Davion Taylor ","LB",2020,1,1
+"10215","3","104","LAR","Terrell Burgess ","S",2020,0,0
+"10225","3","105","NOR","Adam Trautman ","TE",2020,1,1
+"10235","3","106","BAL","Tyre Phillips ","T",2020,4,4
+"10565","4","107","CIN","Akeem Davis-Gaither","LB",2020,2,2
+"10575","4","108","WAS","Saahdiq Charles","T",2020,0,0
+"10585","4","109","LVR","John Simpson","G",2020,1,1
+"10595","4","110","NYG","Darnay Holmes","CB",2020,3,3
+"10605","4","111","MIA","Solomon Kindley","G",2020,5,5
+"10615","4","112","LAC","Joshua Kelley","RB",2020,3,3
+"10625","4","113","CAR","Troy Pride Jr.","CB",2020,3,3
+"10635","4","114","ARI","Leki Fotu","DT",2020,1,1
+"10645","4","115","CLE","Harrison Bryant","TE",2020,2,2
+"10655","4","116","JAX","Ben Bartch ","G",2020,1,1
+"10665","4","117","MIN","D.J. Wonnum","DE",2020,2,2
+"10675","4","118","DEN","Albert Okwuegbunam ","TE",2020,1,1
+"10685","4","119","ATL","Mykal Walker ","LB",2020,4,4
+"10695","4","120","NYJ","La'Mical Perine ","RB",2020,2,2
+"10707","4","121","DET","Logan Stenberg","G",2020,0,0
+"10717","4","122","IND","Jacob Eason","QB",2020,0,0
+"10728","4","123","DAL","Reggie Robinson II","CB",2020,0,0
+"10737","4","124","PIT","Anthony McFarland Jr.","RB",2020,1,1
+"10748","4","125","NYJ","James Morgan","QB",2020,0,0
+"10758","4","126","HOU","Charlie Heck","T",2020,1,1
+"10767","4","127","PHI","K'Von Wallace","S",2020,2,2
+"10777","4","128","BUF","Gabriel Davis","WR",2020,6,6
+"10787","4","129","NYJ","Cameron Clark","T",2020,0,0
+"10798","4","130","MIN","James Lynch","DT",2020,1,1
+"10808","4","131","ARI","Rashard Lawrence","DT",2020,1,1
+"10817","4","132","MIN","Troy Dye","LB",2020,2,2
+"10827","4","133","SEA","Colby Parkinson","TE",2020,0,0
+"10836","4","134","ATL","Jaylinn Hawkins","S",2020,1,1
+"10845","4","135","PIT","Kevin Dotson","G",2020,2,2
+"10855","4","136","LAR","Brycen Hopkins","TE",2020,0,0
+"10865","4","137","JAX","Josiah Scott","CB",2020,0,0
+"10875","4","138","KAN","L'Jarius Sneed","S",2020,3,3
+"10885","4","139","LVR","Amik Robertson","CB",2020,0,0
+"10895","4","140","JAX","Shaquille Quarterman","LB",2020,1,1
+"10905","4","141","HOU","John Reid","CB",2020,1,1
+"10915","4","142","WAS","Antonio Gandy-Golden","WR",2020,0,0
+"10925","4","143","BAL","Ben Bredeson","G",2020,1,1
+"10935","4","144","SEA","DeeJay Dallas","RB",2020,2,2
+"10945","4","145","PHI","Jack Driscoll","G",2020,2,2
+"10955","4","146","DAL","Tyler Biadasz","C",2020,2,2
+"11285","5","147","CIN","Khalid Kareem","DE",2020,1,1
+"11295","5","148","SEA","Alton Robinson","DE",2020,2,2
+"11305","5","149","IND","Danny Pinter","G",2020,1,1
+"11315","5","150","NYG","Shane Lemieux","G",2020,3,3
+"11325","5","151","LAC","Joe Reed","WR",2020,0,0
+"11335","5","152","CAR","Kenny Robinson Jr.","S",2020,0,0
+"11345","5","153","SFO","Colton McKivitz","T",2020,2,2
+"11355","5","154","MIA","Jason Strowbridge","DE",2020,1,1
+"11366","5","155","CHI","Trevis Gipson","DE",2020,0,0
+"11376","5","156","WAS","Keith Ismael","C",2020,0,0
+"11386","5","157","JAX","Daniel Thomas","S",2020,1,1
+"11397","5","158","NYJ","Bryce Hall","CB",2020,3,3
+"11408","5","159","NWE","Justin Rohrwasser","K",2020,0,0
+"11419","5","160","CLE","Nick Harris","C",2020,1,1
+"11429","5","161","TAM","Tyler Johnson","WR",2020,2,2
+"11439","5","162","WAS","Khaleke Hudson","LB",2020,2,2
+"11448","5","163","CHI","Kindle Vildor","CB",2020,1,1
+"11457","5","164","MIA","Curtis Weaver","DE",2020,0,0
+"11467","5","165","JAX","Collin Johnson","WR",2020,2,2
+"11478","5","166","DET","Quintez Cephus","WR",2020,3,3
+"11488","5","167","BUF","Jake Fromm","QB",2020,0,0
+"11498","5","168","PHI","John Hightower","WR",2020,1,1
+"11508","5","169","MIN","Harrison Hand","CB",2020,1,1
+"11517","5","170","BAL","Broderick Washington Jr.","DT",2020,1,1
+"11526","5","171","HOU","Isaiah Coulter","WR",2020,0,0
+"11535","5","172","DET","Jason Huntley","RB",2020,0,0
+"11545","5","173","CHI","Darnell Mooney","WR",2020,5,5
+"11555","5","174","TEN","Larrell Murchison","DT",2020,1,1
+"11565","5","175","GNB","Kamal Martin","LB",2020,3,3
+"11575","5","176","MIN","K.J. Osborn","WR",2020,0,0
+"11585","5","177","KAN","Michael Danna","DE",2020,2,2
+"11595","5","178","DEN","Justin Strnad","LB",2020,0,0
+"11605","5","179","DAL","Bradlee Anae","DE",2020,0,0
+"11935","6","180","CIN","Hakeem Adeniji","T",2020,2,2
+"11945","6","181","DEN","Netane Muti","G",2020,1,1
+"11955","6","182","NWE","Michael Onwenu","G",2020,6,6
+"11965","6","183","NYG","Cam Brown","LB",2020,1,1
+"11975","6","184","CAR","Bravvion Roy","DT",2020,4,4
+"11985","6","185","MIA","Blake Ferguson ","LS",2020,1,1
+"11995","6","186","LAC","Alohi Gilman","S",2020,1,1
+"12005","6","187","CLE","Donovan Peoples-Jones","WR",2020,2,2
+"12015","6","188","BUF","Tyler Bass","K",2020,3,3
+"12025","6","189","JAX","Jake Luton","QB",2020,2,2
+"12035","6","190","SFO","Charlie Woerner","TE",2020,0,0
+"12045","6","191","NYJ","Braden Mann","P",2020,2,2
+"12055","6","192","GNB","Jon Runyan","T",2020,2,2
+"12066","6","193","IND","Robert Windsor","DT",2020,0,0
+"12076","6","194","TAM","Khalil Davis","DT",2020,0,0
+"12086","6","195","NWE","Justin Herron","T",2020,3,3
+"12097","6","196","PHI","Shaun Bradley","LB",2020,1,1
+"12109","6","197","DET","John Penisini ","DT",2020,4,4
+"12119","6","198","PIT","Antoine Brooks Jr.","S",2020,0,0
+"12129","6","199","LAR","Jordan Fuller","S",2020,6,6
+"12139","6","200","PHI","Quez Watkins","WR",2020,1,1
+"12149","6","201","BAL","James Proche","WR",2020,0,0
+"12159","6","202","ARI","Evan Weaver","LB",2020,0,0
+"12169","6","203","MIN","Blake Brandel","T",2020,0,0
+"12179","6","204","NWE","Cassh Maluia ","LB",2020,1,1
+"12189","6","205","MIN","Josh Metellus","S",2020,1,1
+"12198","6","206","JAX","Tyler Davis ","TE",2020,0,0
+"12208","6","207","BUF","Isaiah Hodgins","WR",2020,0,0
+"12218","6","208","GNB","Jake Hanson","C",2020,0,0
+"12227","6","209","GNB","Simon Stepaniak","T",2020,0,0
+"12237","6","210","PHI","Prince Tega Wanogho ","T",2020,0,0
+"12246","6","211","IND","Isaiah Rodgers","CB",2020,2,2
+"12256","6","212","IND","Dezmon Patmon","WR",2020,0,0
+"12266","6","213","IND","Jordan Glasgow","LB",2020,1,1
+"12276","6","214","SEA","Freddie Swain","WR",2020,2,2
+"12605","7","215","CIN","Markus Bailey","LB",2020,1,1
+"12615","7","216","WAS","Kamren Curl","S",2020,6,6
+"12625","7","217","SFO","Jauan Jennings","WR",2020,0,0
+"12635","7","218","NYG","Carter Coughlin","LB",2020,2,2
+"12645","7","219","BAL","Geno Stone","S",2020,0,0
+"12655","7","220","LAC","K.J. Hill","WR",2020,1,1
+"12665","7","221","CAR","Stantley Thomas-Oliver","CB",2020,1,1
+"12675","7","222","ARI","Eno Benjamin","RB",2020,0,0
+"12685","7","223","JAX","Chris Claybrooks ","CB",2020,2,2
+"12695","7","224","TEN","Cole McDonald","QB",2020,0,0
+"12705","7","225","MIN","Kenny Willekes","DE",2020,0,0
+"12715","7","226","CHI","Arlington Hambright","T",2020,1,1
+"12725","7","227","CHI","Lachavious Simmons","G",2020,0,0
+"12735","7","228","ATL","Sterling Hofrichter","P",2020,1,1
+"12745","7","229","WAS","James Smith-Williams","DE",2020,2,2
+"12755","7","230","NWE","Dustin Woodard","C",2020,0,0
+"12765","7","231","DAL","Ben DiNucci","QB",2020,1,1
+"12775","7","232","PIT","Carlos Davis","DT",2020,1,1
+"12785","7","233","PHI","Casey Toohill","DE",2020,1,0
+"12795","7","234","LAR","Clay Johnston","LB",2020,0,0
+"12805","7","235","DET","Jashon Cornell","DT",2020,0,0
+"12815","7","236","GNB","Vernon Scott","S",2020,1,1
+"12825","7","237","KAN","Thakarius Keyes ","CB",2020,1,1
+"12835","7","238","NYG","T.J. Brunson ","LB",2020,0,0
+"12845","7","239","BUF","Dane Jackson","CB",2020,1,1
+"12855","7","240","NOR","Tommy Stevens ","QB",2020,0,0
+"12863","7","241","TAM","Chapelle Russell","LB",2020,1,1
+"12873","7","242","GNB","Jonathan Garvin","DE",2020,1,1
+"12883","7","243","TEN","Chris Jackson ","S",2020,1,1
+"12892","7","244","MIN","Nate Stanley","QB",2020,0,0
+"12902","7","245","TAM","Raymond Calais","RB",2020,0,0
+"12912","7","246","MIA","Malcolm Perry","RB",2020,1,1
+"12922","7","247","NYG","Chris Williamson","CB",2020,0,0
+"12932","7","248","LAR","Sam Sloman ","K",2020,0,0
+"12942","7","249","MIN","Brian Cole II","S",2020,0,0
+"12952","7","250","LAR","Tremayne Anchrum","G",2020,1,1
+"12961","7","251","SEA","Stephen Sullivan","TE",2020,0,0
+"12971","7","252","DEN","Tyrie Cleveland","WR",2020,0,0
+"1298","7","253","MIN","Kyle Hinton","G",2020,0,0
+"1299","7","254","DEN","Derrek Tuszka","LB",2020,1,1
+"1300","7","255","NYG","Tae Crowder ","LB",2020,4,4
